@@ -1,0 +1,23 @@
+{
+  "name": "go-between",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss style/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedazizsq/go-between-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedazizsq/go-between-sass/issues"
+  },
+  "homepage": "https://github.com/ahmedazizsq/go-between-sass#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
