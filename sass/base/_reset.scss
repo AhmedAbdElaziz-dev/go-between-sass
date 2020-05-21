@@ -1,1 +1,4 @@
-@import "normalize";
+@import "../../node_modules/normalize-scss/sass/normalize";
+html{
+    font-size: 62.5%;
+}

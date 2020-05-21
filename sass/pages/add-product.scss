@@ -1,0 +1,12 @@
+.productLabel{
+background-color: $main-black;
+margin-left: 10rem;
+color:$Ivory-white;
+display: inline-block;
+padding: 1rem;
+border-radius: 1rem  ;
+}
+.ProductContainer{
+    width: 100%;
+    border: solid $primary-alpine 0.1rem;
+}

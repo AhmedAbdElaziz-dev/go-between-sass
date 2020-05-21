@@ -1,0 +1,8 @@
+.countContainer{
+    display: inline-block;
+    &__input{
+        width: 50%;
+        border: solid $primary-alpine 0.1rem ;
+        border-radius: 1rem;
+    }
+}
