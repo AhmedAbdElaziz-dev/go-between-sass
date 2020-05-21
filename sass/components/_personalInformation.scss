@@ -1,0 +1,63 @@
+.profileContainer{
+    margin: 5rem;
+}
+.profileLabel{
+margin-left: 7rem;
+display: inline-block;
+padding: 1rem;
+border-radius: 1rem  ;
+border: solid $primary-alpine 0.1rem;
+font-size: 20px;
+}
+
+.infoContainer {
+  border: solid $primary-alpine 0.1rem;
+  padding: 2rem;
+  background-color: $main-white;
+  border-radius: 20px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+        width: 100%;
+        height: 250px;
+        padding-bottom: 2rem;
+        &__image{
+            background-image: url('../assets/images/user.jpg');
+            background-size: cover;
+            background-position: center; 
+            border: solid $primary-alpine 0.1rem;
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+      &__data{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 1rem;
+          font-size: 18px;
+      }
+    }
+    &__right {
+      margin-left: 2rem;
+      padding-bottom: 2rem;
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        &__name{
+            font-size: 40px;
+            padding: 0 2rem;
+        }
+        &__edit{
+          font-size: 3rem;
+          color: $primary-alpine;
+        }
+      }
+      &__discribtion {
+        margin-top: 2rem;
+        font-size: 20px;
+        padding: 0 2rem;
+      }
+    }
+  }
+}

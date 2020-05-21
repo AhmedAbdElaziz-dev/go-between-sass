@@ -1,3 +1,4 @@
+@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 //absratcts
 @import "abstracts/variables";
 @import "abstracts/mixins";
@@ -16,6 +17,7 @@
 @import "components/count.scss";
 @import "components/paymentItem.scss";
 @import "components/categoryItem.scss";
+@import "components/_personalInformation.scss";
 
 //pages
 @import "pages/add-product.scss"

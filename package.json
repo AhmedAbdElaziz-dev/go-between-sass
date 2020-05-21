@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ahmedazizsq/go-between-sass#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "node-sass": "^4.14.1",
     "normalize-scss": "^7.0.1"
   }

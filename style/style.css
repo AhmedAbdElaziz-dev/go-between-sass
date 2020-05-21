@@ -1,3 +1,4 @@
+@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 html {
   font-size: 62.5%; }
 
@@ -23,6 +24,59 @@ html {
   border: solid #bb9230 0.1rem;
   padding: 0.5rem;
   margin: 0; }
+
+.profileContainer {
+  margin: 5rem; }
+
+.profileLabel {
+  margin-left: 7rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid #bb9230 0.1rem;
+  font-size: 20px; }
+
+.infoContainer {
+  border: solid #bb9230 0.1rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 20px; }
+  .infoContainer__content {
+    display: flex;
+    justify-content: space-between; }
+    .infoContainer__content__left {
+      width: 100%;
+      height: 250px;
+      padding-bottom: 2rem; }
+      .infoContainer__content__left__image {
+        background-image: url("../assets/images/user.jpg");
+        background-size: cover;
+        background-position: center;
+        border: solid #bb9230 0.1rem;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%; }
+      .infoContainer__content__left__data {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        font-size: 18px; }
+    .infoContainer__content__right {
+      margin-left: 2rem;
+      padding-bottom: 2rem; }
+      .infoContainer__content__right__header {
+        display: flex;
+        justify-content: space-between; }
+        .infoContainer__content__right__header__name {
+          font-size: 40px;
+          padding: 0 2rem; }
+        .infoContainer__content__right__header__edit {
+          font-size: 3rem;
+          color: #bb9230; }
+      .infoContainer__content__right__discribtion {
+        margin-top: 2rem;
+        font-size: 20px;
+        padding: 0 2rem; }
 
 .productLabel {
   background-color: #000000;
