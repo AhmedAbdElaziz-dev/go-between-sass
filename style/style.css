@@ -188,16 +188,32 @@ select:focus {
 textarea:focus,
 select:focus {
   outline: none; }
+
+.dropdown-head {
+  width: 100%; }
+  .dropdown-head__arrow {
+    color: #bb9230;
+    font-size: 3rem;
+    position: relative;
+    top: -4.5rem;
+    left: 93%; }
+
 .dropdown {
   display: none;
-  border: 1px solid #bb9230;
-  border-radius: 2rem; }
+  border: 0.1rem solid #bb9230;
+  border-top: none;
+  border-radius: 0 0 2rem 2rem;
+  position: relative;
+  top: -6rem;
+  padding: 1rem; }
   .dropdown__list {
     list-style: none;
     padding: 1rem; }
     .dropdown__list__item {
-      padding: 1.2rem;
-      border-bottom: 1px dashed #bb9230; }
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.1rem dashed #bb9230;
+      cursor: pointer; }
       .dropdown__list__item:last-child {
         border-bottom: none; }
       .dropdown__list__item__link {
@@ -206,6 +222,15 @@ select:focus {
 
 .dropdown-open {
   display: block; }
+
+.mapLocation {
+  width: 50%;
+  height: 24rem;
+  background-color: teal; }
+  .mapLocation__btn {
+    position: relative;
+    top: 80%;
+    left: 45%; }
 
 .productLabel {
   background-color: #000000;
