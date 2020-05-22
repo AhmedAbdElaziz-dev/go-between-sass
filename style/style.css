@@ -158,6 +158,25 @@ html {
   background-color: #bb9230;
   align-self: center; }
 
+.dropdown {
+  display: none;
+  border: 1px solid #bb9230;
+  border-radius: 2rem; }
+  .dropdown__list {
+    list-style: none;
+    padding: 1rem; }
+    .dropdown__list__item {
+      padding: 1.2rem;
+      border-bottom: 1px dashed #bb9230; }
+      .dropdown__list__item:last-child {
+        border-bottom: none; }
+      .dropdown__list__item__link {
+        text-transform: capitalize;
+        color: #918F89; }
+
+.dropdown-open {
+  display: block; }
+
 .productLabel {
   background-color: #000000;
   margin-left: 10rem;

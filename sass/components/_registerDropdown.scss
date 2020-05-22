@@ -1,0 +1,24 @@
+.dropdown {
+  display: none;
+  border: 1px solid $primary-alpine;
+  border-radius: 2rem;
+  &__list {
+    list-style: none;
+    padding: 1rem;
+    &__item {
+      padding: 1.2rem;
+      border-bottom: 1px dashed $primary-alpine;
+      &:last-child {
+        border-bottom: none;
+      }
+      &__link {
+        text-transform: capitalize;
+        color: $gray;
+        // font-size: 2rem;
+      }
+    }
+  }
+}
+.dropdown-open {
+  display: block;
+}
