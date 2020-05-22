@@ -78,6 +78,86 @@ html {
         font-size: 20px;
         padding: 0 2rem; }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.circle--active {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #bb9230;
+  border-radius: 50%;
+  background-color: white;
+  color: #918F89;
+  text-align: center;
+  font-size: 5rem; }
+
+.circle--active span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.circle--notTouched {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #918F89;
+  border-radius: 50%;
+  background-color: white;
+  color: #918F89;
+  text-align: center;
+  font-size: 5rem;
+  vertical-align: auto; }
+
+.circle--notTouched span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.circle--finished {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #bb9230;
+  border-radius: 50%;
+  background-color: #bb9230;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 5rem; }
+
+.circle--finished span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.pipe--notTouched {
+  width: 18rem;
+  height: 1rem;
+  border-bottom: 0.1rem solid #918F89;
+  border-top: 0.1rem solid #918F89;
+  background-color: white;
+  align-self: center; }
+
+.pipe--finished {
+  width: 18rem;
+  height: 1rem;
+  border-bottom: 0.1rem solid #d1aa4d;
+  border-top: 0.1rem solid #d1aa4d;
+  background-color: #bb9230;
+  align-self: center; }
+
 .productLabel {
   background-color: #000000;
   margin-left: 10rem;
