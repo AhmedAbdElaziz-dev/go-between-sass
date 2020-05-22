@@ -14,21 +14,3 @@ select:focus {
   outline: none;
 }
 
-.button--rounded {
-  width: 100%;
-  height: 7.5rem;
-  box-sizing: border-box;
-  border-radius: 4rem;
-  border: 0.2rem solid $primary-alpine;
-  padding-left: 3rem;
-  color: $main-black;
-  font-size: 2rem;
-  text-align: center;
-  background-color: $main-white;
-}
-
-.button--rounded:focus,
-textarea:focus,
-select:focus {
-  outline: none;
-}
