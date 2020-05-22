@@ -1,6 +1,7 @@
 @import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: Arial; }
 
 .countContainer {
   display: inline-block; }
@@ -28,19 +29,12 @@ html {
 .profileContainer {
   margin: 5rem; }
 
-.profileLabel {
-  margin-left: 7rem;
-  display: inline-block;
-  padding: 1rem;
-  border-radius: 1rem;
-  border: solid #bb9230 0.1rem;
-  font-size: 20px; }
-
 .infoContainer {
   border: solid #bb9230 0.1rem;
   padding: 2rem;
   background-color: #FFFFFF;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-bottom: 5rem; }
   .infoContainer__content {
     display: flex;
     justify-content: space-between; }
@@ -66,7 +60,8 @@ html {
       padding-bottom: 2rem; }
       .infoContainer__content__right__header {
         display: flex;
-        justify-content: space-between; }
+        justify-content: space-between;
+        margin-right: 3rem; }
         .infoContainer__content__right__header__name {
           font-size: 40px;
           padding: 0 2rem; }
@@ -77,6 +72,42 @@ html {
         margin-top: 2rem;
         font-size: 20px;
         padding: 0 2rem; }
+
+.branchContainer {
+  border: solid #bb9230 0.1rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 5rem; }
+  .branchContainer__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 3rem; }
+    .branchContainer__content__location {
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+      justify-self: center;
+      color: #918F89; }
+      .branchContainer__content__location__header {
+        font-weight: bold; }
+      .branchContainer__content__location__address {
+        display: block;
+        margin-top: 0.5rem; }
+      .branchContainer__content__location__phone {
+        display: block; }
+    .branchContainer__content__icon {
+      font-size: 3rem;
+      color: #bb9230;
+      justify-self: end; }
+
+.profileLabel {
+  margin-left: 7rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid #bb9230 0.1rem;
+  font-size: 20px;
+  color: #918F89; }
 
 .productLabel {
   background-color: #000000;

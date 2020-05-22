@@ -14,10 +14,14 @@
 //layout
 
 //components
+
 @import "components/count.scss";
 @import "components/paymentItem.scss";
 @import "components/categoryItem.scss";
-@import "components/_personalInformation.scss";
+@import "components/personalInformation";
+@import "components/branchCard";
+@import "components/profileLabel";
+
 
 //pages
 @import "pages/add-product.scss"
