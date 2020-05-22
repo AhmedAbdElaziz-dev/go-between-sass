@@ -109,6 +109,207 @@ html {
   font-size: 20px;
   color: #918F89; }
 
+.profileContainer {
+  margin: 5rem; }
+
+.infoContainer {
+  border: solid #bb9230 0.1rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 5rem; }
+  .infoContainer__content {
+    display: flex;
+    justify-content: space-between; }
+    .infoContainer__content__left {
+      width: 100%;
+      height: 250px;
+      padding-bottom: 2rem; }
+      .infoContainer__content__left__image {
+        background-image: url("../assets/images/user.jpg");
+        background-size: cover;
+        background-position: center;
+        border: solid #bb9230 0.1rem;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%; }
+      .infoContainer__content__left__data {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        font-size: 18px; }
+    .infoContainer__content__right {
+      margin-left: 2rem;
+      padding-bottom: 2rem; }
+      .infoContainer__content__right__header {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 3rem; }
+        .infoContainer__content__right__header__name {
+          font-size: 40px;
+          padding: 0 2rem; }
+        .infoContainer__content__right__header__edit {
+          font-size: 3rem;
+          color: #bb9230; }
+      .infoContainer__content__right__discribtion {
+        margin-top: 2rem;
+        font-size: 20px;
+        padding: 0 2rem; }
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.circle--active {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #bb9230;
+  border-radius: 50%;
+  background-color: white;
+  color: #918F89;
+  text-align: center;
+  font-size: 5rem; }
+
+.circle--active span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.circle--notTouched {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #918F89;
+  border-radius: 50%;
+  background-color: white;
+  color: #918F89;
+  text-align: center;
+  font-size: 5rem;
+  vertical-align: auto; }
+
+.circle--notTouched span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.circle--finished {
+  width: 10rem;
+  height: 10rem;
+  display: table;
+  border: 0.2rem solid #bb9230;
+  border-radius: 50%;
+  background-color: #bb9230;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 5rem; }
+
+.circle--finished span {
+  display: table-cell;
+  vertical-align: middle;
+  height: 10rem;
+  width: 10rem;
+  text-align: center;
+  padding: 0 15px; }
+
+.pipe--notTouched {
+  width: 18rem;
+  height: 1rem;
+  border-bottom: 0.1rem solid #918F89;
+  border-top: 0.1rem solid #918F89;
+  background-color: white;
+  align-self: center; }
+
+.pipe--finished {
+  width: 18rem;
+  height: 1rem;
+  border-bottom: 0.1rem solid #d1aa4d;
+  border-top: 0.1rem solid #d1aa4d;
+  background-color: #bb9230;
+  align-self: center; }
+
+.input {
+  width: 100%;
+  height: 7.5rem;
+  box-sizing: border-box;
+  border-radius: 4rem;
+  border: 0.2rem solid #bb9230;
+  padding-left: 3rem;
+  font-size: 2rem; }
+
+.input:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+
+.button--rounded {
+  width: 100%;
+  height: 7.5rem;
+  box-sizing: border-box;
+  border-radius: 4rem;
+  border: 0.2rem solid #bb9230;
+  padding-left: 3rem;
+  color: #000000;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #FFFFFF; }
+
+.button--rounded:focus,
+textarea:focus,
+select:focus {
+  outline: none; }
+
+.dropdown-head {
+  width: 100%; }
+  .dropdown-head__arrow {
+    color: #bb9230;
+    font-size: 3rem;
+    position: relative;
+    top: -4.5rem;
+    left: 93%; }
+
+.dropdown {
+  display: none;
+  border: 0.1rem solid #bb9230;
+  border-top: none;
+  border-radius: 0 0 2rem 2rem;
+  position: relative;
+  top: -6rem;
+  padding: 1rem; }
+  .dropdown__list {
+    list-style: none;
+    padding: 1rem; }
+    .dropdown__list__item {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.1rem dashed #bb9230;
+      cursor: pointer; }
+      .dropdown__list__item:last-child {
+        border-bottom: none; }
+      .dropdown__list__item__link {
+        text-transform: capitalize;
+        color: #918F89; }
+
+.dropdown-open {
+  display: block; }
+
+.mapLocation {
+  width: 50%;
+  height: 24rem;
+  background-color: teal; }
+  .mapLocation__btn {
+    position: relative;
+    top: 80%;
+    left: 45%; }
+
 .productLabel {
   background-color: #000000;
   margin-left: 10rem;

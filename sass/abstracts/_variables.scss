@@ -1,11 +1,13 @@
 //alpine
 $primary-alpine :#bb9230;
-$lighter-alpine : lighten($primary-alpine,10%);
-$darker-alpine : draken($primary-alpine,10%);
+$lighter-alpine : lighten($primary-alpine, 10%);
+$darker-alpine : draken($primary-alpine, 10%);
 
 //black
 $main-black:#000000;
-$lighter-black:lighten($main-black,10%);
+$lighter-black:lighten($main-black, 10%);
+$gray:#918F89;
+
 
 //white
 $main-white:#FFFFFF;

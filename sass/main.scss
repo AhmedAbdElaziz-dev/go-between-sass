@@ -6,8 +6,7 @@
 
 //vendors
 
-
-//base 
+//base
 @import "base/reset";
 @import "base/typography";
 
@@ -22,7 +21,11 @@
 @import "components/branchCard";
 @import "components/profileLabel";
 
+@import "components/_personalInformation.scss";
+@import "components/_states.scss";
+@import "components/input.scss";
+@import "components/registerDropdown";
+@import "components/mapLocation";
 
 //pages
-@import "pages/add-product.scss"
-//themes
+@import "pages/add-product.scss";
