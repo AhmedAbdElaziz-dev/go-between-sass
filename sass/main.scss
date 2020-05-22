@@ -6,8 +6,7 @@
 
 //vendors
 
-
-//base 
+//base
 @import "base/reset";
 @import "base/typography";
 
@@ -19,7 +18,7 @@
 @import "components/categoryItem.scss";
 @import "components/_personalInformation.scss";
 @import "components/_states.scss";
+// @import"components/input.scss";
 
 //pages
-@import "pages/add-product.scss"
-//themes
+@import "pages/add-product.scss";
