@@ -1,11 +1,15 @@
 .input {
   width: 100%;
-  height: 7.5rem;
+  height: 6rem;
   box-sizing: border-box;
   border-radius: 4rem;
   border: 0.2rem solid $primary-alpine;
   padding-left: 3rem;
   font-size: 2rem;
+
+  &--shadow {
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .input:focus,
@@ -13,4 +17,3 @@ textarea:focus,
 select:focus {
   outline: none;
 }
-
