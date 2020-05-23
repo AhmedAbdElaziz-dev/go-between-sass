@@ -310,6 +310,101 @@ select:focus {
     top: 80%;
     left: 45%; }
 
+a {
+  text-decoration: none;
+  color: #000000; }
+  a:hover {
+    text-decoration: underline; }
+
+.list-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: auto auto auto;
+  column-gap: 5rem;
+  color: #000000; }
+
+.item-medium {
+  padding: 1.5rem;
+  margin: 3rem;
+  position: relative; }
+  .item-medium__image {
+    overflow: hidden;
+    padding-top: 100%;
+    width: 100%;
+    position: relative; }
+  .item-medium__alert {
+    border-radius: 50%;
+    background-color: #bb9230;
+    border-bottom: 2px solid #927226;
+    color: #FFFFFF;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: 700;
+    top: -1rem;
+    right: 0;
+    z-index: 5; }
+  .item-medium__action {
+    position: absolute;
+    top: -5rem;
+    opacity: 20%;
+    width: 100%;
+    background-color: #bb9230;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    transition: all 0.2s; }
+  .item-medium:hover .item-medium__action {
+    top: 0;
+    opacity: 1;
+    z-index: 3; }
+  .item-medium:hover .item-medium__image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    opacity: 0.3;
+    z-index: 1; }
+  .item-medium__crud-actions {
+    position: absolute;
+    top: 90%;
+    right: 1.5rem;
+    color: #000000; }
+    .item-medium__crud-actions a:hover {
+      color: #bb9230; }
+
+.paging {
+  display: flex;
+  margin: 1.5rem;
+  font-size: 1.4rem;
+  color: #bb9230;
+  font-weight: 400;
+  grid-column: 3;
+  justify-self: end; }
+  .paging__arrow {
+    border: #d1aa4d;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem; }
+  .paging__number {
+    border: #d1aa4d;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem; }
+    .paging__number.active {
+      background-color: #bb9230;
+      color: #FFFFFF;
+      border-radius: 50%; }
+
 .productLabel {
   background-color: #000000;
   margin-left: 10rem;
