@@ -11,6 +11,9 @@
 @import "base/typography";
 
 //layout
+@import "layout/header";
+@import"layout/footer";
+@import"layout/navigation";
 
 //components
 @import "components/count.scss";

@@ -1,0 +1,20 @@
+.header {
+    height: 5.5rem;
+    color: $primary-alpine;
+    margin: auto;
+    display: flex;
+    // background-color: $light-black;
+    background-color: $floral-white-3;
+    border: 1px solid $gray;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo {
+        width: 10rem;
+
+        &__icon {
+            width: 100%;
+        }
+    }
+}

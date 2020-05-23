@@ -1,4 +1,15 @@
 @import "../../node_modules/normalize-scss/sass/normalize";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
 }

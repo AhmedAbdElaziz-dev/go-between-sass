@@ -1,6 +1,104 @@
 @import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.header {
+  height: 5.5rem;
+  color: #bb9230;
+  margin: auto;
+  display: flex;
+  background-color: #FFFCF8;
+  border: 1px solid #918F89;
+  font-weight: 700;
+  justify-content: space-around;
+  align-items: center; }
+  .header__logo {
+    width: 10rem; }
+    .header__logo__icon {
+      width: 100%; }
+
+.footer {
+  height: 22rem;
+  background-color: #333333;
+  color: #918F89;
+  margin: auto;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column; }
+  .footer__bottom {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #FFFFFF; }
+    .footer__bottom__icons {
+      margin: 0.5rem; }
+
+.container {
+  margin: auto;
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .container__col {
+    width: 31%;
+    height: 80%; }
+    .container__col__menu {
+      padding: .5rem;
+      list-style: none; }
+      .container__col__menu__item {
+        padding: .5rem;
+        display: flex; }
+        .container__col__menu__item__text {
+          padding: .8rem; }
+    .container__col__logo {
+      width: 40%;
+      padding: .5rem; }
+    .container__col__text {
+      width: 80%; }
+    .container__col__title {
+      align-items: center; }
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.imgs {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem; }
+
+.pad {
+  margin: 0.5rem; }
+
+.nav {
+  font-weight: 700; }
+  .nav__menu {
+    list-style: none;
+    padding: 0.5rem; }
+    .nav__menu__item {
+      color: #000000;
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      transition: color 0.2s;
+      margin: 0 1rem; }
+    .nav__menu__link {
+      color: #918F89;
+      text-decoration: none; }
+      .nav__menu__link:hover {
+        color: #bb9230;
+        transition: all 0.3; }
 
 .countContainer {
   display: inline-block; }
@@ -188,6 +286,7 @@ select:focus {
 textarea:focus,
 select:focus {
   outline: none; }
+
 .dropdown {
   display: none;
   border: 1px solid #bb9230;
