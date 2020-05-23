@@ -16,13 +16,23 @@
 @import"layout/navigation";
 
 //components
+
 @import "components/count.scss";
 @import "components/paymentItem.scss";
 @import "components/categoryItem.scss";
+@import "components/personalInformation";
+@import "components/branchCard";
+@import "components/profileLabel";
+
 @import "components/_personalInformation.scss";
 @import "components/_states.scss";
-@import"components/input.scss";
+@import "components/input.scss";
+@import "components/button.scss";
 @import "components/registerDropdown";
+@import "components/mapLocation";
+
+@import "components/_productListing.scss";
+@import "components/_paging.scss";
 
 //pages
 @import "pages/add-product.scss";

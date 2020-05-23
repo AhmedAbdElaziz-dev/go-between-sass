@@ -1,13 +1,31 @@
+.dropdown-head {
+  width: 100%;
+  &__arrow {
+    color: $primary-alpine;
+    font-size: 3rem;
+    position: relative;
+    top: -4.5rem;
+    left: 93%;
+  }
+}
+
 .dropdown {
   display: none;
-  border: 1px solid $primary-alpine;
-  border-radius: 2rem;
+  border: 0.1rem solid $primary-alpine;
+  border-top: none;
+  border-radius: 0 0 2rem 2rem;
+  position: relative;
+  top: -6rem;
+
+  padding: 1rem;
   &__list {
     list-style: none;
     padding: 1rem;
     &__item {
-      padding: 1.2rem;
-      border-bottom: 1px dashed $primary-alpine;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.1rem dashed $primary-alpine;
+      cursor: pointer;
       &:last-child {
         border-bottom: none;
       }
@@ -21,4 +39,6 @@
 }
 .dropdown-open {
   display: block;
+}
+.dropdown-arrow {
 }
