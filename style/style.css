@@ -260,18 +260,31 @@ html {
   flex-direction: row;
   justify-content: center; }
 
-.circle--active {
+.circle {
   width: 10rem;
   height: 10rem;
   display: table;
-  border: 0.2rem solid #bb9230;
   border-radius: 50%;
-  background-color: white;
-  color: #918F89;
   text-align: center;
   font-size: 5rem; }
+  .circle--s {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem; }
+  .circle--active {
+    border: 0.2rem solid #bb9230;
+    background-color: #FFFFFF;
+    color: #918F89; }
+  .circle--notTouched {
+    border: 0.2rem solid #918F89;
+    background-color: #FFFFFF;
+    color: #918F89; }
+  .circle--finished {
+    border: 0.2rem solid #bb9230;
+    background-color: #bb9230;
+    color: #FFFFFF; }
 
-.circle--active span {
+.circle span {
   display: table-cell;
   vertical-align: middle;
   height: 10rem;
@@ -279,60 +292,21 @@ html {
   text-align: center;
   padding: 0 15px; }
 
-.circle--notTouched {
-  width: 10rem;
-  height: 10rem;
-  display: table;
-  border: 0.2rem solid #918F89;
-  border-radius: 50%;
-  background-color: white;
-  color: #918F89;
-  text-align: center;
-  font-size: 5rem;
-  vertical-align: auto; }
-
-.circle--notTouched span {
-  display: table-cell;
-  vertical-align: middle;
-  height: 10rem;
-  width: 10rem;
-  text-align: center;
-  padding: 0 15px; }
-
-.circle--finished {
-  width: 10rem;
-  height: 10rem;
-  display: table;
-  border: 0.2rem solid #bb9230;
-  border-radius: 50%;
-  background-color: #bb9230;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 5rem; }
-
-.circle--finished span {
-  display: table-cell;
-  vertical-align: middle;
-  height: 10rem;
-  width: 10rem;
-  text-align: center;
-  padding: 0 15px; }
-
-.pipe--notTouched {
+.pipe {
   width: 18rem;
   height: 1rem;
-  border-bottom: 0.1rem solid #918F89;
-  border-top: 0.1rem solid #918F89;
-  background-color: white;
   align-self: center; }
-
-.pipe--finished {
-  width: 18rem;
-  height: 1rem;
-  border-bottom: 0.1rem solid #d1aa4d;
-  border-top: 0.1rem solid #d1aa4d;
-  background-color: #bb9230;
-  align-self: center; }
+  .pipe--s {
+    width: 8rem;
+    height: 0.5rem; }
+  .pipe--notTouched {
+    border-bottom: 0.1rem solid #918F89;
+    border-top: 0.1rem solid #918F89;
+    background-color: #FFFFFF; }
+  .pipe--finished {
+    border-bottom: 0.1rem solid #d1aa4d;
+    border-top: 0.1rem solid #d1aa4d;
+    background-color: #bb9230; }
 
 .input {
   width: 100%;
@@ -582,6 +556,14 @@ a {
   justify-content: center;
   margin: auto; }
 
+.register-header {
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: bold; }
+
+.container {
+  margin-bottom: 2rem; }
+
 .register-form > input {
   margin-bottom: 2em; }
 
@@ -589,6 +571,6 @@ a {
   margin: 1rem 0rem 2rem 0rem; }
 
 .register-form > a {
-  margin-top: 2rem;
+  margin-top: 1rem;
   cursor: pointer;
   font-weight: bold; }

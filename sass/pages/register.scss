@@ -46,11 +46,15 @@
     margin: auto;
 }
 
-// .form-header {
-//     margin-bottom: 8rem;
-//     font-size: 5rem;
-//     font-weight: bold;
-// }
+.register-header {
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
 
 .register-form>input {
     margin-bottom: 2em;
@@ -61,7 +65,7 @@
 }
 
 .register-form>a {
-    margin-top: 2rem;
+    margin-top: 1rem;
     cursor: pointer;
     font-weight: bold;
 }
