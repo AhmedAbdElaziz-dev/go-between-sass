@@ -11,6 +11,9 @@
 @import "base/typography";
 
 //layout
+@import "layout/header";
+@import"layout/footer";
+@import"layout/navigation";
 
 //components
 
@@ -28,5 +31,10 @@
 @import "components/registerDropdown";
 @import "components/mapLocation";
 
+@import "components/_productListing.scss";
+@import "components/_paging.scss";
+
 //pages
 @import "pages/add-product.scss";
+@import "pages/login.scss";
+@import "pages/register.scss";
