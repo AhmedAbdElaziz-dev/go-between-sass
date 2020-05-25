@@ -100,15 +100,33 @@
   justify-content: center;
   align-items: center;
   display: none; /* Hidden by default */
-}
-.modalContent {
+
+&__modalContent {
   background-color: #fefefe;
   margin: auto;
   border: 1px solid #888;
   width: 80%;
   border-radius: 20px;
-}
+  &--password {
+    width: 40%;
+    padding: 1rem;
+    margin: 10rem auto;
+    
+  }
+  
+  &__body {
+    display: grid;
+    grid-column: auto;
+    padding: 20px;
+    margin: auto;
+    >div {
+      margin: 1rem;
+      justify-self: center;
+    }
 
+  }
+}
+}
 
 .editInfoModalActive {
   display: block;
