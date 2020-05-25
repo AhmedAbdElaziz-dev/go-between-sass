@@ -10,6 +10,7 @@
   font-size: 2rem;
   // font-weight: bold;
   text-align: center;
+  // display: inline-block;
   background-color: $main-white;
   cursor: pointer;
 
@@ -31,6 +32,10 @@
   &--danger {
     background-color: red;
     border: none;
+  }
+
+  &--disabled {
+    display: none;
   }
 }
 

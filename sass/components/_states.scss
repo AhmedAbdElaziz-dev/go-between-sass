@@ -14,10 +14,10 @@
     font-size: 5rem;
 
     &--s {
-        width: 5rem;
-        height: 5rem;
+        width: 7rem;
+        height: 7rem;
         border-radius: 50%;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     &--active {
@@ -49,14 +49,19 @@
     padding: 0 15px;
 }
 
+.circle--s span {
+    width: 7rem;
+    height: 7rem;
+}
+
 .pipe {
     width: 18rem;
     height: 1rem;
     align-self: center;
 
     &--s {
-        width: 8rem;
-        height: 0.5rem;
+        width: 10rem;
+        height: 1rem;
     }
 
     &--notTouched {

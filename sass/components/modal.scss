@@ -1,0 +1,21 @@
+.modal-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  @include column-center();
+}
+// .modal-content {
+//   position: absolute;
+//   top: 45%;
+//   left: 42%;
+//   z-index: 2;
+// }
+.modal-content {
+  width: 30%;
+  height: 30%;
+  background-color: $floral-white-3;
+}
