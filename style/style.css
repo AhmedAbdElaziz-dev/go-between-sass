@@ -243,7 +243,12 @@ html {
   border-radius: 4rem;
   border: 0.2rem solid #bb9230;
   padding-left: 3rem;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #1a1a1a; }
+  .input--small {
+    height: 4rem;
+    font-size: 1.6rem;
+    padding-left: 2rem; }
 
 .input:focus,
 textarea:focus,
@@ -271,10 +276,27 @@ select:focus {
   width: 100%; }
   .dropdown-head__arrow {
     color: #bb9230;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
-    top: -4.5rem;
+    top: 0.2rem;
     left: 93%; }
+  .dropdown-head__text {
+    text-align: center;
+    display: inline-block;
+    margin-top: 0.8rem;
+    text-transform: capitalize; }
+  .dropdown-head--small {
+    width: 13.5rem; }
+    .dropdown-head--small__arrow {
+      color: #bb9230;
+      font-size: 1.2rem;
+      position: relative;
+      top: 0rem;
+      left: 22%; }
+    .dropdown-head--small__text {
+      text-align: center;
+      display: inline-block;
+      margin-top: 1rem; }
 
 .dropdown {
   display: none;
@@ -282,7 +304,7 @@ select:focus {
   border-top: none;
   border-radius: 0 0 2rem 2rem;
   position: relative;
-  top: -6rem;
+  top: -2rem;
   padding: 1rem; }
   .dropdown__list {
     list-style: none;
@@ -296,7 +318,20 @@ select:focus {
         border-bottom: none; }
       .dropdown__list__item__link {
         text-transform: capitalize;
-        color: #918F89; }
+        color: #1a1a1a;
+        font-size: 1.6rem; }
+  .dropdown--small {
+    position: relative;
+    top: -2rem;
+    padding: 0.5rem;
+    width: 12.3rem; }
+    .dropdown--small__list {
+      padding: 0.5rem; }
+      .dropdown--small__list__item {
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+  .dropdown--listing {
+    width: 10rem; }
 
 .dropdown-open {
   display: block; }

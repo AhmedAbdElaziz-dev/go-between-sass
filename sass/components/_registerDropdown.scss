@@ -2,10 +2,31 @@
   width: 100%;
   &__arrow {
     color: $primary-alpine;
-    font-size: 3rem;
+    font-size: 2rem;
     position: relative;
-    top: -4.5rem;
+    top: 0.2rem;
     left: 93%;
+  }
+  &__text {
+    text-align: center;
+    display: inline-block;
+    margin-top: 0.8rem;
+    text-transform: capitalize;
+  }
+  &--small {
+    width: 13.5rem;
+    &__arrow {
+      color: $primary-alpine;
+      font-size: 1.2rem;
+      position: relative;
+      top: 0rem;
+      left: 22%;
+    }
+    &__text {
+      text-align: center;
+      display: inline-block;
+      margin-top: 1rem;
+    }
   }
 }
 
@@ -15,9 +36,9 @@
   border-top: none;
   border-radius: 0 0 2rem 2rem;
   position: relative;
-  top: -6rem;
-
+  top: -2rem;
   padding: 1rem;
+
   &__list {
     list-style: none;
     padding: 1rem;
@@ -31,14 +52,38 @@
       }
       &__link {
         text-transform: capitalize;
-        color: $gray;
-        // font-size: 2rem;
+        color: $lighter-black;
+        font-size: 1.6rem;
       }
     }
+  }
+  &--small {
+    position: relative;
+    top: -2rem;
+    padding: 0.5rem;
+    width: 12.3rem;
+    &__list {
+      // list-style: none;
+      padding: 0.5rem;
+      &__item {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        // &__link {
+        //   text-transform: capitalize;
+        //   color: $lighter-black;
+        //   // font-size: 2rem;
+        // }
+      }
+    }
+  }
+  &--listing {
+    width: 10rem;
   }
 }
 .dropdown-open {
   display: block;
 }
-.dropdown-arrow {
-}
+// .dropdown-container {
+//   width: 150px;
+// }
