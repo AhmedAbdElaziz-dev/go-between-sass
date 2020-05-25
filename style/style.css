@@ -207,6 +207,58 @@ html {
   font-size: 20px;
   color: #918F89; }
 
+.shoppingCar {
+  width: 4.5rem;
+  height: 3rem;
+  color: #bb9230;
+  border: 1px solid #bb9230;
+  padding: 0.5% 0% 0% 1.2%;
+  border-radius: 50% 0% 0% 50%;
+  position: fixed;
+  top: 30%;
+  bottom: 0%;
+  right: 0%;
+  left: 97.1%; }
+
+.shoppingCart {
+  width: 40rem;
+  padding: 1rem;
+  height: auto;
+  border: 1px solid #bb9230;
+  display: flex;
+  flex-direction: column;
+  float: right; }
+  .shoppingCart__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem; }
+  .shoppingCart__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem; }
+    .shoppingCart__item__image {
+      width: 30%; }
+      .shoppingCart__item__image__logo {
+        width: 100%; }
+    .shoppingCart__item__product {
+      width: 60%; }
+      .shoppingCart__item__product__text {
+        padding: 1rem; }
+      .shoppingCart__item__product__buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; }
+        .shoppingCart__item__product__buttons__btn {
+          margin: 2%; }
+
+.line {
+  height: 1px;
+  width: 50%;
+  margin: 5% 0% 5% 25%;
+  border-width: 0;
+  color: #bb9230;
+  background-color: #bb9230; }
+
 .profileContainer {
   margin: 5rem; }
 
@@ -339,9 +391,14 @@ select:focus {
   .button--rounded--shadow {
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2); }
   .button--rounded--s {
-    width: 15rem;
-    height: 5rem;
-    text-align: center; }
+    width: 12rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 4rem;
+    border: 0.2rem solid #bb9230;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer; }
 
 .button--rounded:focus,
 textarea:focus,
