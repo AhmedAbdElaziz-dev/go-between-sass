@@ -1,6 +1,6 @@
 .input {
   width: 100%;
-  height: 7.5rem;
+  height: 6rem;
   box-sizing: border-box;
   border-radius: 4rem;
   border: 0.2rem solid $primary-alpine;
@@ -8,10 +8,19 @@
   font-size: 2rem;
   color: $lighter-black;
 
-  &--small {
+  &--m {
     height: 4rem;
     font-size: 1.6rem;
     padding-left: 2rem;
+  }
+  &--shadow {
+    box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  &--s {
+    width: 30rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0.1rem solid $primary-alpine;
   }
 }
 
