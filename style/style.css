@@ -677,7 +677,7 @@ a {
 
 .register-form-container {
   width: 50%;
-  margin: auto; }
+  margin: 0 auto; }
 
 .register-form {
   width: 80%;
@@ -685,18 +685,18 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto; }
+  margin: 0 auto; }
 
 .register-header {
   margin-bottom: 2rem;
   font-size: 5rem;
-  font-weight: bold; }
+  margin-top: 2rem; }
 
 .container {
   margin-bottom: 2rem; }
 
 .register-form > input {
-  margin-bottom: 2em; }
+  margin-bottom: 2rem; }
 
 .register-form > button {
   margin: 1rem 0rem 2rem 0rem;
@@ -711,4 +711,9 @@ a {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  align-items: center; }
+
+.dropdown-container {
+  width: 100%;
+  margin-bottom: 20rem; }

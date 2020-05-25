@@ -1,24 +1,24 @@
 .register-container {
-    display: flex;
-    flex-direction: row;
-    // display: grid;
-    // grid-template-columns: auto auto;
+  display: flex;
+  flex-direction: row;
+  // display: grid;
+  // grid-template-columns: auto auto;
 }
 
 .register-img {
-    width: 50%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
-    // background: url(../../assets/images/tart.jpg) no-repeat 400px center;
-    // background-image: url('../../../go-between-sass/assets/images/tart.jpg');
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-size: cover;
+  width: 50%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  // background: url(../../assets/images/tart.jpg) no-repeat 400px center;
+  // background-image: url('../../../go-between-sass/assets/images/tart.jpg');
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: cover;
 
-    // overflow: hidden;
-    // width: 50%;
-    // background-image: url("../../../go-between-sass/assets/images/tart.jpg");
-    // background-size: 300rem;
+  // overflow: hidden;
+  // width: 50%;
+  // background-image: url("../../../go-between-sass/assets/images/tart.jpg");
+  // background-size: 300rem;
 }
 
 // .image {
@@ -33,49 +33,56 @@
 // }
 
 .register-form-container {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .register-form {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .register-header {
-    margin-bottom: 2rem;
-    font-size: 5rem;
-    font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  margin-top: 2rem;
+  // font-weight: bold;
 }
 
 .container {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-.register-form>input {
-    margin-bottom: 2em;
+.register-form > input {
+  margin-bottom: 2rem;
 }
 
-.register-form>button {
-    margin: 1rem 0rem 2rem 0rem;
-    font-weight: bold;
+.register-form > button {
+  margin: 1rem 0rem 2rem 0rem;
+  font-weight: bold;
 }
 
-.register-form>a {
-    margin-top: 1rem;
-    cursor: pointer;
-    font-weight: bold;
+.register-form > a {
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .button-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.flex-btn-one {}
+.flex-btn-one {
+}
+.dropdown-container {
+  width: 100%;
+  margin-bottom: 20rem;
+}
