@@ -10,13 +10,13 @@
   margin-bottom: 5rem;
   &__content {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    // height: 100%;
     &__left {
-        width: 100%;
-        height: 250px;
+        width: 30%;
+        height: 300px;
         padding-bottom: 2rem;
         &__image {
-            background-image: url('../assets/images/user.jpg');
             background-size: cover;
             background-position: center; 
             border: solid $primary-alpine 0.1rem;
@@ -27,17 +27,17 @@
       &__data {
           display: flex;
           justify-content: space-between;
-          margin-top: 1rem;
+          margin-top: 2rem;
           font-size: 18px;
       }
     }
     &__right {
       margin-left: 2rem;
       padding-bottom: 2rem;
+      width: 80%;
       &__header {
         display: flex;
         justify-content: space-between;
-        margin-right: 3rem;
         &__name {
             font-size: 40px;
             padding: 0 2rem;
@@ -51,8 +51,26 @@
         margin-top: 2rem;
         font-size: 20px;
         padding: 0 2rem;
+        textarea {
+          resize: none;
+           outline: none;
+           border: solid $primary-alpine 0.1rem;
+           border-radius: 15px;
+           padding: 1rem;
+        }
       }
     }
   }
 }
 
+
+.lastContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  &__changepassword {
+  margin-top: 2rem;
+  font-size: 18px;
+    
+  }
+}
