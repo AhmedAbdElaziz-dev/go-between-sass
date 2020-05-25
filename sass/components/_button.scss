@@ -21,6 +21,10 @@
     height: 5rem;
     text-align: center;
   }
+  &--danger{
+    background-color: red;
+    border: none; 
+  }
 }
 
 .button--rounded:focus,

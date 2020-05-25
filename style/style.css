@@ -134,14 +134,12 @@ html {
   border-radius: 20px;
   margin-bottom: 5rem; }
   .infoContainer__content {
-    display: flex;
-    justify-content: space-between; }
+    display: flex; }
     .infoContainer__content__left {
-      width: 100%;
-      height: 250px;
+      width: 30%;
+      height: 300px;
       padding-bottom: 2rem; }
       .infoContainer__content__left__image {
-        background-image: url("../assets/images/user.jpg");
         background-size: cover;
         background-position: center;
         border: solid #bb9230 0.1rem;
@@ -151,15 +149,15 @@ html {
       .infoContainer__content__left__data {
         display: flex;
         justify-content: space-between;
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 18px; }
     .infoContainer__content__right {
       margin-left: 2rem;
-      padding-bottom: 2rem; }
+      padding-bottom: 2rem;
+      width: 80%; }
       .infoContainer__content__right__header {
         display: flex;
-        justify-content: space-between;
-        margin-right: 3rem; }
+        justify-content: space-between; }
         .infoContainer__content__right__header__name {
           font-size: 40px;
           padding: 0 2rem; }
@@ -170,6 +168,20 @@ html {
         margin-top: 2rem;
         font-size: 20px;
         padding: 0 2rem; }
+        .infoContainer__content__right__discribtion textarea {
+          resize: none;
+          outline: none;
+          border: solid #bb9230 0.1rem;
+          border-radius: 15px;
+          padding: 1rem; }
+
+.lastContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem; }
+  .lastContent__changepassword {
+    margin-top: 2rem;
+    font-size: 18px; }
 
 .branchContainer {
   border: solid #bb9230 0.1rem;
@@ -177,29 +189,28 @@ html {
   background-color: #FFFFFF;
   border-radius: 20px;
   margin-bottom: 5rem; }
-  .branchContainer__content {
+  .branchContainer__edit {
     display: grid;
-    grid-template-columns: auto auto;
-    margin: 3rem; }
-    .branchContainer__content__branches {
-      display: grid;
-      grid-template-columns: auto auto auto; }
-      .branchContainer__content__branches__location {
-        font-size: 1.5rem;
-        margin-bottom: 3rem;
-        justify-self: center;
-        color: #918F89; }
-        .branchContainer__content__branches__location__header {
-          font-weight: bold; }
-        .branchContainer__content__branches__location__address {
-          display: block;
-          margin-top: 0.5rem; }
-        .branchContainer__content__branches__location__phone {
-          display: block; }
-    .branchContainer__content__icon {
+    grid-column: auto auto auto; }
+    .branchContainer__edit__icon {
+      justify-self: end;
       font-size: 3rem;
-      color: #bb9230;
-      justify-self: end; }
+      color: #bb9230; }
+  .branchContainer__branches {
+    display: grid;
+    grid-template-columns: auto auto auto; }
+    .branchContainer__branches__location {
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+      justify-self: center;
+      color: #918F89; }
+      .branchContainer__branches__location__header {
+        font-weight: bold; }
+      .branchContainer__branches__location__address {
+        display: block;
+        margin-top: 0.5rem; }
+      .branchContainer__branches__location__phone {
+        display: block; }
 
 .profileLabel {
   margin-left: 7rem;
@@ -220,14 +231,12 @@ html {
   border-radius: 20px;
   margin-bottom: 5rem; }
   .infoContainer__content {
-    display: flex;
-    justify-content: space-between; }
+    display: flex; }
     .infoContainer__content__left {
-      width: 100%;
-      height: 250px;
+      width: 30%;
+      height: 300px;
       padding-bottom: 2rem; }
       .infoContainer__content__left__image {
-        background-image: url("../assets/images/user.jpg");
         background-size: cover;
         background-position: center;
         border: solid #bb9230 0.1rem;
@@ -237,15 +246,15 @@ html {
       .infoContainer__content__left__data {
         display: flex;
         justify-content: space-between;
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 18px; }
     .infoContainer__content__right {
       margin-left: 2rem;
-      padding-bottom: 2rem; }
+      padding-bottom: 2rem;
+      width: 80%; }
       .infoContainer__content__right__header {
         display: flex;
-        justify-content: space-between;
-        margin-right: 3rem; }
+        justify-content: space-between; }
         .infoContainer__content__right__header__name {
           font-size: 40px;
           padding: 0 2rem; }
@@ -256,6 +265,20 @@ html {
         margin-top: 2rem;
         font-size: 20px;
         padding: 0 2rem; }
+        .infoContainer__content__right__discribtion textarea {
+          resize: none;
+          outline: none;
+          border: solid #bb9230 0.1rem;
+          border-radius: 15px;
+          padding: 1rem; }
+
+.lastContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem; }
+  .lastContent__changepassword {
+    margin-top: 2rem;
+    font-size: 18px; }
 
 .container {
   width: 100%;
@@ -321,6 +344,11 @@ html {
   font-size: 2rem; }
   .input--shadow {
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2); }
+  .input--s {
+    width: 30rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: 0.1rem solid #bb9230; }
 
 .input:focus,
 textarea:focus,
@@ -345,6 +373,9 @@ select:focus {
     width: 15rem;
     height: 5rem;
     text-align: center; }
+  .button--rounded--danger {
+    background-color: red;
+    border: none; }
 
 .button--rounded:focus,
 textarea:focus,

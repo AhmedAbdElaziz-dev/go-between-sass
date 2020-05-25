@@ -24,15 +24,15 @@
 @import "components/branchCard";
 @import "components/profileLabel";
 
-@import "components/_personalInformation.scss";
-@import "components/_states.scss";
+@import "components/personalInformation";
+@import "components/states";
 @import "components/input.scss";
 @import "components/button.scss";
 @import "components/registerDropdown";
 @import "components/mapLocation";
 
-@import "components/_productListing.scss";
-@import "components/_paging.scss";
+@import "components/productListing";
+@import "components/paging";
 
 //pages
 @import "pages/add-product.scss";
