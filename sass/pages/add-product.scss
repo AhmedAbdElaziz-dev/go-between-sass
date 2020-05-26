@@ -1,12 +1,64 @@
-.productLabel{
-background-color: $main-black;
-margin-left: 10rem;
-color:$Ivory-white;
-display: inline-block;
-padding: 1rem;
-border-radius: 1rem  ;
+.addProductContainer {
+  display: flex;
+  flex-flow: column;
+  margin: 15rem 0rem;
 }
-.ProductContainer{
+.productLabel {
+  width: 13rem;
+  background-color: $main-black;
+  margin-left: 15rem;
+  color: $Ivory-white;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.ProductContainer {
+  display: flex;
+  border-top: solid $primary-alpine 0.1rem;
+}
+.productImageContainer {
+  width: 25%;
+  margin: 5rem;
+  &__image {
+    // width:25rem;
+    margin: 0rem;
+  }
+  &__label {
     width: 100%;
-    border: solid $primary-alpine 0.1rem;
+    background-color: $main-black;
+    color: $Ivory-white;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+  }
+}
+
+.productDetailsContainer {
+  margin-top: 5rem;
+    margin-left: 15rem ;
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.countContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 7rem 0rem;
+
+}
+.paymentsContianer {
+    margin-bottom: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.categoryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5.5rem;
+    margin-bottom: 7rem;
+
+}
+.btnContainer{
+    margin-left: 25rem;
 }
