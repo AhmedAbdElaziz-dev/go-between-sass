@@ -798,9 +798,9 @@ img {
 .location-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 80%; }
+  width: 85%; }
 
 .info {
   width: 100%;
@@ -815,3 +815,7 @@ img {
     height: 20rem;
     border: 0.1rem solid #bb9230;
     border-radius: 1.2rem; }
+
+.map-icon {
+  color: #c92027;
+  align-self: center; }

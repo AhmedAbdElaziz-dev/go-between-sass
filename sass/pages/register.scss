@@ -64,16 +64,16 @@ img {
   margin-bottom: 2rem;
 }
 
-.register-form > input {
+.register-form>input {
   margin: 2rem;
 }
 
-.register-form > button {
+.register-form>button {
   margin: 1rem 0rem 3rem 0rem;
   font-weight: bold;
 }
 
-.register-form > a {
+.register-form>a {
   margin-top: 1rem;
   cursor: pointer;
   font-weight: bold;
@@ -93,7 +93,7 @@ img {
   margin-top: 5rem;
 }
 
-.flex-buttons-container > button {
+.flex-buttons-container>button {
   font-weight: bold;
 }
 
@@ -112,19 +112,21 @@ img {
   margin-top: 2rem;
 }
 
-.terms-container > div {
+.terms-container>div {
   margin: 2rem 0;
 }
 
 .block-span {
   display: block;
 }
+
 .reg-arrow {
   position: relative;
   top: 0.3rem;
   left: 75%;
   color: $primary-alpine;
 }
+
 .branches-div {
   width: 100%;
   height: 30rem;
@@ -133,22 +135,32 @@ img {
   border: 0.1rem solid $primary-alpine;
   margin: 0 auto;
 }
+
 .branches-container {
   width: 100%;
 }
+
 .location-container {
-  @include flex(row, space-evenly, center);
-  width: 80%;
+  @include flex(row, space-around, center);
+  width: 85%;
+
 }
+
 .info {
   width: 100%;
   height: 28rem;
   margin-top: 2rem;
   @include flex(column, space-evenly, left);
+
   &__photo {
     width: 20rem;
     height: 20rem;
     border: 0.1rem solid $primary-alpine;
     border-radius: 1.2rem;
   }
+}
+
+.map-icon {
+  color: $main-red;
+  align-self: center;
 }
