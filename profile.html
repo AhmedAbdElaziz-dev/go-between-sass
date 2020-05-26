@@ -304,30 +304,34 @@
     }
 
 
+    closeBtn.onclick = function () {
 
 
-    var passwordModal = document.getElementById("passwordModal");
-    var changePassword = document.getElementById("changePassword");
-    var closepassword = document.getElementById("closepassword");
-    var savepassword = document.getElementById("savePassword");
+      var passwordModal = document.getElementById("passwordModal");
+      var changePassword = document.getElementById("changePassword");
+      var closepassword = document.getElementById("closepassword");
+      var savepassword = document.getElementById("savePassword");
 
-    changePassword.onclick = function () {
-      passwordModal.style.display = "block";
-      modal.style.display = "none";
-
-    }
-    closepassword.onclick = function () {
-      passwordModal.style.display = "none";
-      modal.style.display = "block";
-    }
-    savepassword.onclick = function () {
-      passwordModal.style.display = "none";
-      modal.style.display = "block";
-    }
-
-    window.onclick = function (event) {
-      if (event.target == modal) {
+      changePassword.onclick = function () {
+        passwordModal.style.display = "block";
         modal.style.display = "none";
+
+      }
+      closepassword.onclick = function () {
+        passwordModal.style.display = "none";
+        modal.style.display = "block";
+      }
+      savepassword.onclick = function () {
+        passwordModal.style.display = "none";
+        modal.style.display = "block";
+      }
+
+      window.onclick = function (event) {
+        console.log(event);
+        if (event.target == modal) {
+
+          modal.style.display = "none";
+        }
       }
     }
   </script>

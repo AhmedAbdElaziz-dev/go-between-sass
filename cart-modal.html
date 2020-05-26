@@ -11,12 +11,66 @@
 
 <body>
 
-    <div class="modal-bg">
-        <div class="modal-content">
-            <!-- <img src="img/Product-1.jpg" /> -->
-        </div>
-    </div>
+    <div class="modal-bg" onclick="clicked()">
 
+        <div class="modal-content">
+            <i class="modal-content__closeIcon fas fa-times"></i>
+            <div class="product-card">
+                <!-- <div class="product-card__img"> -->
+                <img class="product-card__img" src="./img/Product-1.jpg" />
+                <!-- .nkbllkblb -->
+                <!-- </div> -->
+                <div class="product-card__text">
+                    <div class="product-card__text__header">carmel cake</div>
+                    <div class="product-card__text__line"></div>
+                    <div class="product-card__text__content">
+                        <div class="product-card__text__content__info">
+                            <div class="amount">Amount</div>
+                            <div class="amount">Total</div>
+                        </div>
+                        <div class="product-card__text__content__line"></div>
+                        <div class="product-card__text__content__prices">
+                            <div class="amount">50pieces</div>
+                            <div class="amount">1000 EGP</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product-card">
+                <!-- <div class="product-card__img"> -->
+                <img class="product-card__img" src="./img/Product-1.jpg" />
+                <!-- .nkbllkblb -->
+                <!-- </div> -->
+                <div class="product-card__text">
+                    <div class="product-card__text__header">carmel cake</div>
+                    <div class="product-card__text__line"></div>
+                    <div class="product-card__text__content">
+                        <div class="product-card__text__content__info">
+                            <div class="amount">Amount</div>
+                            <div class="amount">Total</div>
+                        </div>
+                        <div class="product-card__text__content__line"></div>
+                        <div class="product-card__text__content__prices">
+                            <div class="amount">50pieces</div>
+                            <div class="amount">1000 EGP</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <script>
+            document.querySelector('.modal-content').addEventListener('click', (e) => {
+                e.stopPropagation();
+            })
+            function clicked() {
+                // console.log()
+                document.querySelector('.modal-bg').style.display = "none";
+            }
+        </script>
 </body>
 
 </html>
