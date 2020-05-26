@@ -25,7 +25,6 @@
 @import "components/profileLabel";
 @import "components/card";
 
-@import "components/personalInformation";
 @import "components/states";
 @import "components/input.scss";
 @import "components/button.scss";
@@ -35,6 +34,7 @@
 @import "components/productListing";
 @import "components/paging";
 @import "components/modal.scss";
+@import "components/product-card.scss";
 //pages
 @import "pages/add-product.scss";
 @import "pages/login.scss";
