@@ -1,119 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card</title>
-    <link rel="stylesheet" href="style/style.css" />
-    <link
-      rel="stylesheet"
-      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
-    />
-  </head>
-  <body>
-    <div class="shoppingCar">
-      <i class="fas fa-cart-plus"></i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css" />
+</head>
+
+<body>
+  <div class="shoppingCar">
+    <i class="fas fa-cart-plus"></i>
+  </div>
+  <div class="shoppingCart">
+    <!-- Title -->
+    <div class="shoppingCart__title">
+      <h5>Shopping Bag</h5>
+      <i class="fas fa-times"></i>
     </div>
-    <div class="shoppingCart">
-      <!-- Title -->
-      <div class="shoppingCart__title">
-        <h5>Shopping Bag</h5>
-        <i class="far fa-window-close"></i>
+    <h6>you have no items in shopping card...</h6>
+    <!-- Product #1 -->
+    <div class="shoppingCart__item">
+      <div class="shoppingCart__item__image">
+        <img src="assets/images/stans-logo.png" alt="" class="shoppingCart__item__image__logo" />
       </div>
-      <h6>you have no items in shopping card...</h6>
-      <!-- Product #1 -->
-      <div class="shoppingCart__item">
-        <div class="shoppingCart__item__image">
-          <img
-            src="assets/images/stans-logo.png"
-            alt=""
-            class="shoppingCart__item__image__logo"
-          />
+      <div class="shoppingCart__item__product">
+        <div class="shoppingCart__item__product__text">
+          Quantity : 5
         </div>
-        <div class="shoppingCart__item__product">
-          <div class="shoppingCart__item__product__text">
-            Quantity : 5
-          </div>
-          <div class="shoppingCart__item__product__text">
-            Total Price : $549
-          </div>
-          <div class="shoppingCart__item__product__buttons">
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Details
-            </button>
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Cancel
-            </button>
-          </div>
+        <div class="shoppingCart__item__product__text">
+          Total Price : $549
         </div>
-      </div>
-      <hr class="line" />
-      <!-- Product #2 -->
-      <div class="shoppingCart__item">
-        <div class="shoppingCart__item__image">
-          <img
-            src="assets/images/stans-logo.png"
-            alt=""
-            class="shoppingCart__item__image__logo"
-          />
-        </div>
-        <div class="shoppingCart__item__product">
-          <div class="shoppingCart__item__product__text">
-            Quantity : 5
-          </div>
-          <div class="shoppingCart__item__product__text">
-            Total Price : $549
-          </div>
-          <div class="shoppingCart__item__product__buttons">
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Details
-            </button>
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Cancel
-            </button>
-          </div>
-        </div>
-      </div>
-      <hr class="line" />
-      <!-- Product #3 -->
-      <div class="shoppingCart__item">
-        <div class="shoppingCart__item__image">
-          <img
-            src="assets/images/stans-logo.png"
-            alt=""
-            class="shoppingCart__item__image__logo"
-          />
-        </div>
-        <div class="shoppingCart__item__product">
-          <div class="shoppingCart__item__product__text">
-            Quantity : 5
-          </div>
-          <div class="shoppingCart__item__product__text">
-            Total Price : $549
-          </div>
-          <div class="shoppingCart__item__product__buttons">
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Details
-            </button>
-            <button
-              class="button--rounded--s shoppingCart__item__product__buttons__btn"
-            >
-              Cancel
-            </button>
-          </div>
+        <div class="shoppingCart__item__product__buttons">
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Details
+          </button>
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Cancel
+          </button>
         </div>
       </div>
     </div>
-  </body>
+    <hr class="line" />
+    <!-- Product #2 -->
+    <div class="shoppingCart__item">
+      <div class="shoppingCart__item__image">
+        <img src="assets/images/stans-logo.png" alt="" class="shoppingCart__item__image__logo" />
+      </div>
+      <div class="shoppingCart__item__product">
+        <div class="shoppingCart__item__product__text">
+          Quantity : 5
+        </div>
+        <div class="shoppingCart__item__product__text">
+          Total Price : $549
+        </div>
+        <div class="shoppingCart__item__product__buttons">
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Details
+          </button>
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr class="line" />
+    <!-- Product #3 -->
+    <div class="shoppingCart__item">
+      <div class="shoppingCart__item__image">
+        <img src="assets/images/stans-logo.png" alt="" class="shoppingCart__item__image__logo" />
+      </div>
+      <div class="shoppingCart__item__product">
+        <div class="shoppingCart__item__product__text">
+          Quantity : 5
+        </div>
+        <div class="shoppingCart__item__product__text">
+          Total Price : $549
+        </div>
+        <div class="shoppingCart__item__product__buttons">
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Details
+          </button>
+          <button class="button--rounded--s shoppingCart__item__product__buttons__btn">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
 <!-- <i class="fal fa-horizontal-rule"></i> -->
