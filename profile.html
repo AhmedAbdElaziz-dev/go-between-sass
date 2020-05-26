@@ -137,11 +137,9 @@
 
   </div>
 
-  ///////////// put class editInfoModalActive for display Modal////////////////
-  <div class="myModal ">
-    <div class="modalContent">
-
-      <!-- <div class="profileLabel">Update Personal Information</div> -->
+  <!-- ///////////// put class editInfoModalActive for display Modal//////////////// -->
+  <div class="myModal" id="editInfo">
+    <div class="myModal__modalContent">
       <div class="infoContainer infoContainer--modal">
         <div class="infoContainer__content">
           <div class="infoContainer__content__left">
@@ -179,7 +177,7 @@
           </div>
         </div>
         <div class="lastContent">
-          <div class="lastContent__changepassword">
+          <div class="lastContent__changepassword" id="changePassword">
             <a>Change Password</a>
           </div>
           <div class="lastContent__buttons">
@@ -191,6 +189,33 @@
         </div>
       </div>
     </div>
+
+  </div>
+
+
+
+  <div class="myModal" id="passwordModal">
+    <div class="myModal__modalContent myModal__modalContent--password">
+      <div class="myModal__modalContent__body">
+        <div>
+          <input class="input input--s" type="password" placeholder=" Old password">
+        </div>
+        <div>
+          <input class="input input--s" type="password" placeholder="New password">
+        </div>
+        <div>
+          <input class="input input--s" type="password" placeholder="Confirm password">
+        </div>
+        <div class="lastContent__buttons">
+          <button class="button--rounded button--rounded--s" id="savePassword">Save</button>
+          <button class="button--rounded button--rounded--s button--rounded--danger" id="closepassword">Cancel</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
 
   </div>
 
@@ -268,34 +293,45 @@
 
   <script>
     // Get the modal
-    var modal = document.querySelector(".myModal");
-
-    // Get the button that opens the modal
+    var modal = document.getElementById("editInfo");
     var btn = document.getElementById("editIcon");
-
-    var closeBtn = document.getElementById("close");
-    // Get the <span> element that closes the modal
-    // var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal 
     btn.onclick = function () {
       modal.style.display = "block";
     }
-
+    var closeBtn = document.getElementById("close");
     closeBtn.onclick = function () {
       modal.style.display = "none";
     }
-    // When the user clicks on <span> (x), close the modal
-    // span.onclick = function() {
-    //   modal.style.display = "none";
-    // }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-      console.log(event);
-      if (event.target == modal) {
 
+    closeBtn.onclick = function () {
+
+
+      var passwordModal = document.getElementById("passwordModal");
+      var changePassword = document.getElementById("changePassword");
+      var closepassword = document.getElementById("closepassword");
+      var savepassword = document.getElementById("savePassword");
+
+      changePassword.onclick = function () {
+        passwordModal.style.display = "block";
         modal.style.display = "none";
+
+      }
+      closepassword.onclick = function () {
+        passwordModal.style.display = "none";
+        modal.style.display = "block";
+      }
+      savepassword.onclick = function () {
+        passwordModal.style.display = "none";
+        modal.style.display = "block";
+      }
+
+      window.onclick = function (event) {
+        console.log(event);
+        if (event.target == modal) {
+
+          modal.style.display = "none";
+        }
       }
     }
   </script>
