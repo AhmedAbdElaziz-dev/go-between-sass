@@ -601,6 +601,9 @@ a {
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   color: #000000; }
+  .list-container--grid {
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0; }
 
 .item-medium {
   padding: 1.5rem;
@@ -788,6 +791,11 @@ a {
         margin: 0.1rem 0rem; }
       .product-card__text__content__prices .amount {
         padding: 0.3rem 0; }
+
+.bestContainer__header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px; }
 
 .addProductContainer {
   display: flex;
