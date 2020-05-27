@@ -595,7 +595,7 @@ select:focus {
   .dropdownArrow--2 {
     left: 48%; }
   .dropdownArrow--3 {
-    left: 30%; }
+    left: 45%; }
 
 .mapLocation {
   width: 50%;
@@ -680,6 +680,27 @@ a {
     color: #000000; }
     .item-medium__crud-actions a:hover {
       color: #bb9230; }
+
+.text-container {
+  widows: 100%;
+  text-align: center;
+  margin: 2rem 30rem; }
+  .text-container-h3 {
+    color: #bb9230; }
+
+.item-medium__button {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px #bb9230 solid;
+  font-size: 24px; }
+  .item-medium__button:hover {
+    background-color: #bb9230;
+    border: 2px #bb9230 solid;
+    font-size: 24px;
+    color: white;
+    transition: all 0.2s; }
 
 .paging {
   display: flex;
