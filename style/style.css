@@ -597,7 +597,7 @@ select:focus {
   .dropdownArrow--2 {
     left: 48%; }
   .dropdownArrow--3 {
-    left: 30%; }
+    left: 45%; }
 
 .mapLocation {
   width: 50%;
@@ -621,6 +621,8 @@ a {
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   color: #000000; }
+  .list-container--4 {
+    grid-template-columns: auto auto auto auto; }
 
 .item-medium {
   padding: 1.5rem;
@@ -683,6 +685,27 @@ a {
     .item-medium__crud-actions a:hover {
       color: #bb9230; }
 
+.text-container {
+  widows: 100%;
+  text-align: center;
+  margin: 2rem 30rem; }
+  .text-container-h3 {
+    color: #bb9230; }
+
+.item-medium__button {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px #bb9230 solid;
+  font-size: 24px; }
+  .item-medium__button:hover {
+    background-color: #bb9230;
+    border: 2px #bb9230 solid;
+    font-size: 24px;
+    color: white;
+    transition: all 0.2s; }
+
 .paging {
   display: flex;
   margin: 1.5rem;
@@ -691,6 +714,8 @@ a {
   font-weight: 400;
   grid-column: 3;
   justify-self: end; }
+  .paging__4 {
+    grid-column: 4; }
   .paging__arrow {
     border: #d1aa4d;
     padding: 0.6rem 1rem;

@@ -18,6 +18,9 @@ a {
   // grid-column-start: 1;
   // grid-column-end: 12;
   color: $main-black;
+  &--4 {
+    grid-template-columns: auto auto auto auto;
+  }
 }
 
 .item-medium {
@@ -97,5 +100,30 @@ a {
         color: $primary-alpine;
       }
     }
+  }
+}
+
+.text-container {
+  widows: 100%;
+  text-align: center;
+  margin: 2rem 30rem;
+  &-h3 {
+    color: $primary-alpine;
+  }
+}
+
+.item-medium__button {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: white;
+  border: 2px $primary-alpine solid;
+  font-size: 24px;
+  &:hover {
+    background-color: $primary-alpine;
+    border: 2px $primary-alpine solid;
+    font-size: 24px;
+    color: white;
+    transition: all 0.2s;
   }
 }
