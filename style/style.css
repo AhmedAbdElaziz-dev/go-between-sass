@@ -580,6 +580,26 @@ select:focus {
 .dropdown-open {
   display: block; }
 
+.dropdown-containera {
+  width: 50%;
+  margin-top: 3rem; }
+  .dropdown-containera--category {
+    justify-self: end; }
+  .dropdown-containera--sort {
+    justify-self: center; }
+
+.dropdownArrow {
+  color: #bb9230;
+  font-size: 2rem;
+  position: relative;
+  top: 0.2rem; }
+  .dropdownArrow--1 {
+    left: 40%; }
+  .dropdownArrow--2 {
+    left: 48%; }
+  .dropdownArrow--3 {
+    left: 30%; }
+
 .mapLocation {
   width: 50%;
   height: 24rem;
@@ -596,6 +616,7 @@ a {
     text-decoration: underline; }
 
 .list-container {
+  margin: 2rem 10rem;
   display: grid;
   position: relative;
   grid-template-columns: auto auto auto;
