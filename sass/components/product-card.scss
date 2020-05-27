@@ -1,10 +1,12 @@
 .product-card {
   width: 80%;
+  // width: 45rem;
   height: 18rem;
   border: 0.2rem solid $primary-alpine;
   border-radius: 1.2rem;
   margin: 3% 0;
   @include flex(row, space-evenly, center, wrap);
+  // flex-wrap: un;
 
   &--large {
     height: 22rem;
