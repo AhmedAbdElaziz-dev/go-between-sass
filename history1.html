@@ -34,10 +34,18 @@
         </nav>
         <div><i class="fas fa-user"></i> Sign in</div>
     </header>
+
+    <div class="history-tabs">
+        <span class="tab-label tab-label--s active-tab">All</span>
+        <span class="tab-label ">waiting</span>
+        <span class="tab-label">Arrived</span>
+        <span class="tab-label">cancelled</span>
+    </div>
+    <div class="date-container"> 20 may 2020</div>
     <div class="history-container">
         <div class="product-card-container">
             <div class="product-card product-card--large">
-                <img class="product-card__img product-card__img--large" src="./img/Product-1.jpg" />
+                <img class="product-card__img product-card__img--large" src="./assets/images/Product-1.jpg" />
                 <div class="product-card__text h">
                     <div class="product-card__text__header">carmel cake</div>
                     <div class="product-card__text__line"></div>
@@ -63,16 +71,16 @@
                     <div class="status-text"> status:</div>
                     <div class="status-current">
                         <div class="wrapping">
-                            <input type="radio" id="waiting" name="gender" value="male" class="status-current__circle">
+                            <input type="radio" id="waiting" name="card-0" value="male" class="status-current__circle">
                             <label for="waiting">waiting</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="arrived" name="gender" value="female"
+                            <input type="radio" id="arrived" name="card-0" value="female"
                                 class="status-current__circle">
                             <label for="arrived">arrived</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="cancelled" name="gender" value="other"
+                            <input type="radio" id="cancelled" name="card-0" value="other"
                                 class="status-current__circle">
                             <label for="cancelled">cancelled</label>
                         </div>
@@ -96,7 +104,7 @@
         </div>
         <div class="product-card-container">
             <div class="product-card product-card--large">
-                <img class="product-card__img product-card__img--large" src="./img/Product-1.jpg" />
+                <img class="product-card__img product-card__img--large" src="./assets/images/Product-2.jpg" />
                 <div class="product-card__text h">
                     <div class="product-card__text__header">carmel cake</div>
                     <div class="product-card__text__line"></div>
@@ -122,16 +130,16 @@
                     <div class="status-text"> status:</div>
                     <div class="status-current">
                         <div class="wrapping">
-                            <input type="radio" id="waiting" name="gender" value="male" class="status-current__circle">
+                            <input type="radio" id="waiting" name="card-1" value="male" class="status-current__circle">
                             <label for="waiting">waiting</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="arrived" name="gender" value="female"
+                            <input type="radio" id="arrived" name="card-1" value="female"
                                 class="status-current__circle">
                             <label for="arrived">arrived</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="cancelled" name="gender" value="other"
+                            <input type="radio" id="cancelled" name="card-1" value="other"
                                 class="status-current__circle">
                             <label for="cancelled">cancelled</label>
                         </div>
@@ -155,7 +163,7 @@
         </div>
         <div class="product-card-container">
             <div class="product-card product-card--large">
-                <img class="product-card__img product-card__img--large" src="./img/Product-1.jpg" />
+                <img class="product-card__img product-card__img--large" src="./assets/images/productImg.jpeg" />
                 <div class="product-card__text h">
                     <div class="product-card__text__header">carmel cake</div>
                     <div class="product-card__text__line"></div>
@@ -181,16 +189,16 @@
                     <div class="status-text"> status:</div>
                     <div class="status-current">
                         <div class="wrapping">
-                            <input type="radio" id="waiting" name="gender" value="male" class="status-current__circle">
+                            <input type="radio" id="waiting" name="card-2" value="male" class="status-current__circle">
                             <label for="waiting">waiting</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="arrived" name="gender" value="female"
+                            <input type="radio" id="arrived" name="card-2" value="female"
                                 class="status-current__circle">
                             <label for="arrived">arrived</label>
                         </div>
                         <div class="wrapping">
-                            <input type="radio" id="cancelled" name="gender" value="other"
+                            <input type="radio" id="cancelled" name="card-2" value="other"
                                 class="status-current__circle">
                             <label for="cancelled">cancelled</label>
                         </div>
@@ -212,9 +220,21 @@
             </div>
 
         </div>
-
     </div>
 
+    <!-- <div class="g"> -->
+    <div class="paging ">
+        <div class="paging__arrow">
+            <i class="fas fa-angle-left"></i>
+        </div>
+        <div class="paging__number active">1</div>
+        <div class="paging__number">2</div>
+        <div class="paging__arrow">
+            <i class="fas fa-angle-right"></i>
+        </div>
+    </div>
+
+    <!-- </div>> -->
     <footer class="footer">
         <div class="container">
             <div class="container__col">

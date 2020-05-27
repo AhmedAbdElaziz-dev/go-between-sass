@@ -1,7 +1,45 @@
+.tab-label {
+  width: 12rem;
+  color: $main-black;
+  // margin-left: 15rem;
+  display: inline-block;
+  background-color: $Ivory-white;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  text-align: center;
+  border: 0.1rem solid $primary-alpine;
+  &--s {
+    width: 6rem;
+  }
+  &:hover {
+    background-color: $main-black;
+    color: $Ivory-white;
+  }
+}
+.active-tab {
+  background-color: $main-black;
+  color: $Ivory-white;
+}
+.date-container {
+  border: 0.1rem solid $primary-alpine;
+  border-radius: 2.2rem;
+  margin: 1rem 12px 0rem -3rem;
+  // padding: 1rem 3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  // padding-left: 3rem;
+  // padding-right: 1rem;
+  width: 18%;
+  text-align: right;
+}
 .history-container {
   display: grid;
   grid-template-columns: repeat(2, 40%);
+  // grid-template-columns: auto auto;
   justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+
   margin: 5rem 0;
 }
 // .img-text {
@@ -9,6 +47,7 @@
 // }
 .product-card-container {
   //   width: 40%;
+  margin: auto;
 }
 
 .h {
@@ -48,3 +87,10 @@
   @include flex(row, space-between, center);
   margin: 0 2rem;
 }
+.mr {
+  margin-left: 90%;
+}
+// .g {
+//   width: 0%;
+//   margin: 0 auto;
+// }

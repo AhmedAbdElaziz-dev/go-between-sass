@@ -261,7 +261,8 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: none; }
+        align-items: none;
+        flex-wrap: nowrap; }
         .myModal__modalContent__body__branchContainer__dropdownContainer {
           margin: 0 0 2rem 5rem;
           width: 100%; }
@@ -271,6 +272,7 @@ html {
           flex-direction: row;
           justify-content: space-evenly;
           align-items: none;
+          flex-wrap: nowrap;
           align-items: center; }
 
 .editInfoModalActive {
@@ -1023,11 +1025,44 @@ a {
   color: #c92027;
   align-self: center; }
 
+.tab-label {
+  width: 12rem;
+  color: #000000;
+  display: inline-block;
+  background-color: #FFFFF4;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  text-align: center;
+  border: 0.1rem solid #bb9230; }
+  .tab-label--s {
+    width: 6rem; }
+  .tab-label:hover {
+    background-color: #000000;
+    color: #FFFFF4; }
+
+.active-tab {
+  background-color: #000000;
+  color: #FFFFF4; }
+
+.date-container {
+  border: 0.1rem solid #bb9230;
+  border-radius: 2.2rem;
+  margin: 1rem 12px 0rem -3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  width: 18%;
+  text-align: right; }
+
 .history-container {
   display: grid;
   grid-template-columns: repeat(2, 40%);
   justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
   margin: 5rem 0; }
+
+.product-card-container {
+  margin: auto; }
 
 .status-container {
   width: 90%;
@@ -1067,3 +1102,6 @@ a {
   align-items: center;
   flex-wrap: nowrap;
   margin: 0 2rem; }
+
+.mr {
+  margin-left: 90%; }
