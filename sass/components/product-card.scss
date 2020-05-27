@@ -4,20 +4,25 @@
   border: 0.2rem solid $primary-alpine;
   border-radius: 1.2rem;
   margin: 3% 0;
-  @include flex(row, space-evenly, center);
+  @include flex(row, space-evenly, center, wrap);
+
+  &--large {
+    height: 22rem;
+  }
   &__img {
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
     border: 0.1rem solid $primary-alpine;
-    // background-image: url("../../img/Product-1.jpg");
-    // background-size: cover;
-    // background-color: blue;
+    &--large {
+      // width: 17rem;
+      // height: 17rem;
+    }
   }
   &__text {
     width: 40%;
     height: 10rem;
-
+    // @include flex(column, center, space-around);
     &__header {
       text-transform: capitalize;
       text-align: center;

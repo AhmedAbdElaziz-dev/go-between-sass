@@ -1,0 +1,50 @@
+.history-container {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+  margin: 5rem 0;
+}
+// .img-text {
+//   @include row-center();
+// }
+.product-card-container {
+  //   width: 40%;
+}
+
+.h {
+  // margin-top: -3rem;
+}
+.status-container {
+  width: 90%;
+  border: 0.1rem solid $primary-alpine;
+  border-radius: 20rem;
+  height: 3rem;
+  margin: 0rem auto;
+  padding: 0rem 0.8rem;
+  @include flex(row, space-between, center);
+}
+.status-current {
+  @include flex(row, center, center);
+
+  &__circle {
+    margin-right: 0.5rem;
+    // background-color: black;
+  }
+}
+.show-more {
+  &__link {
+    color: $primary-alpine;
+  }
+  // margin-top: 1.5rem;
+
+  text-align-last: right;
+  font-weight: bold;
+  font-size: 1.2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.wrapping {
+  @include flex(row, space-between, center);
+  margin: 0 2rem;
+}
