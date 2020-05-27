@@ -7,18 +7,26 @@
   padding-left: 3rem;
   font-size: 2rem;
   color: $lighter-black;
+
   &--mwh {
     width: 80%;
     height: 4.5rem;
   }
+
   &--m {
     height: 4rem;
     font-size: 1.6rem;
     padding-left: 2rem;
   }
+
+  &--sf {
+    font-size: 1.4rem;
+  }
+
   &--shadow {
     box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.2);
   }
+
   &--s {
     width: 30rem;
     height: 4rem;

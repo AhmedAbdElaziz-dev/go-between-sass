@@ -79,7 +79,7 @@
 
       <!-- <div class="branchContainer__content"> -->
       <div class="branchContainer__edit">
-        <div class="branchContainer__edit__icon">
+        <div class="branchContainer__edit__icon" id="editBranch">
           <i class="fas fa-pencil-alt"></i>
         </div>
       </div>
@@ -215,8 +215,107 @@
 
     </div>
   </div>
-  </div>
 
+  <!-- editInfoModalActive -->
+  <div class="myModal " id="branchesModal">
+    <div class="myModal__modalContent ">
+      <div class="myModal__modalContent__body">
+
+        <div class="myModal__modalContent__body__branchContainer">
+          <div class="myModal__modalContent__body__branchContainer__dropdownContainer">
+            <div class="input input--s" type="text">
+              <span class="dropdown-head__text">seller/buyer</span>
+              <i class="fas fa-chevron-circle-down reg-arrow"></i>
+            </div>
+            <!-- dropdown-open -->
+            <div class="dropdown dropdown--m ">
+              <ul class="dropdown__list">
+                <li class="dropdown__list__item">
+                  <a class="dropdown__list__item__link">Cairo</a>
+                </li>
+                <li class=" dropdown__list__item">
+                  <a class="dropdown__list__item__link">Alexandria</a>
+                </li>
+                <li class=" dropdown__list__item">
+                  <a class="dropdown__list__item__link">Ismailia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="myModal__modalContent__body__branchContainer__branchesInfo">
+
+            <div class="branchContainer">
+
+              <!-- <div class="branchContainer__content"> -->
+              <div class="branchContainer__edit">
+                <div class="branchContainer__edit__icon branchContainer__edit__icon--s" id="editBranch">
+                  <i class="fas fa-pencil-alt"></i>
+                </div>
+              </div>
+
+              <div class="branchContainer__branches">
+                <div class="branchContainer__branches__location">
+                  <span class="branchContainer__branches__location__address">-New Cairo, tseen street</span>
+                  <span class="branchContainer__branches__location__phone">+012 999 999 999</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="branchContainer  branchContainer--shadow">
+
+              <!-- <div class="branchContainer__content"> -->
+              <div class="branchContainer__edit">
+                <div class="branchContainer__edit__icon branchContainer__edit__icon--m" id="editBranch">
+                  <i class="fas fa-check"></i>
+                </div>
+              </div>
+
+              <div class="branchContainer__branches">
+                <div class="branchContainer__branches__location branchContainer__branches__location--mlocation">
+                  <input class="input input--m input--sf" type="text" value="New Cairo, tseen street">
+                  <!-- <span class="branchContainer__branches__location__address">New Cairo, tseen street</span> -->
+                  <span class="branchContainer__branches__location__phone">Phones</span>
+                  <input class="input input--m input--sf" type="text" value="+012 999 999 999">
+                  <input class="input input--m input--sf" type="text" value="+012 999 999 999">
+                </div>
+              </div>
+
+
+            </div>
+            <div class="branchContainer">
+
+              <!-- <div class="branchContainer__content"> -->
+              <div class="branchContainer__edit">
+                <div class="branchContainer__edit__icon branchContainer__edit__icon--s" id="editBranch">
+                  <i class="fas fa-pencil-alt"></i>
+                </div>
+              </div>
+
+              <div class="branchContainer__branches">
+                <div class="branchContainer__branches__location">
+                  <span class="branchContainer__branches__location__address">-New Cairo, tseen street</span>
+                  <span class="branchContainer__branches__location__phone">+012 999 999 999</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <!-- button--rounded--disabled -->
+        <div class="lastContent__buttons ">
+          <button class="button--rounded button--rounded--s" id="savePassword">Save</button>
+          <button class="button--rounded button--rounded--s button--rounded--danger" id="closepassword">Cancel</button>
+        </div>
+      </div>
+
+
+    </div>
   </div>
 
 
