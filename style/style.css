@@ -619,6 +619,8 @@ a {
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   color: #000000; }
+  .list-container--4 {
+    grid-template-columns: auto auto auto auto; }
 
 .item-medium {
   padding: 1.5rem;
@@ -710,6 +712,8 @@ a {
   font-weight: 400;
   grid-column: 3;
   justify-self: end; }
+  .paging__4 {
+    grid-column: 4; }
   .paging__arrow {
     border: #d1aa4d;
     padding: 0.6rem 1rem;
