@@ -4,7 +4,7 @@
 @import "abstracts/mixins";
 @import "abstracts/functions";
 
-//vendors
+//vendorss
 
 //base
 @import "base/reset";
@@ -16,18 +16,18 @@
 @import "layout/navigation";
 
 //components
-@import "components/textarea.scss";
-@import "components/countItem.scss";
-@import "components/paymentItem.scss";
-@import "components/categoryItem.scss";
+@import "components/textarea";
+@import "components/countItem";
+@import "components/paymentItem";
+@import "components/categoryItem";
 @import "components/personalInformation";
 @import "components/branchCard";
 @import "components/profileLabel";
 @import "components/card";
 
 @import "components/states";
-@import "components/input.scss";
-@import "components/button.scss";
+@import "components/input";
+@import "components/button";
 @import "components/registerDropdown";
 @import "components/mapLocation";
 
@@ -41,3 +41,10 @@
 @import "pages/login.scss";
 @import "pages/register.scss";
 @import "pages/history1.scss";
+@import "components/modal";
+@import "components/product-card";
+//pages
+@import "pages/add-product";
+@import "pages/login";
+@import "pages/register";
+@import "pages/history.scss";
