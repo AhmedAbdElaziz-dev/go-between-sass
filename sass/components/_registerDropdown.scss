@@ -1,5 +1,6 @@
 .dropdown-head {
   width: 100%;
+
   &__arrow {
     color: $primary-alpine;
     font-size: 2rem;
@@ -7,14 +8,17 @@
     top: 0.2rem;
     left: 93%;
   }
+
   &__text {
     text-align: center;
     display: inline-block;
     margin-top: 0.8rem;
     text-transform: capitalize;
   }
+
   &--small {
     width: 13.5rem;
+
     &__arrow {
       color: $primary-alpine;
       font-size: 1.2rem;
@@ -22,6 +26,7 @@
       top: 0rem;
       left: 22%;
     }
+
     &__text {
       text-align: center;
       display: inline-block;
@@ -42,14 +47,17 @@
   &__list {
     list-style: none;
     padding: 1rem;
+
     &__item {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
       border-bottom: 0.1rem dashed $primary-alpine;
       cursor: pointer;
+
       &:last-child {
         border-bottom: none;
       }
+
       &__link {
         text-transform: capitalize;
         color: $lighter-black;
@@ -57,14 +65,17 @@
       }
     }
   }
+
   &--small {
     position: relative;
     top: -2rem;
     padding: 0.5rem;
     width: 12.3rem;
+
     &__list {
       // list-style: none;
       padding: 0.5rem;
+
       &__item {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -77,13 +88,43 @@
       }
     }
   }
+
+  &--m {
+    position: relative;
+    top: -2rem;
+    padding: 0.5rem;
+
+    width: 30rem;
+
+    &__list {
+      // list-style: none;
+      padding: 0.5rem;
+
+      &__item {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        // &__link {
+        //   text-transform: capitalize;
+        //   color: $lighter-black;
+        //   // font-size: 2rem;
+        // }
+      }
+    }
+  }
+
   &--listing {
     width: 10rem;
   }
 }
+
 .dropdown-open {
   display: block;
 }
+
+
+
+
 // .dropdown-container {
 //   width: 150px;
 // }
