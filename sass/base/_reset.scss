@@ -1,8 +1,4 @@
 @import "../../node_modules/normalize-scss/sass/normalize";
-html {
-  font-size: 62.5%;
-  font-family: Arial;
-}
 
 * {
   padding: 0px;
@@ -10,11 +6,12 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  font-size: 1.6rem;
-}
-
 html {
   font-size: 62.5%;
   font-family: Arial;
+}
+
+
+body {
+  font-size: 1.6rem;
 }
