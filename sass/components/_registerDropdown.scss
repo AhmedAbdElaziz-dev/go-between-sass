@@ -122,9 +122,39 @@
   display: block;
 }
 
-
-
-
 // .dropdown-container {
 //   width: 150px;
 // }
+.dropdown-containera {
+  width: 50%;
+  // display: grid;
+  // justify-content: center;
+  // align-items: center;
+  // justify-items: center;
+  margin-top: 3rem;
+  // &--grid {
+  //   grid-column: 3;
+  // }
+  &--category {
+    justify-self: end;
+  }
+  &--sort {
+    justify-self: center;
+  }
+}
+
+.dropdownArrow {
+  color: $primary-alpine;
+  font-size: 2rem;
+  position: relative;
+  top: 0.2rem;
+  &--1 {
+    left: 40%;
+  }
+  &--2 {
+    left: 48%;
+  }
+  &--3 {
+    left: 45%;
+  }
+}
