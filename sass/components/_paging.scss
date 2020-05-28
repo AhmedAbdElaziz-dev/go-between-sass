@@ -7,6 +7,15 @@
   grid-column: 3;
   justify-self: end;
 
+  &__grid {
+    margin: 2rem 10rem;
+    display: grid;
+    // position: relative;
+    grid-template-columns: auto auto auto auto;
+    // column-gap: 5rem;
+    justify-content: end;
+  }
+
   &__arrow {
     border: $lighter-alpine;
     padding: 0.6rem 1rem;
