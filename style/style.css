@@ -712,8 +712,11 @@ a {
   font-weight: 400;
   grid-column: 3;
   justify-self: end; }
-  .paging__4 {
-    grid-column: 4; }
+  .paging__grid {
+    margin: 2rem 10rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: end; }
   .paging__arrow {
     border: #d1aa4d;
     padding: 0.6rem 1rem;
