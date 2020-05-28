@@ -33,6 +33,15 @@
 
 @import "components/productListing";
 @import "components/paging";
+@import "components/modal.scss";
+@import "components/product-card.scss";
+@import "components/bestItems";
+
+//pages
+@import "pages/add-product.scss";
+@import "pages/login.scss";
+@import "pages/register.scss";
+@import "pages/history1.scss";
 @import "components/modal";
 @import "components/product-card";
 //pages

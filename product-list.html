@@ -1,55 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="header__logo">
-        <img class="header__logo__icon" src="assets/images/GoBetween.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <div class="list-container">
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        <!-- <a href="#" class="item-medium__action">Order</a> -->
       </div>
-      <nav class="nav">
-        <ul class="nav__menu">
-          <li class="nav__menu__item">
-            <a href="#" class="nav__menu__link">Home</a>
-          </li>
-          <li class="nav__menu__item">
-            <a href="#" class="nav__menu__link">Features</a>
-          </li>
-          <li class="nav__menu__item">
-            <a class="nav__menu__link" href="#">About us</a>
-          </li>
-          <li class="nav__menu__item">
-            <a class="nav__menu__link" href="#">Review</a>
-          </li>
-          <li class="nav__menu__item">
-            <a class="nav__menu__link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div><i class="fas fa-user"></i> Sign in</div>
-    </header>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
 
-    <div class="list-container">
-      <div class="dropdown-containera dropdown-containera--category">
-        <div class="input input--m" type="text">
-          <span class="dropdown-head__text">category</span>
-          <i
-            class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--1"
-          ></i>
-        </div>
+            <body>
+              <header class="header">
+                <div class="header__logo">
+                  <img class="header__logo__icon" src="assets/images/GoBetween.png" />
+                </div>
+                <nav class="nav">
+                  <ul class="nav__menu">
+                    <li class="nav__menu__item">
+                      <a href="#" class="nav__menu__link">Home</a>
+                    </li>
+                    <li class="nav__menu__item">
+                      <a href="#" class="nav__menu__link">Features</a>
+                    </li>
+                    <li class="nav__menu__item">
+                      <a class="nav__menu__link" href="#">About us</a>
+                    </li>
+                    <li class="nav__menu__item">
+                      <a class="nav__menu__link" href="#">Review</a>
+                    </li>
+                    <li class="nav__menu__item">
+                      <a class="nav__menu__link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div><i class="fas fa-user"></i> Sign in</div>
+              </header>
 
+              <div class="list-container">
+                <div class="dropdown-containera dropdown-containera--category">
+                  <div class="input input--m" type="text">
+                    <span class="dropdown-head__text">category</span>
+                    <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--1"></i>
+                  </div>
+
+                  <div class="dropdown">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__list__item">
+                        <a class="dropdown__list__item__link">company</a>
+                      </li>
+                      <li class=" dropdown__list__item">
+                        <a class="dropdown__list__item__link">cafe/restaurant</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="dropdown-containera dropdown-containera--sort">
+                  <div class="input input--m" type="text">
+                    <span class="dropdown-head__text">sort by</span>
+                    <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--2"></i>
+                  </div>
+
+                  <div class="dropdown">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__list__item">
+                        <a class="dropdown__list__item__link">company</a>
+                      </li>
+                      <li class=" dropdown__list__item">
+                        <a class="dropdown__list__item__link">cafe/restaurant</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="dropdown-containera dropdown-containera">
+                  <div class="input input--m" type="text">
+                    <span class="dropdown-head__text">seller/buyer</span>
+                    <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--3"></i>
+                  </div>
+
+                  <div class="dropdown">
+                    <ul class="dropdown__list">
+                      <li class="dropdown__list__item">
+                        <a class="dropdown__list__item__link">company</a>
+                      </li>
+                      <li class=" dropdown__list__item">
+                        <a class="dropdown__list__item__link">cafe/restaurant</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="item-medium">
+                  <div class="item-medium__image image"
+                    style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                    <!-- <a href="#" class="item-medium__action">Order</a> -->
+                  </div>
+                  <a href="#">
+                    <h4>Caramel Cake</h4>
+                    <div class="flex-row">
+                      <div>
+                        <span class="lable"> 10 pieces</span>
+                      </div>
+                    </div>
+                </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
         <div class="dropdown">
           <ul class="dropdown__list">
             <li class="dropdown__list__item">
@@ -61,206 +131,157 @@
           </ul>
         </div>
       </div>
-      <div class="dropdown-containera dropdown-containera--sort">
-        <div class="input input--m" type="text">
-          <span class="dropdown-head__text">sort by</span>
-          <i
-            class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--2"
-          ></i>
-        </div>
-
-        <div class="dropdown">
-          <ul class="dropdown__list">
-            <li class="dropdown__list__item">
-              <a class="dropdown__list__item__link">company</a>
-            </li>
-            <li class=" dropdown__list__item">
-              <a class="dropdown__list__item__link">cafe/restaurant</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div
-        class="dropdown-containera dropdown-containera dropdown-containera--search"
-      >
+      <div class="dropdown-containera dropdown-containera dropdown-containera--search">
         <div class="input input--m" type="text">
           <span class="dropdown-head__text">search</span>
           <i class="fas fa-search dropdownArrow dropdownArrow--3"></i>
         </div>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        >
-          <!-- <a href="#" class="item-medium__action">Order</a> -->
-        </div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
-          </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
-        </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="item-medium">
-        <div
-          class="item-medium__image image"
-          style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;"
-        ></div>
-        <a href="#">
-          <h4>Caramel Cake</h4>
-          <div class="flex-row">
-            <div>
-              <span class="lable"> 10 pieces</span>
-            </div>
+    </div>
+    <div class="item-medium">
+      <div class="item-medium__image image"
+        style="background-image: url('assets/images/Product-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      </div>
+      <a href="#">
+        <h4>Caramel Cake</h4>
+        <div class="flex-row">
+          <div>
+            <span class="lable"> 10 pieces</span>
           </div>
-        </a>
-        <div class="item-medium__crud-actions">
-          <a href="#"><i class="fas fa-edit"></i></a>
-          <a href="#"><i class="fas fa-trash-alt"></i></a>
         </div>
+      </a>
+      <div class="item-medium__crud-actions">
+        <a href="#"><i class="fas fa-edit"></i></a>
+        <a href="#"><i class="fas fa-trash-alt"></i></a>
       </div>
-      <div class="paging">
-        <div class="paging__arrow">
-          <i class="fas fa-angle-left"></i>
-        </div>
-        <div class="paging__number active">1</div>
-        <div class="paging__number">2</div>
-        <div class="paging__arrow">
-          <i class="fas fa-angle-right"></i>
-        </div>
+    </div>
+    <div class="paging">
+      <div class="paging__arrow">
+        <i class="fas fa-angle-left"></i>
+      </div>
+      <div class="paging__number active">1</div>
+      <div class="paging__number">2</div>
+      <div class="paging__arrow">
+        <i class="fas fa-angle-right"></i>
       </div>
     </div>
 
@@ -282,12 +303,10 @@
               <span class="pad">Locations</span>
             </li>
             <li class="container__col__menu__item">
-              <i class="fas fa-phone-alt pad"></i
-              ><span class="pad">Call us 0999 5000</span>
+              <i class="fas fa-phone-alt pad"></i><span class="pad">Call us 0999 5000</span>
             </li>
             <li class="container__col__menu__item">
-              <i class="far fa-envelope pad"></i
-              ><span class="pad">GoBetween@gmail.com</span>
+              <i class="far fa-envelope pad"></i><span class="pad">GoBetween@gmail.com</span>
             </li>
           </ul>
         </div>
@@ -296,31 +315,23 @@
           <ul class="container__col__menu grid">
             <li class="container__col__menu__item">
               <img src="assets/images/1.jpeg" alt="" class="imgs" />
-              <span
-                >Breads <br />
-                July 18,2020</span
-              >
+              <span>Breads <br />
+                July 18,2020</span>
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/2.jpeg" alt="" class="imgs" />
-              <span
-                >Bluerry pie <br />
-                July 18,2020</span
-              >
+              <span>Bluerry pie <br />
+                July 18,2020</span>
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/3.jpeg" alt="" class="imgs" />
-              <span
-                >Apple pie <br />
-                July 18,2020</span
-              >
+              <span>Apple pie <br />
+                July 18,2020</span>
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/4.jpeg" alt="" class="imgs" />
-              <span
-                >Pancake <br />
-                July 18,2020</span
-              >
+              <span>Pancake <br />
+                July 18,2020</span>
             </li>
           </ul>
         </div>
@@ -339,5 +350,6 @@
       </div>
       <!-- Copyright -->
     </footer>
-  </body>
+</body>
+
 </html>
