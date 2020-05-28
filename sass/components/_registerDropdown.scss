@@ -127,14 +127,7 @@
 // }
 .dropdown-containera {
   width: 50%;
-  // display: grid;
-  // justify-content: center;
-  // align-items: center;
-  // justify-items: center;
   margin-top: 3rem;
-  // &--grid {
-  //   grid-column: 3;
-  // }
   &--category {
     justify-self: end;
   }
@@ -157,4 +150,15 @@
   &--3 {
     left: 45%;
   }
+}
+
+.dropdown-main-containera {
+  display: grid;
+  grid-template-columns: 40rem 40rem;
+  justify-self: center;
+  justify-content: center;
+}
+
+.dropdown-main-componant {
+  justify-self: center;
 }
