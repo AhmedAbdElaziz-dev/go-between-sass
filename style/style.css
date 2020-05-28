@@ -104,6 +104,50 @@ html {
         color: #bb9230;
         transition: all 0.3; }
 
+.productLabel {
+  display: inline-block;
+  background-color: #000000;
+  margin-left: 15rem;
+  color: #FFFFF4;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem 1rem 0rem 0rem; }
+  .productLabel__product {
+    display: inline;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 0;
+    border: 2px solid #bb9230;
+    padding: 2rem; }
+  .productLabel__totalPrice {
+    padding: 0.8rem;
+    text-align: center; }
+  .productLabel__price {
+    background-color: #FFFFF4;
+    border: 2px solid #bb9230;
+    border-radius: 25px;
+    color: #1a1a1a;
+    margin: 0rem 5rem;
+    padding: 0rem; }
+
+.productImageContainer {
+  width: 25%;
+  margin: 5rem; }
+  .productImageContainer__image {
+    z-index: -1;
+    width: 100%;
+    margin: 0rem; }
+  .productImageContainer__label {
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFF4;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 0rem 0rem 1rem 1rem; }
+  .productImageContainer__background {
+    height: 22rem;
+    border: 2px solid #bb9230;
+    transform: translateY(-23rem) rotate(30deg); }
+
 .detailsContainer {
   margin: 5rem; }
   .detailsContainer__info {
@@ -790,34 +834,11 @@ a {
         padding: 0.3rem 0; }
 
 .addProductContainer {
-  display: flex;
-  flex-flow: column;
   margin: 15rem 0rem; }
-
-.productLabel {
-  width: 13rem;
-  background-color: #000000;
-  margin-left: 15rem;
-  color: #FFFFF4;
-  padding: 0.5rem 2rem;
-  border-radius: 1rem 1rem 0rem 0rem; }
 
 .ProductContainer {
   display: flex;
   border-top: solid #bb9230 0.1rem; }
-
-.productImageContainer {
-  width: 25%;
-  margin: 5rem; }
-  .productImageContainer__image {
-    margin: 0rem; }
-  .productImageContainer__label {
-    width: 100%;
-    background-color: #000000;
-    color: #FFFFF4;
-    text-align: center;
-    padding: 0.5rem 2rem;
-    border-radius: 0rem 0rem 1rem 1rem; }
 
 .productDetailsContainer {
   margin-top: 5rem;
@@ -1012,3 +1033,15 @@ a {
 .map-icon {
   color: #c92027;
   align-self: center; }
+
+.detailsOfProduct {
+  width: 80%;
+  margin-top: 7rem;
+  margin-left: 7rem;
+  border: 2px solid #bb9230;
+  border-radius: 10px;
+  height: 100px; }
+
+.totalPriceContainer {
+  display: flex;
+  margin-left: 10rem; }
