@@ -10,7 +10,7 @@ a {
   margin: 2rem 10rem;
   display: grid;
   position: relative;
-  grid-template-columns: auto auto auto ;
+  grid-template-columns: auto auto auto;
   // grid-template-rows: 40rem 40rem 40rem;
   column-gap: 5rem;
   // row-gap: 5rem;
@@ -18,13 +18,13 @@ a {
   // grid-column-start: 1;
   // grid-column-end: 12;
   color: $main-black;
-  &--grid {
-    grid-template-columns: auto auto auto auto;
-    column-gap: 0;
   &--4 {
     grid-template-columns: auto auto auto auto;
   }
-}
+  &--grid {
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0;
+  }
 }
 .item-medium {
   padding: 1.5rem;
