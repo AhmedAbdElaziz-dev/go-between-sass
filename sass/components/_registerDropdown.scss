@@ -41,7 +41,7 @@
   border-top: none;
   border-radius: 0 0 2rem 2rem;
   position: relative;
-  top: -2rem;
+  // top: -2rem;
   padding: 1rem;
 
   &__list {
@@ -120,10 +120,13 @@
 
 .dropdown-open {
   display: block;
+  z-index: -1;
+  background-color: $main-white;
+  left: -1rem;
 }
 
 // .dropdown-container {
-//   width: 150px;
+//   width: 150px
 // }
 .dropdown-containera {
   width: 50%;
@@ -131,6 +134,7 @@
 
   &--category {
     justify-self: end;
+    // position: absolute;
   }
 
   &--sort {
@@ -162,6 +166,7 @@
   grid-template-columns: 40rem 40rem;
   justify-self: center;
   justify-content: center;
+  // position: absolute;
 }
 
 .dropdown-main-componant {

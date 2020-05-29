@@ -11,14 +11,36 @@
   &--large {
     height: 22rem;
   }
+  &--user {
+  @include flex(row, space-between, center, wrap);
+    height: 22rem;
+    padding: 0rem 3rem 2rem 0rem;
+    width:70%
+  }
   &__img {
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
     border: 0.1rem solid $primary-alpine;
+    &--user {
+      width: 16rem;
+    height: 16rem;
+    }
     &--large {
       // width: 17rem;
       // height: 17rem;
+    }
+  }
+  &__closeIcon {
+    position: relative;
+    top: -9.5rem;
+    left: 40.2rem;
+    padding: .4rem 0.7rem;
+    border-radius: 50px;
+    background-color: $lighter-alpine;
+    color: $main-white;
+    :hover {
+      cursor: pointer;
     }
   }
   &__text {
