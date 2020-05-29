@@ -39,6 +39,7 @@
   width: 80%;
   @include column-center();
   margin: 0 auto;
+  position: relative;
 }
 
 .register-header {
@@ -50,6 +51,7 @@
 
 .container {
   margin-bottom: 2rem;
+  // position: relative;
 }
 
 .register-form > input {
@@ -109,16 +111,19 @@
 }
 
 .reg-arrow {
-  position: relative;
+  position: sticky;
   top: 0.3rem;
-  left: 75%;
+  left: 42%;
   color: $primary-alpine;
+  &--s {
+    left: 36%;
+  }
 }
 
 .branches-div {
   width: 100%;
   height: 30rem;
-  @include flex(column, space-evenly, center);
+  @include flex(column, flex-end, center);
   border-radius: 1.2rem;
   border: 0.1rem solid $primary-alpine;
   margin: 0 auto;
@@ -126,8 +131,14 @@
 
 .branches-container {
   width: 100%;
+  // position: relative;
 }
-
+#location {
+  width: 100%;
+  @include flex(column, space-evenly, center);
+  height: 22rem;
+  // margin-top: 5rem;
+}
 .location-container {
   @include flex(row, space-around, center);
   width: 85%;
