@@ -1,163 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profile</title>
-  <link rel="stylesheet" href="style/style.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__logo">
-      <img class="header__logo__icon" src="assets/images/GoBetween.png" />
-    </div>
-    <nav class="nav">
-      <ul class="nav__menu">
-        <li class="nav__menu__item">
-          <a href="#" class="nav__menu__link">Home</a>
-        </li>
-        <li class="nav__menu__item">
-          <a href="#" class="nav__menu__link">Features</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">About us</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">Review</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div><i class="fas fa-user"></i> Sign in</div>
-  </header>
-
-
-  <div class="historyUserContainer">
-    <div class="historyUserContainer__content">
-      <div class="historyUserContainer__content__item">Order Date</div>
-      <div class="historyUserContainer__content__item">Company</div>
-      <div class="historyUserContainer__content__item">Product(s)</div>
-      <div class="historyUserContainer__content__item">Order Details</div>
-      <div class="historyUserContainer__content__item">Status</div>
-      <div class="historyUserContainer__content__item"></div>
-    </div>
-
-    <div class="lineHistory">
-    </div>
-
-    <div class="historyUserContainer__content">
-      <div class="historyUserContainer__content__item">Order Date</div>
-      <!-- ///////////Company////// -->
-      <div class="historyUserContainer__content__item">
-        <div class="historyUserContainer__content__item__companyImage">
-          <img src="./assets/images/Product-1.jpg" alt="">
-        </div>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__icon" src="assets/images/GoBetween.png" />
       </div>
-      <!-- /////////products /////// -->
-      <div class="historyUserContainer__content__item">
-        <div class="historyUserContainer__content__item__products">
-          <div class="historyUserContainer__content__item__products__image">
-            <img src="./assets/images/Product-2.jpg" alt="">
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Home</a>
+          </li>
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Features</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">About us</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Review</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div><i class="fas fa-user"></i> Sign in</div>
+    </header>
+
+    <div class="historyUserContainer">
+      <div class="historyUserContainer__content">
+        <div class="historyUserContainer__content__item">Order Date</div>
+        <div class="historyUserContainer__content__item">Company</div>
+        <div class="historyUserContainer__content__item">Product(s)</div>
+        <div class="historyUserContainer__content__item">Order Details</div>
+        <div class="historyUserContainer__content__item">Status</div>
+        <div class="historyUserContainer__content__item"></div>
+      </div>
+
+      <div class="lineHistory"></div>
+
+      <div class="historyUserContainer__content">
+        <div class="historyUserContainer__content__item">Order Date</div>
+        <!-- ///////////Company////// -->
+        <div class="historyUserContainer__content__item">
+          <div class="historyUserContainer__content__item__companyImage">
+            <img src="./assets/images/Product-1.jpg" alt="" />
           </div>
-
-          <div historyUserContainer__content__item__products__name>product name</div>
         </div>
-        <div class="historyUserContainer__content__item__products">
-          <div class="historyUserContainer__content__item__products__image">
-            <img src="./assets/images/Product-2.jpg" alt="">
+        <!-- /////////products /////// -->
+        <div class="historyUserContainer__content__item">
+          <div class="historyUserContainer__content__item__products">
+            <div class="historyUserContainer__content__item__products__image">
+              <img src="./assets/images/Product-2.jpg" alt="" />
+            </div>
+
+            <div historyUserContainer__content__item__products__name>
+              product name
+            </div>
           </div>
+          <div class="historyUserContainer__content__item__products">
+            <div class="historyUserContainer__content__item__products__image">
+              <img src="./assets/images/Product-2.jpg" alt="" />
+            </div>
 
-          <div historyUserContainer__content__item__products__name>product name</div>
+            <div historyUserContainer__content__item__products__name>
+              product name
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="historyUserContainer__content__item">
-        <div class="historyUserContainer__content__item__products">
-          <div>Amount</div>
-          <div>50 peices</div>
+        <div class="historyUserContainer__content__item">
+          <div class="historyUserContainer__content__item__products">
+            <div>Amount</div>
+            <div>50 peices</div>
+          </div>
+          <div class="historyUserContainer__content__item__products">
+            <div>Amount</div>
+            <div>50 peices</div>
+          </div>
+          <div>
+            <label> total <span> 1000$</span> </label>
+          </div>
         </div>
-        <div class="historyUserContainer__content__item__products">
-          <div>Amount</div>
-          <div> 50 peices</div>
-          
+        <div class="historyUserContainer__content__item">Status</div>
+        <div class="historyUserContainer__content__item">
+          <button></button>
+          <button></button>
+          <button></button>
         </div>
-        <div>
-
-          <label >
-            total <span> 1000$</span>
-          </label>
-        </div>
-      </div>
-      <div class="historyUserContainer__content__item">Status</div>
-      <div class="historyUserContainer__content__item">
-        <button></button>
-        <button></button>
-        <button></button>
       </div>
     </div>
 
+    <script>
+      // // Get the modal
+      // var modal = document.getElementById("editInfo");
+      // var btn = document.getElementById("editIcon");
+      // btn.onclick = function () {
+      //   modal.style.display = "block";
+      // }
+      // var closeBtn = document.getElementById("close");
+      // closeBtn.onclick = function () {
+      //   modal.style.display = "none";
+      // }
 
-  </div>
+      // closeBtn.onclick = function () {
 
+      //   var passwordModal = document.getElementById("passwordModal");
+      //   var changePassword = document.getElementById("changePassword");
+      //   var closepassword = document.getElementById("closepassword");
+      //   var savepassword = document.getElementById("savePassword");
 
+      //   changePassword.onclick = function () {
+      //     passwordModal.style.display = "block";
+      //     modal.style.display = "none";
 
+      //   }
+      //   closepassword.onclick = function () {
+      //     passwordModal.style.display = "none";
+      //     modal.style.display = "block";
+      //   }
+      //   savepassword.onclick = function () {
+      //     passwordModal.style.display = "none";
+      //     modal.style.display = "block";
+      //   };
+      //   var closeBtn = document.getElementById("close");
+      //   closeBtn.onclick = function() {
+      //     modal.style.display = "none";
+      //   };
 
+      //   closeBtn.onclick = function() {
+      //     var passwordModal = document.getElementById("passwordModal");
+      //     var changePassword = document.getElementById("changePassword");
+      //     var closepassword = document.getElementById("closepassword");
+      //     var savepassword = document.getElementById("savePassword");
 
+      //     changePassword.onclick = function() {
+      //       passwordModal.style.display = "block";
+      //       modal.style.display = "none";
+      //     };
+      //     closepassword.onclick = function() {
+      //       passwordModal.style.display = "none";
+      //       modal.style.display = "block";
+      //     };
+      //     savepassword.onclick = function() {
+      //       passwordModal.style.display = "none";
+      //       modal.style.display = "block";
+      //     };
 
-
-
-
-  <script>
-    // Get the modal
-    var modal = document.getElementById("editInfo");
-    var btn = document.getElementById("editIcon");
-    btn.onclick = function () {
-      modal.style.display = "block";
-    }
-    var closeBtn = document.getElementById("close");
-    closeBtn.onclick = function () {
-      modal.style.display = "none";
-    }
-
-
-    closeBtn.onclick = function () {
-
-
-      var passwordModal = document.getElementById("passwordModal");
-      var changePassword = document.getElementById("changePassword");
-      var closepassword = document.getElementById("closepassword");
-      var savepassword = document.getElementById("savePassword");
-
-      changePassword.onclick = function () {
-        passwordModal.style.display = "block";
-        modal.style.display = "none";
-
-      }
-      closepassword.onclick = function () {
-        passwordModal.style.display = "none";
-        modal.style.display = "block";
-      }
-      savepassword.onclick = function () {
-        passwordModal.style.display = "none";
-        modal.style.display = "block";
-      }
-
-      window.onclick = function (event) {
-        console.log(event);
-        if (event.target == modal) {
-
-          modal.style.display = "none";
-        }
-      }
-    }
-  </script>
-
-
-
-
-</body>
-
+      //     window.onclick = function(event) {
+      //       console.log(event);
+      //       if (event.target == modal) {
+      //         modal.style.display = "none";
+      //       }
+      //     };
+      //   };
+    </script>
+  </body>
 </html>
