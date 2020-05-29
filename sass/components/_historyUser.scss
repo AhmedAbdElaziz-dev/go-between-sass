@@ -1,0 +1,41 @@
+.historyUserContainer {
+  &__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 1rem;
+    justify-content: left;
+    &__item {
+      justify-self: center;
+      font-weight: bold;
+      margin-left: 10rem;
+      width: 100%;
+      text-align: center;
+      &__companyImage {
+        img {
+          height: 4rem;
+          width: 4.9rem;
+        }
+      }
+      &__products {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+        &__image {
+            img {
+              height: 3rem;
+              width: 3rem;
+              border-radius: 50px;
+            }
+        }
+        &__name {
+        }
+      }
+    }
+  }
+}
+
+.lineHistory {
+  height: 0.5rem;
+  background-color: $primary-alpine;
+  width: 100%;
+}
