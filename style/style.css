@@ -853,7 +853,7 @@ a {
         padding: 0.5rem; }
   .itemm__btn {
     position: absolute;
-    bottom: 0rem;
+    top: -40rem;
     left: -0.1rem;
     width: 100%;
     border: none;
@@ -865,7 +865,7 @@ a {
     opacity: 0;
     transition: all 0.5s; }
   .itemm:hover .itemm__btn {
-    bottom: 14rem;
+    top: -32rem;
     opacity: 1;
     z-index: 3; }
   .itemm:hover .itemm__image::after {
