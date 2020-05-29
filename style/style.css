@@ -747,7 +747,8 @@ a {
 .text-container {
   widows: 100%;
   text-align: center;
-  margin: 2rem 30rem; }
+  margin: 2rem 30rem;
+  margin-top: 5rem; }
   .text-container-h3 {
     color: #bb9230; }
 
@@ -764,6 +765,77 @@ a {
     font-size: 24px;
     color: white;
     transition: all 0.2s; }
+
+.tabs-containera {
+  margin: 2rem 10rem;
+  display: grid;
+  position: relative;
+  grid-template-columns: auto auto auto;
+  column-gap: 5rem;
+  color: #000000; }
+
+.itemm {
+  padding: 1.5rem;
+  margin: 3rem;
+  position: relative; }
+  .itemm__image {
+    overflow: hidden;
+    padding-top: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .itemm__data {
+    padding: 1rem 0 1rem 1rem;
+    background-color: #FFFFFF;
+    position: relative;
+    transition: all 0.2s; }
+    .itemm__data__amount {
+      position: absolute;
+      top: 90%;
+      right: 1.5rem;
+      color: #000000;
+      display: flex;
+      flex-direction: row; }
+      .itemm__data__amount__controls {
+        cursor: pointer;
+        border-radius: 45%;
+        padding: 0.5rem; }
+        .itemm__data__amount__controls:hover {
+          background-color: #bb9230;
+          color: #FFFFFF;
+          opacity: 80%; }
+      .itemm__data__amount__number {
+        margin: 0 1rem;
+        padding: 0.5rem; }
+  .itemm__btn {
+    position: absolute;
+    top: -40rem;
+    left: -0.1rem;
+    width: 100%;
+    border: none;
+    background-color: #bb9230;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 2rem;
+    font-size: 3rem;
+    opacity: 0;
+    transition: all 0.5s; }
+  .itemm:hover .itemm__btn {
+    top: -32rem;
+    opacity: 1;
+    z-index: 3; }
+  .itemm:hover .itemm__image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    opacity: 0.3;
+    z-index: 1; }
 
 .paging {
   display: flex;
@@ -799,6 +871,8 @@ a {
   z-index: 1;
   top: 0;
   left: 0; }
+  .modal-bg--m {
+    height: 95vh; }
 
 .modal-content {
   display: flex;
@@ -871,11 +945,33 @@ a {
   flex-wrap: wrap; }
   .product-card--large {
     height: 22rem; }
+  .product-card--user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 22rem;
+    padding: 0rem 3rem 2rem 0rem;
+    width: 70%; }
   .product-card__img {
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
     border: 0.1rem solid #bb9230; }
+    .product-card__img--user {
+      width: 16rem;
+      height: 16rem; }
+  .product-card__closeIcon {
+    position: relative;
+    top: -9.5rem;
+    left: 40.2rem;
+    padding: .4rem 0.7rem;
+    border-radius: 50px;
+    background-color: #d1aa4d;
+    color: #FFFFFF; }
+    .product-card__closeIcon :hover {
+      cursor: pointer; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -908,33 +1004,23 @@ a {
   font-weight: bold;
   font-size: 30px; }
 
-.historyUserContainer__content {
+.userHistoryFilter {
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  margin: 1rem;
-  justify-content: left; }
-  .historyUserContainer__content__item {
-    justify-self: center;
-    font-weight: bold;
-    margin-left: 10rem;
-    width: 100%;
-    text-align: center; }
-    .historyUserContainer__content__item__companyImage img {
-      height: 4rem;
-      width: 4.9rem; }
-    .historyUserContainer__content__item__products {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 1rem; }
-      .historyUserContainer__content__item__products__image img {
-        height: 3rem;
-        width: 3rem;
-        border-radius: 50px; }
+  grid-template-columns: auto auto auto; }
 
-.lineHistory {
-  height: 0.5rem;
-  background-color: #bb9230;
-  width: 100%; }
+.company-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.addToCart {
+  border: 0.1rem solid #bb9230;
+  border-radius: 20px;
+  margin-right: 5rem;
+  padding: 2rem; }
 
 .addProductContainer {
   margin: 15rem 0rem; }
@@ -1194,6 +1280,13 @@ a {
   padding: 1rem 3rem 1rem 1rem;
   width: 18%;
   text-align: right; }
+  .date-container--company {
+    width: 10%;
+    padding: 0rem 1rem 0rem 1rem; }
+  .date-container img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50px; }
 
 .history-cards-container {
   display: grid;
@@ -1201,6 +1294,8 @@ a {
   justify-content: center;
   justify-items: center;
   margin: 5rem auto; }
+  .history-cards-container--user {
+    margin: 0 auto; }
 
 .status-container {
   width: 90%;
@@ -1214,6 +1309,9 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap; }
+  .status-container--user {
+    width: 100%;
+    margin: 1rem auto; }
 
 .status-current {
   display: flex;
@@ -1252,6 +1350,8 @@ a {
   z-index: 1;
   top: 0;
   left: 0; }
+  .modal-bg--m {
+    height: 95vh; }
 
 .modal-content {
   display: flex;
@@ -1324,11 +1424,33 @@ a {
   flex-wrap: wrap; }
   .product-card--large {
     height: 22rem; }
+  .product-card--user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 22rem;
+    padding: 0rem 3rem 2rem 0rem;
+    width: 70%; }
   .product-card__img {
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
     border: 0.1rem solid #bb9230; }
+    .product-card__img--user {
+      width: 16rem;
+      height: 16rem; }
+  .product-card__closeIcon {
+    position: relative;
+    top: -9.5rem;
+    left: 40.2rem;
+    padding: .4rem 0.7rem;
+    border-radius: 50px;
+    background-color: #d1aa4d;
+    color: #FFFFFF; }
+    .product-card__closeIcon :hover {
+      cursor: pointer; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -1355,6 +1477,42 @@ a {
         margin: 0.1rem 0rem; }
       .product-card__text__content__prices .amount {
         padding: 0.3rem 0; }
+
+.ReviewSlider {
+  width: 100%; }
+  .ReviewSlider__img {
+    width: 100%;
+    height: 95vh; }
+  .ReviewSlider__bg {
+    display: none; }
+    .ReviewSlider__bg__text {
+      width: 50%;
+      color: white;
+      text-align: center; }
+    .ReviewSlider__bg__bullets {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: 10rem;
+      margin-top: 5rem;
+      color: white; }
+      .ReviewSlider__bg__bullets__circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        border: 1px solid white; }
+
+.active-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.active-bullet {
+  background-color: white; }
 
 .addProductContainer {
   margin: 15rem 0rem; }
