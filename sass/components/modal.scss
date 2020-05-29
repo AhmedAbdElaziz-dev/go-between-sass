@@ -7,6 +7,9 @@
   top: 0;
   left: 0;
   // @include column-center();
+  &--m {
+    height: 95vh;
+  }
 }
 // .modal-content {
 //   position: absolute;
