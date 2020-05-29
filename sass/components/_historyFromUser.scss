@@ -1,0 +1,11 @@
+.userHistory-container {
+  width: 100%;
+  border: none;
+  &-table {
+    width: 100%;
+    border: none;
+    &-head {
+      border: none;
+    }
+  }
+}
