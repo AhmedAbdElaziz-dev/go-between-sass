@@ -1,6 +1,6 @@
 .history {
     width: 100%;
-    border: 1px solid $primary-alpine;
+    // border: 1px solid $primary-alpine;
     color: $primary-alpine;
     // margin: 1rem;
     padding: 1rem;
@@ -117,7 +117,7 @@
     border: 1px solid $primary-alpine;
     border-radius: 3rem;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
 
     &__grid {
         // border: 1px solid yellow;
@@ -143,24 +143,19 @@
 }
 
 
-table,
-th,
-td {
-    border: 1px solid $primary-alpine;
-}
+// table,
+// th,
+// td {
+
+// }
 
 .tab {
+    border: 1px solid $primary-alpine;
     margin-left: 25%;
     width: 25rem;
     height: 20rem;
     // border: 1px solid black;
     color: $main-black;
-}
-
-td {
-    // border: 1px solid black;
-    padding: 5px;
-    text-align: center;
 }
 
 .item3 {
@@ -215,10 +210,15 @@ td {
 }
 
 .txt {
-    align-items: center;
-    text-align: center;
     color: $primary-alpine;
     font-weight: 400;
+}
+
+.shared {
+    padding: 5px;
+    border: 1px solid $primary-alpine;
+    align-items: center;
+    text-align: center;
 }
 
 .activeBtn {

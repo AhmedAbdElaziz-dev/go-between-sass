@@ -190,48 +190,6 @@ body {
     padding: 0.5rem;
     margin-right: 1rem; }
 
-.detailsContainer {
-  margin: 5rem; }
-  .detailsContainer__info {
-    margin-left: -5rem;
-    margin-bottom: 2rem; }
-  .detailsContainer__input {
-    margin-left: 1rem;
-    border: solid #bb9230 0.2rem;
-    border-radius: 1rem; }
-
-.countItem {
-  margin: 2rem; }
-  .countItem__info {
-    margin-left: -1rem;
-    margin-bottom: 2rem; }
-  .countItem__input {
-    width: 20rem;
-    height: 3rem;
-    border: solid #bb9230 0.2rem;
-    border-radius: 1rem;
-    margin-right: 2rem; }
-
-.paymentItem {
-  width: 40%;
-  margin-right: 1rem; }
-  .paymentItem__input {
-    -webkit-appearance: none;
-    border-radius: 0.3rem;
-    border: 0.1rem solid #bb9230;
-    padding: 0.5rem;
-    margin-right: 1rem; }
-
-.categoryItem {
-  width: 40%;
-  margin-right: 1rem; }
-  .categoryItem__input {
-    -webkit-appearance: none;
-    border-radius: 2rem;
-    border: solid #bb9230 0.1rem;
-    padding: 0.5rem;
-    margin-right: 1rem; }
-
 .profileContainer {
   margin: 5rem; }
 
@@ -1604,7 +1562,6 @@ a {
 
 .history {
   width: 100%;
-  border: 1px solid #bb9230;
   color: #bb9230;
   padding: 1rem; }
   .history__title {
@@ -1681,7 +1638,7 @@ a {
   border: 1px solid #bb9230;
   border-radius: 3rem;
   display: grid;
-  grid-template-columns: auto auto; }
+  grid-template-columns: 50% 50%; }
   .order__grid {
     text-align: center;
     width: 40rem;
@@ -1698,20 +1655,12 @@ a {
     text-decoration: none;
     color: #918F89; }
 
-table,
-th,
-td {
-  border: 1px solid #bb9230; }
-
 .tab {
+  border: 1px solid #bb9230;
   margin-left: 25%;
   width: 25rem;
   height: 20rem;
   color: #000000; }
-
-td {
-  padding: 5px;
-  text-align: center; }
 
 .item3 {
   width: 40rem;
@@ -1752,10 +1701,14 @@ td {
   margin-top: 10%; }
 
 .txt {
-  align-items: center;
-  text-align: center;
   color: #bb9230;
   font-weight: 400; }
+
+.shared {
+  padding: 5px;
+  border: 1px solid #bb9230;
+  align-items: center;
+  text-align: center; }
 
 .activeBtn {
   background-color: #000000;
