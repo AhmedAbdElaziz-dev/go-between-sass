@@ -16,6 +16,12 @@
 @import "layout/navigation";
 
 //components
+@import "components/productLabel";
+@import "components/productImage.scss";
+@import "components/textarea.scss";
+@import "components/countItem.scss";
+@import "components/paymentItem.scss";
+@import "components/categoryItem.scss";
 @import "components/textarea";
 @import "components/countItem";
 @import "components/paymentItem";
@@ -42,6 +48,7 @@
 @import "pages/add-product.scss";
 @import "pages/login.scss";
 @import "pages/register.scss";
+@import "pages/editProduct.scss";
 @import "pages/history1.scss";
 @import "components/modal";
 @import "components/product-card";

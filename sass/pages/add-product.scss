@@ -1,35 +1,10 @@
 .addProductContainer {
-  display: flex;
-  flex-flow: column;
   margin: 15rem 0rem;
 }
-.productLabel {
-  width: 13rem;
-  background-color: $main-black;
-  margin-left: 15rem;
-  color: $Ivory-white;
-  padding: 0.5rem 2rem;
-  border-radius: 1rem 1rem 0rem 0rem;
-}
+
 .ProductContainer {
   display: flex;
   border-top: solid $primary-alpine 0.1rem;
-}
-.productImageContainer {
-  width: 25%;
-  margin: 5rem;
-  &__image {
-    // width:25rem;
-    margin: 0rem;
-  }
-  &__label {
-    width: 100%;
-    background-color: $main-black;
-    color: $Ivory-white;
-    text-align: center;
-    padding: 0.5rem 2rem;
-    border-radius: 0rem 0rem 1rem 1rem;
-  }
 }
 
 .productDetailsContainer {
