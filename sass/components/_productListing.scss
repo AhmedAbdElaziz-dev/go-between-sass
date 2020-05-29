@@ -139,6 +139,7 @@ a {
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   color: $main-black;
+  z-index: 5;
 }
 
 ///////////////////////item/////////////////////////
@@ -147,6 +148,7 @@ a {
   padding: 1.5rem;
   margin: 3rem;
   position: relative;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   &__image {
     overflow: hidden;
@@ -189,7 +191,7 @@ a {
   }
   &__btn {
     position: absolute;
-    bottom: 0rem;
+    top: -40rem;
     left: -0.1rem;
     width: 100%;
     border: none;
@@ -206,7 +208,7 @@ a {
     //   top: -7rem;
     // }
     .itemm__btn {
-      bottom: 14rem;
+      top: -32rem;
       opacity: 1;
       z-index: 3;
     }

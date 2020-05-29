@@ -43,6 +43,7 @@
   position: relative;
 
   top: -2rem;
+  // top: -2rem;
   padding: 1rem;
   width: 100%;
   z-index: 10;
@@ -123,17 +124,23 @@
 
 .dropdown-open {
   display: block;
+  z-index: -1;
+  background-color: $main-white;
+  left: -1rem;
 }
 
 // .dropdown-container {
-//   width: 150px;
+//   width: 150px
 // }
 .dropdown-containera {
   width: 50%;
   margin-top: 3rem;
+
   &--category {
     justify-self: end;
+    // position: absolute;
   }
+
   &--sort {
     justify-self: center;
   }
@@ -144,12 +151,15 @@
   font-size: 2rem;
   position: relative;
   top: 0.2rem;
+
   &--1 {
     left: 40%;
   }
+
   &--2 {
     left: 48%;
   }
+
   &--3 {
     left: 45%;
   }
@@ -160,6 +170,7 @@
   grid-template-columns: 40rem 40rem;
   justify-self: center;
   justify-content: center;
+  // position: absolute;
 }
 
 .dropdown-main-componant {

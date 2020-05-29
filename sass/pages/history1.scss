@@ -55,6 +55,16 @@
   // padding-right: 1rem;
   width: 18%;
   text-align: right;
+  &--company {
+  width: 10%;
+  padding: 0rem 1rem 0rem 1rem ;
+
+}
+  img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50px;
+  }
 }
 .history-cards-container {
   display: grid;
@@ -64,8 +74,11 @@
   justify-items: center;
   // justify-self: center;
   // align-items: center;
-
   margin: 5rem auto;
+  &--user {
+  margin: 0 auto;
+
+  }
 }
 // .img-text {
 //   @include row-center();
@@ -86,10 +99,13 @@
   margin: 0rem auto;
   padding: 0rem 0.8rem;
   @include flex(row, space-between, center);
+  &--user {
+    width: 100%;
+    margin: 1rem auto;
+  }
 }
 .status-current {
   @include flex(row, center, center);
-
   &__circle {
     margin-right: 0.5rem;
     // background-color: black;
