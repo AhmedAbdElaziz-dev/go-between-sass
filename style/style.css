@@ -1022,6 +1022,34 @@ a {
   font-weight: bold;
   font-size: 30px; }
 
+.historyUserContainer__content {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 1rem;
+  justify-content: left; }
+  .historyUserContainer__content__item {
+    justify-self: center;
+    font-weight: bold;
+    margin-left: 10rem;
+    width: 100%;
+    text-align: center; }
+    .historyUserContainer__content__item__companyImage img {
+      height: 4rem;
+      width: 4.9rem; }
+    .historyUserContainer__content__item__products {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 1rem; }
+      .historyUserContainer__content__item__products__image img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50px; }
+
+.lineHistory {
+  height: 0.5rem;
+  background-color: #bb9230;
+  width: 100%; }
+
 .addProductContainer {
   margin: 15rem 0rem; }
 
