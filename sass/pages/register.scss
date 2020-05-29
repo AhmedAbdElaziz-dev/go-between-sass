@@ -24,13 +24,10 @@
   // background-size: 300rem;
 }
 
-
-
 .img-register {
   width: 100%;
   height: 100%;
 }
-
 
 .register-form-container {
   width: 50%;
@@ -55,16 +52,16 @@
   margin-bottom: 2rem;
 }
 
-.register-form>input {
+.register-form > input {
   margin: 2rem;
 }
 
-.register-form>button {
+.register-form > button {
   margin: 1rem 0rem 3rem 0rem;
   font-weight: bold;
 }
 
-.register-form>a {
+.register-form > a {
   margin-top: 1rem;
   cursor: pointer;
   font-weight: bold;
@@ -84,7 +81,7 @@
   margin-top: 5rem;
 }
 
-.flex-buttons-container>button {
+.flex-buttons-container > button {
   font-weight: bold;
 }
 
@@ -103,7 +100,7 @@
   margin-top: 2rem;
 }
 
-.terms-container>div {
+.terms-container > div {
   margin: 2rem 0;
 }
 
@@ -134,13 +131,12 @@
 .location-container {
   @include flex(row, space-around, center);
   width: 85%;
-
 }
 
 .info {
   width: 100%;
   height: 28rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   @include flex(column, space-evenly, left);
 
   &__photo {

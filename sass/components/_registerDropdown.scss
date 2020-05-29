@@ -41,8 +41,11 @@
   border-top: none;
   border-radius: 0 0 2rem 2rem;
   position: relative;
+
   top: -2rem;
   padding: 1rem;
+  width: 100%;
+  z-index: 10;
 
   &__list {
     list-style: none;
@@ -161,4 +164,14 @@
 
 .dropdown-main-componant {
   justify-self: center;
+}
+.regdropdown-container {
+  width: 40%;
+  position: absolute;
+  background-color: white;
+  top: 31%;
+  &--4 {
+    width: 30%;
+    top: 31%;
+  }
 }

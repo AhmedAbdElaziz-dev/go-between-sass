@@ -627,7 +627,9 @@ select:focus {
   border-radius: 0 0 2rem 2rem;
   position: relative;
   top: -2rem;
-  padding: 1rem; }
+  padding: 1rem;
+  width: 100%;
+  z-index: 10; }
   .dropdown__list {
     list-style: none;
     padding: 1rem; }
@@ -696,6 +698,15 @@ select:focus {
 
 .dropdown-main-componant {
   justify-self: center; }
+
+.regdropdown-container {
+  width: 40%;
+  position: absolute;
+  background-color: white;
+  top: 31%; }
+  .regdropdown-container--4 {
+    width: 30%;
+    top: 31%; }
 
 .mapLocation {
   width: 50%;
@@ -1240,7 +1251,7 @@ a {
 .info {
   width: 100%;
   height: 28rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1698,7 +1709,7 @@ a {
 .info {
   width: 100%;
   height: 28rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
