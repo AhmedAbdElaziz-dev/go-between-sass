@@ -155,7 +155,7 @@
 .dropdownArrow {
   color: $primary-alpine;
   font-size: 2rem;
-  position: relative;
+  position: sticky;
   top: 0.2rem;
 
   &--1 {
