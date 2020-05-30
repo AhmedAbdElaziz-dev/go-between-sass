@@ -374,12 +374,12 @@ body {
     margin-left: 2rem; }
 
 .shoppingCar {
-  width: 4.5rem;
+  width: 6rem;
   height: 3rem;
   color: #bb9230;
   border: 1px solid #bb9230;
   padding: 0.5% 0% 0% 1.2%;
-  border-radius: 50% 0% 0% 50%;
+  border-radius: 3rem 0 0 3rem;
   position: fixed;
   top: 30%;
   bottom: 0%;
@@ -414,10 +414,14 @@ body {
         padding: 1rem; }
       .shoppingCart__item__product__buttons {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%; }
+        .shoppingCart__item__product__buttons__icon {
+          color: #bb9230;
+          padding-top: 1.4rem;
+          margin-right: 1.4rem; }
         .shoppingCart__item__product__buttons__btn {
-          margin: 2%; }
+          margin: 1%; }
 
 .line {
   height: 1px;
@@ -533,7 +537,7 @@ select:focus {
   .button--rounded--s {
     width: 12rem;
     height: 4rem;
-    margin-right: 4rem;
+    margin-right: 1rem;
     text-align: center;
     border-radius: 4rem;
     border: 0.2rem solid #bb9230;
@@ -1021,6 +1025,37 @@ a {
   border-radius: 20px;
   margin-right: 5rem;
   padding: 2rem; }
+
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .reviewCard__title {
+    margin: 1rem;
+    padding: 1rem; }
+  .reviewCard__text {
+    width: 90rem;
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 4rem; }
+  .reviewCard__inputs {
+    width: 45rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem; }
+  .reviewCard__reviews {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    width: 92rem; }
+
+.inputReview {
+  border: 1px solid #918F89;
+  color: #000000;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  align-items: center; }
 
 .addProductContainer {
   margin: 15rem 0rem; }
