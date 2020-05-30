@@ -326,11 +326,14 @@ body {
   display: block; }
 
 .branchContainer {
+  width: 100%;
   border: solid #bb9230 0.1rem;
   padding: 2rem;
   background-color: #FFFFFF;
   border-radius: 20px;
   margin-bottom: 5rem; }
+  .branchContainer--register {
+    margin-top: 2rem; }
   .branchContainer--shadow {
     box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.2); }
   .branchContainer__edit {
@@ -347,6 +350,9 @@ body {
   .branchContainer__branches {
     display: grid;
     grid-template-columns: auto auto auto; }
+    .branchContainer__branches--2branches {
+      width: 100%;
+      grid-template-columns: auto auto; }
     .branchContainer__branches__location {
       font-size: 1.5rem;
       margin-bottom: 3rem;
@@ -434,7 +440,7 @@ body {
   color: #bb9230;
   background-color: #bb9230; }
 
-.container {
+.states-container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -800,7 +806,8 @@ a {
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   color: #000000;
-  z-index: 5; }
+  z-index: 5;
+  position: relative; }
 
 .itemm {
   padding: 1.5rem;
@@ -909,13 +916,14 @@ a {
   align-items: center;
   flex-wrap: nowrap;
   margin: 8% auto;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 40%;
   background-color: #FFFCF8; }
   .modal-content__closeIcon {
-    position: relative;
-    top: 0.5rem;
-    left: 23rem; }
+    position: sticky;
+    top: 0.1rem;
+    left: 90rem;
+    padding: 0.5rem; }
 
 .modal-card {
   width: 80%;
@@ -960,8 +968,14 @@ a {
       .modal-card__text__content__prices .amount {
         padding: 0.3rem 0; }
 
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
 .product-card {
-  width: 80%;
+  width: 77%;
   height: 18rem;
   border: 0.2rem solid #bb9230;
   border-radius: 1.2rem;
@@ -981,7 +995,7 @@ a {
     flex-wrap: wrap;
     height: 22rem;
     padding: 0rem 3rem 2rem 0rem;
-    width: 70%; }
+    width: 77%; }
   .product-card__img {
     border-radius: 50%;
     width: 15rem;
@@ -994,12 +1008,15 @@ a {
     position: relative;
     top: -9.5rem;
     left: 40.2rem;
-    padding: .4rem 0.7rem;
+    padding: 0.4rem 0.7rem;
     border-radius: 50px;
     background-color: #d1aa4d;
     color: #FFFFFF; }
     .product-card__closeIcon :hover {
       cursor: pointer; }
+    .product-card__closeIcon--cart {
+      top: -8.5rem;
+      left: 38.2rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -1306,7 +1323,7 @@ a {
   margin-top: 2rem;
   font-weight: bold; }
 
-.container {
+.states-container {
   margin-bottom: 2rem; }
 
 .register-form > input {
@@ -1321,6 +1338,9 @@ a {
   cursor: pointer;
   font-weight: bold; }
 
+.branches-link {
+  margin-top: 1rem; }
+
 .button-container {
   width: 100%;
   align-self: flex-end; }
@@ -1330,7 +1350,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 5rem; }
+  margin-top: 2rem; }
 
 .flex-buttons-container > button {
   font-weight: bold; }
@@ -1410,6 +1430,10 @@ a {
 .map-icon {
   color: #c92027;
   align-self: center; }
+
+.cancel-branch {
+  position: sticky;
+  margin-left: 11rem; }
 
 .detailsOfProduct {
   width: 80%;
@@ -1553,13 +1577,14 @@ a {
   align-items: center;
   flex-wrap: nowrap;
   margin: 8% auto;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 40%;
   background-color: #FFFCF8; }
   .modal-content__closeIcon {
-    position: relative;
-    top: 0.5rem;
-    left: 23rem; }
+    position: sticky;
+    top: 0.1rem;
+    left: 90rem;
+    padding: 0.5rem; }
 
 .modal-card {
   width: 80%;
@@ -1604,8 +1629,14 @@ a {
       .modal-card__text__content__prices .amount {
         padding: 0.3rem 0; }
 
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
 .product-card {
-  width: 80%;
+  width: 77%;
   height: 18rem;
   border: 0.2rem solid #bb9230;
   border-radius: 1.2rem;
@@ -1625,7 +1656,7 @@ a {
     flex-wrap: wrap;
     height: 22rem;
     padding: 0rem 3rem 2rem 0rem;
-    width: 70%; }
+    width: 77%; }
   .product-card__img {
     border-radius: 50%;
     width: 15rem;
@@ -1638,12 +1669,15 @@ a {
     position: relative;
     top: -9.5rem;
     left: 40.2rem;
-    padding: .4rem 0.7rem;
+    padding: 0.4rem 0.7rem;
     border-radius: 50px;
     background-color: #d1aa4d;
     color: #FFFFFF; }
     .product-card__closeIcon :hover {
       cursor: pointer; }
+    .product-card__closeIcon--cart {
+      top: -8.5rem;
+      left: 38.2rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -1818,7 +1852,7 @@ a {
   margin-top: 2rem;
   font-weight: bold; }
 
-.container {
+.states-container {
   margin-bottom: 2rem; }
 
 .register-form > input {
@@ -1833,6 +1867,9 @@ a {
   cursor: pointer;
   font-weight: bold; }
 
+.branches-link {
+  margin-top: 1rem; }
+
 .button-container {
   width: 100%;
   align-self: flex-end; }
@@ -1842,7 +1879,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 5rem; }
+  margin-top: 2rem; }
 
 .flex-buttons-container > button {
   font-weight: bold; }
@@ -1922,6 +1959,10 @@ a {
 .map-icon {
   color: #c92027;
   align-self: center; }
+
+.cancel-branch {
+  position: sticky;
+  margin-left: 11rem; }
 
 .history {
   width: 100%;
