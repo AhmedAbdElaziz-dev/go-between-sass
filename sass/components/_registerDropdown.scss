@@ -1,6 +1,6 @@
 .dropdown-head {
   width: 100%;
-
+  z-index: 10;
   &__arrow {
     color: $primary-alpine;
     font-size: 2rem;
@@ -41,13 +41,20 @@
   border-top: none;
   border-radius: 0 0 2rem 2rem;
   position: relative;
+  // height: 10rem;
+  // scroll-behavior: initial;
+
   top: -2rem;
+  // top: -2rem;
   padding: 1rem;
+  padding-bottom: unset;
+  width: 100%;
+  // z-index: 0;
 
   &__list {
     list-style: none;
-    padding: 1rem;
 
+    padding: 1rem;
     &__item {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
@@ -120,10 +127,16 @@
 
 .dropdown-open {
   display: block;
+  &--s {
+    display: block;
+    z-index: -1;
+    background-color: $main-white;
+    left: -1rem;
+  }
 }
 
 // .dropdown-container {
-//   width: 150px;
+//   width: 150px
 // }
 .dropdown-containera {
   width: 50%;
@@ -131,6 +144,7 @@
 
   &--category {
     justify-self: end;
+    // position: absolute;
   }
 
   &--sort {
@@ -162,8 +176,23 @@
   grid-template-columns: 40rem 40rem;
   justify-self: center;
   justify-content: center;
+  // position: absolute;
 }
 
 .dropdown-main-componant {
   justify-self: center;
+}
+.regdropdown-container {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  border-radius: 3rem 3rem 5rem 5rem;
+  // height: 30rem;
+  top: 31%;
+  &--s {
+    // border-radius: 0 0 2rem 2rem;
+    width: 75%;
+    top: 41%;
+    left: 10.5%;
+  }
 }

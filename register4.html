@@ -25,14 +25,36 @@
                 <div class="branches-container">
                     <div class="profileLabel  profileLabel--left">Branches</div>
                     <div class="branches-div">
-                        <input class="input input--mwh" type="text" placeholder="city">
-                        <div class="location-container">
-                            <input class="input input--mwh" type="text" placeholder="Address">
-                            <i class="fas fa-2x fa-map-marker-alt map-icon "></i>
+                        <div class="regdropdown-container regdropdown-container--s">
+                            <div class="input input--m" type="text">
+                                <span class="dropdown-head__text">city</span>
+                                <i class="fas fa-chevron-circle-down reg-arrow reg-arrow--s"></i>
+                            </div>
+
+                            <div class="dropdown dropdown-open  ">
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__list__item">
+                                        <a class="dropdown__list__item__link">cairo</a>
+                                    </li>
+                                    <li class=" dropdown__list__item">
+                                        <a class="dropdown__list__item__link">Ismailia</a>
+                                    </li>
+                                    <li class=" dropdown__list__item">
+                                        <a class="dropdown__list__item__link">Port Said</a>
+                                    </li>
+                                </ul>
+
+                            </div>
                         </div>
-                        <input class="input input--mwh" type="tel" placeholder="phone">
-                        <div>
-                            <button class="button--rounded button--rounded--s button--rounded--shadow">Add</button>
+                        <div id="location">
+                            <div class="location-container">
+                                <input class="input input--mwh" type="text" placeholder="Address">
+                                <i class="fas fa-2x fa-map-marker-alt map-icon "></i>
+                            </div>
+                            <input class="input input--mwh" type="tel" placeholder="phone">
+                            <div>
+                                <button class="button--rounded button--rounded--s button--rounded--shadow">Add</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,7 +68,7 @@
         </div>
 
         <div class="register-img">
-            <img class="img-register" src="../go-between-sass/assets/images/cake6x6.jpg">
+            <img class="img-register" src="assets/images/cake6x6.jpg">
         </div>
     </div>
 </body>
