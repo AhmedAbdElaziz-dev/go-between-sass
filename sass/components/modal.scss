@@ -20,14 +20,15 @@
 .modal-content {
   @include flex(column, space-between, center);
   margin: 8% auto;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 40%;
   // min-height: 40%;
   background-color: $floral-white-3;
   &__closeIcon {
-    position: relative;
-    top: 0.5rem;
-    left: 23rem;
+    position: sticky;
+    top: 0.1rem;
+    left: 90rem;
+    padding: 0.5rem;
   }
 }
 .modal-card {
@@ -81,4 +82,10 @@
       }
     }
   }
+}
+.test {
+  @include row-center();
+  width: 100%;
+}
+.card-closeicon {
 }
