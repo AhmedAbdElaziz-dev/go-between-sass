@@ -37,58 +37,81 @@
   }
 }
 .detailsContainer {
-  margin: 3rem 22rem;
+  width: 100%;
+  // margin: 3rem 22rem;
 }
 .paymentType-container {
-  font-size: 2rem;
+  width: 50%;
+  @include flex(row, center, center);
+  &__content {
+
+    font-size: 2rem;
+  }
 }
 .deliverType-container {
+  width: 100%;
   font-size: 2rem;
-  @include flex(row, space-between, center);
-  &__left {
-    @include flex(row, space-between, center);
-    width: 25%;
-  }
-  &__right {
-    @include flex(row, space-between, center);
-    margin-right: 3rem;
-    width: 30%;
-    font-size: 1.8rem;
-    &__total {
-      border-radius: 1.6rem;
-      border: solid $primary-alpine 0.1rem;
-      background-color: $main-black;
-      color: $main-white;
-      padding: 0.5rem 1.7rem;
+  // @include flex(row, center center);
+  &__content {
+    // @include flex(row, space-around, center);
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    &__left {
+      width: 79rem;
+      @include flex(row, flex-start, center);
     }
-    &__price {
-      border-radius: 1.6rem;
-      border: solid $primary-alpine 0.1rem;
-      padding: 0.5rem 1.7rem;
+    &__right {
+      @include flex(row,space-evenly, center);
+      >div {
+
+        justify-self: center;
+      }
+      width: 35rem;
+      font-size: 1.8rem;
+      &__total {
+        border-radius: 1.6rem;
+        border: solid $primary-alpine 0.1rem;
+        background-color: $main-black;
+        color: $main-white;
+        padding: 0.5rem 1.7rem;
+      }
+      &__price {
+        border-radius: 1.6rem;
+        border: solid $primary-alpine 0.1rem;
+        padding: 0.5rem 1.7rem;
+      }
     }
   }
 }
 .recommindationContainer {
+  width: 50%;
+  @include flex(row, center, center);
   margin-top: 2rem;
   font-size: 18px;
-  padding: 0 2rem;
 
-  textarea {
-    resize: none;
-    outline: none;
-    border: solid $primary-alpine 0.1rem;
-    border-radius: 15px;
-    padding: 1rem;
-    margin-top: 1rem;
-  box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.2);
+  &__content {
+    justify-self: start;
+    textarea {
+      resize: none;
+      outline: none;
+      border: solid $primary-alpine 0.1rem;
+      border-radius: 15px;
+      padding: 1rem;
+      margin-top: 1rem;
+    box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.2);
+    }
   }
 }
 .buttonsContainer {
-    // width: 100%;
     display: grid;
-    grid-columns: auto auto auto;
+    &__content {
+      width: 40%;
+      @include flex(row, center, center);
+    }
     >div {
         justify-self: end;
     }
-    margin-top: 2rem;   
+    margin: 2rem 2rem;   
 }
