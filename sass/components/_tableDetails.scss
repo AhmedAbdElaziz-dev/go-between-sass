@@ -37,7 +37,7 @@
   }
 }
 .detailsContainer {
-  margin: 3rem 7rem;
+  margin: 3rem 22rem;
 }
 .paymentType-container {
   font-size: 2rem;
@@ -52,7 +52,7 @@
   &__right {
     @include flex(row, space-between, center);
     margin-right: 3rem;
-    width: 20%;
+    width: 30%;
     font-size: 1.8rem;
     &__total {
       border-radius: 1.6rem;
