@@ -110,6 +110,11 @@
     margin-right: 0.5rem;
     // background-color: black;
   }
+  &--details {
+    @include flex(row,left,center);
+    margin: 2rem 0;
+    font-size: 1.7rem;
+  }
 }
 .show-more {
   &__link {
