@@ -101,6 +101,12 @@ body {
         color: #bb9230;
         transition: all 0.3; }
 
+.project-container {
+  margin: 5rem 7.5rem; }
+
+.footer-container {
+  margin: 0rem 7.5rem; }
+
 .productLabel {
   display: inline-block;
   background-color: #000000;
@@ -1155,9 +1161,6 @@ a {
   .buttonsContainer > div {
     justify-self: end; }
 
-.addProductContainer {
-  margin: 15rem 0rem; }
-
 .ProductContainer {
   display: flex;
   border-top: solid #bb9230 0.1rem; }
@@ -1610,9 +1613,6 @@ a {
 
 .active-bullet {
   background-color: white; }
-
-.addProductContainer {
-  margin: 15rem 0rem; }
 
 .ProductContainer {
   display: flex;

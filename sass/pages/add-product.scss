@@ -1,5 +1,5 @@
 .addProductContainer {
-  margin: 15rem 0rem;
+  // margin: 15rem 0rem;
 }
 
 .ProductContainer {
@@ -14,24 +14,28 @@
   display: flex;
   flex-direction: column;
 }
+
 .countContainer {
   display: flex;
   flex-wrap: wrap;
 
   margin: 7rem 0rem;
 }
+
 .paymentsContianer {
   margin-bottom: 7rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .categoryContainer {
   display: flex;
   flex-wrap: wrap;
   margin-left: 5.5rem;
   margin-bottom: 7rem;
 }
+
 .btnContainer {
   margin-left: 25rem;
 }
