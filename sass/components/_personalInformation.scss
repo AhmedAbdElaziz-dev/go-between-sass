@@ -93,8 +93,8 @@
   &__changepassword {
     margin-top: 2rem;
     font-size: 18px;
-      text-decoration: none;
-      cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
@@ -112,7 +112,7 @@
   display: none;
 
   &--product {
-    height: 80rem;    
+    height: 80rem;
     &--m {
       height: 95vh;
     }
@@ -128,8 +128,8 @@
       position: sticky;
       top: 0.1rem;
       left: 91.5rem;
-      padding: 0.5rem;
-      :hover {
+      padding: 1rem;
+      &:hover {
         cursor: pointer;
       }
     }
@@ -139,17 +139,19 @@
       margin: 10rem auto;
     }
     &--product {
-      @include flex(column, space-between, center);
+      @include flex(column, space-around, center);
       margin: auto;
+      height: 55rem;
+      overflow: auto;
       padding-bottom: 2rem;
       width: 40%;
       background-color: $floral-white-3;
-      &__closeIcon {
-        position: sticky;
-        top: 0.1rem;
-        left: 91rem;
-        padding: 0.5rem;
-      }
+      // &__closeIcon {
+      //   // position: sticky;
+      //   top: 0.1rem;
+      //   left: 91rem;
+      //   padding: 1rem;
+      // }
     }
 
     &__body {
@@ -184,6 +186,6 @@
   }
 }
 
-.active-modal{
+.active-modal {
   display: block;
 }

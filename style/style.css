@@ -303,8 +303,8 @@ body {
       position: sticky;
       top: 0.1rem;
       left: 91.5rem;
-      padding: 0.5rem; }
-      .myModal__modalContent__closeIcon :hover {
+      padding: 1rem; }
+      .myModal__modalContent__closeIcon:hover {
         cursor: pointer; }
     .myModal__modalContent--password {
       width: 40%;
@@ -313,18 +313,15 @@ body {
     .myModal__modalContent--product {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       flex-wrap: nowrap;
       margin: auto;
+      height: 55rem;
+      overflow: auto;
       padding-bottom: 2rem;
       width: 40%;
       background-color: #FFFCF8; }
-      .myModal__modalContent--product__closeIcon {
-        position: sticky;
-        top: 0.1rem;
-        left: 91rem;
-        padding: 0.5rem; }
     .myModal__modalContent__body {
       display: grid;
       grid-column: auto;
@@ -980,13 +977,11 @@ a {
     border-radius: 50px;
     background-color: #d1aa4d;
     color: #FFFFFF; }
-    .product-card__closeIcon :hover {
+    .product-card__closeIcon:hover {
       cursor: pointer; }
     .product-card__closeIcon--cart {
       top: 3.5rem;
-      left: 20.5rem; }
-      .product-card__closeIcon--cart :hover {
-        cursor: pointer; }
+      left: 46.5rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -1568,13 +1563,11 @@ a {
     border-radius: 50px;
     background-color: #d1aa4d;
     color: #FFFFFF; }
-    .product-card__closeIcon :hover {
+    .product-card__closeIcon:hover {
       cursor: pointer; }
     .product-card__closeIcon--cart {
       top: 3.5rem;
-      left: 20.5rem; }
-      .product-card__closeIcon--cart :hover {
-        cursor: pointer; }
+      left: 46.5rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
