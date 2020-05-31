@@ -29,13 +29,16 @@
     height: 85%;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    ;
+    // /grid-template-columns: 25% 25% 25%;
     align-items: center;
 
     &__col {
-        width: 31%;
-        height: 80%;
+        width: 27.7%;
+        height: 85%;
         list-style: none;
+        margin-left: -4rem;
 
         &__menu {
             padding: .5rem;

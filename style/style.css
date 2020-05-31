@@ -51,12 +51,13 @@ body {
   height: 85%;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center; }
   .footerContainer__col {
-    width: 31%;
-    height: 80%;
-    list-style: none; }
+    width: 27.7%;
+    height: 85%;
+    list-style: none;
+    margin-left: -4rem; }
     .footerContainer__col__menu {
       padding: .5rem;
       list-style: none; }
