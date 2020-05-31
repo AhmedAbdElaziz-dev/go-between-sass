@@ -22,6 +22,12 @@
             width: 0.2rem;
             height: 40rem;
 
+            &__bottom {
+                background-color: $primary-alpine;
+                width: 0.2rem;
+                height: 60rem;
+            }
+
             &__circle {
                 width: 1.5rem;
                 height: 1.5rem;
@@ -63,9 +69,10 @@
 
 
             &__right-body {
-                width: 40rem;
+                width: 35rem;
                 word-wrap: break-word;
                 text-align: left;
+                line-height: 2.5rem;
             }
         }
 
@@ -73,7 +80,8 @@
             width: 40rem;
             height: 30rem;
             justify-self: left;
-            align-self: center;
+            align-self: start;
+            margin-top: 5rem;
 
             &__right-img {
                 width: 100%;
@@ -83,8 +91,9 @@
 
         &__left-contant-container {
             justify-self: right;
-            align-self: center;
+            align-self: start;
             margin-right: 3rem;
+            margin-top: 8rem;
 
             &__left-header {
                 font-weight: bolder;
@@ -97,9 +106,10 @@
 
 
             &__left-body {
-                width: 40rem;
+                width: 35rem;
                 word-wrap: break-word;
                 text-align: right;
+                line-height: 2.5rem;
             }
         }
     }
