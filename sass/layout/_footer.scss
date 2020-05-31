@@ -35,18 +35,18 @@
     &__col {
         width: 31%;
         height: 80%;
+        list-style: none;
 
         &__menu {
             padding: .5rem;
             list-style: none;
 
             &__item {
-                padding: .5rem;
-                display: flex;
+                padding: 0.5rem;
+            }
 
-                &__text {
-                    padding: .8rem;
-                }
+            &__text {
+                padding: 1rem;
             }
         }
 
@@ -67,7 +67,8 @@
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    list-style: none;
 }
 
 .imgs {
@@ -78,4 +79,10 @@
 
 .pad {
     margin: 0.5rem;
+}
+
+.item {
+    margin: 0.5rem;
+    padding: .5rem;
+    display: flex;
 }

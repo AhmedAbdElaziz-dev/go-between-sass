@@ -1,225 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Details</title>
     <link rel="stylesheet" href="style/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <img class="header__logo__icon" src="assets/images/GoBetween.png" />
-        </div>
-        <nav class="nav">
-            <ul class="nav__menu">
-                <li class="nav__menu__item">
-                    <a href="#" class="nav__menu__link">Home</a>
-                </li>
-                <li class="nav__menu__item">
-                    <a href="#" class="nav__menu__link">Features</a>
-                </li>
-                <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#">About us</a>
-                </li>
-                <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#">Review</a>
-                </li>
-                <li class="nav__menu__item">
-                    <a class="nav__menu__link" href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div><i class="fas fa-user"></i> Sign in</div>
+      <div class="header__logo">
+        <img class="header__logo__icon" src="assets/images/GoBetween.png" />
+      </div>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Home</a>
+          </li>
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Features</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">About us</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Review</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div><i class="fas fa-user"></i> Sign in</div>
     </header>
 
     <div class="productLabel productLabel--details">Order Details</div>
     <div class="history__line"></div>
 
     <div class="details-table">
-        <table class="details-table__tableDetails">
-            <tbody class="details-table__tableDetails__body">
-                <tr class="details-table__tableDetails__body__row">
-                    <th class="details-table__tableDetails__body__row__cell">Product</th>
-                    <th class="details-table__tableDetails__body__row__cell">Quantity</th>
-                    <th class="details-table__tableDetails__body__row__cell">Price Per Piece</th>
-                    <th class="details-table__tableDetails__body__row__cell">Total Price</th>
-                    <th class="details-table__tableDetails__body__row__cell"></th>
-                </tr>
-                <tr class="details-table__tableDetails__body__row">
-                    <td class="details-table__tableDetails__body__row__cell">Cake</td>
-                    <td class="details-table__tableDetails__body__row__cell">100</td>
-                    <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
-                    <td class="details-table__tableDetails__body__row__cell">1000</td>
-                    <td class="details-table__tableDetails__body__row__cell">
-                        <div>
-                            <i class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"></i>
-                            <i class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"></i>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="details-table__tableDetails__body__row">
-                    <td class="details-table__tableDetails__body__row__cell">Cake</td>
-                    <td class="details-table__tableDetails__body__row__cell">100</td>
-                    <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
-                    <td class="details-table__tableDetails__body__row__cell">1000</td>
-                    <td class="details-table__tableDetails__body__row__cell">
-                        <div>
-                            <i class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"></i>
-                            <i class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"></i>
-                        </div>
-                    </td>
-                </tr>
-                <tr class="details-table__tableDetails__body__row">
-                    <td class="details-table__tableDetails__body__row__cell">Cake</td>
-                    <td class="details-table__tableDetails__body__row__cell">100</td>
-                    <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
-                    <td class="details-table__tableDetails__body__row__cell">1000</td>
-                    <td class="details-table__tableDetails__body__row__cell">
-                        <div>
-                            <i class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"></i>
-                            <i class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"></i>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-
-        </table>
-
-
+      <table class="details-table__tableDetails">
+        <tbody class="details-table__tableDetails__body">
+          <tr class="details-table__tableDetails__body__row">
+            <th class="details-table__tableDetails__body__row__cell">
+              Product
+            </th>
+            <th class="details-table__tableDetails__body__row__cell">
+              Quantity
+            </th>
+            <th class="details-table__tableDetails__body__row__cell">
+              Price Per Piece
+            </th>
+            <th class="details-table__tableDetails__body__row__cell">
+              Total Price
+            </th>
+            <th class="details-table__tableDetails__body__row__cell"></th>
+          </tr>
+          <tr class="details-table__tableDetails__body__row">
+            <td class="details-table__tableDetails__body__row__cell">Cake</td>
+            <td class="details-table__tableDetails__body__row__cell">100</td>
+            <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
+            <td class="details-table__tableDetails__body__row__cell">1000</td>
+            <td class="details-table__tableDetails__body__row__cell">
+              <div>
+                <i
+                  class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"
+                ></i>
+                <i
+                  class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"
+                ></i>
+              </div>
+            </td>
+          </tr>
+          <tr class="details-table__tableDetails__body__row">
+            <td class="details-table__tableDetails__body__row__cell">Cake</td>
+            <td class="details-table__tableDetails__body__row__cell">100</td>
+            <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
+            <td class="details-table__tableDetails__body__row__cell">1000</td>
+            <td class="details-table__tableDetails__body__row__cell">
+              <div>
+                <i
+                  class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"
+                ></i>
+                <i
+                  class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"
+                ></i>
+              </div>
+            </td>
+          </tr>
+          <tr class="details-table__tableDetails__body__row">
+            <td class="details-table__tableDetails__body__row__cell">Cake</td>
+            <td class="details-table__tableDetails__body__row__cell">100</td>
+            <td class="details-table__tableDetails__body__row__cell">50 L.E</td>
+            <td class="details-table__tableDetails__body__row__cell">1000</td>
+            <td class="details-table__tableDetails__body__row__cell">
+              <div>
+                <i
+                  class="details-table__tableDetails__body__row__cell__edit fas fa-pencil-alt"
+                ></i>
+                <i
+                  class="details-table__tableDetails__body__row__cell__delete fas fa-trash-alt"
+                ></i>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="project-container">
-        <div class="detailsContainerr">
-            <div class="paymentType-container">
-                <div class="paymentType-container__content">
-                    <label> Payment Types</label>
-                    <div class="status-current status-current--details">
-                        <div class="wrapping">
-                            <input type="radio" id="cash" name="card-0" class="status-current__circle">
-                            <label for="cash">Cash</label>
-                        </div>
-                        <div class="wrapping">
-                            <input type="radio" id="us" name="card-0" class="status-current__circle">
-                            <label for="creditCard">Credit Card</label>
-                        </div>
-                        <div class="wrapping">
-                            <input type="radio" id="mobile" name="card-0" class="status-current__circle">
-                            <label for="mobile">Mobile Payment</label>
-                        </div>
-                    </div>
-
-                </div>
+      <div class="detailsContainerr">
+        <div class="paymentType-container">
+          <div class="paymentType-container__content">
+            <label> Payment Types</label>
+            <div class="status-current status-current--details">
+              <div class="wrapping">
+                <input
+                  type="radio"
+                  id="cash"
+                  name="card-0"
+                  class="status-current__circle"
+                />
+                <label for="cash">Cash</label>
+              </div>
+              <div class="wrapping">
+                <input
+                  type="radio"
+                  id="us"
+                  name="card-0"
+                  class="status-current__circle"
+                />
+                <label for="creditCard">Credit Card</label>
+              </div>
+              <div class="wrapping">
+                <input
+                  type="radio"
+                  id="mobile"
+                  name="card-0"
+                  class="status-current__circle"
+                />
+                <label for="mobile">Mobile Payment</label>
+              </div>
             </div>
-
-            <div class="deliverType-container">
-                <div class="deliverType-container__content">
-
-                    <div class="deliverType-container__content__left">
-                        <div>Delivered By</div>
-                        <div class="status-current status-current--details">
-                            <div class="wrapping">
-                                <input type="radio" id="you" name="card-1" class="status-current__circle">
-                                <label for="you">You</label>
-                            </div>
-                            <div class="wrapping">
-                                <input type="radio" id="us" name="card-1" class="status-current__circle">
-                                <label for="us">Us</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="deliverType-container__content__right">
-                        <div class="deliverType-container__content__right__total">Total Price</div>
-                        <div class="deliverType-container__content__right__price">160</div>
-                        <div class="deliverType-container__content__right__currency">EGP</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="recommindationContainer">
-                <div class="recommindationContainer__content">
-                    <div>Recommindations</div>
-                    <textarea name="recommindations" id="" cols="60" rows="10"></textarea>
-                </div>
-
-            </div>
-            <div class="buttonsContainer">
-                <div class="buttonsContainer__content">
-                    <button class="button--rounded button--rounded--s">Confirm</button>
-                    <button class="button--rounded button--rounded--s button--rounded--danger"
-                        id="close">Cancel</button>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="deliverType-container">
+          <div class="deliverType-container__content">
+            <div class="deliverType-container__content__left">
+              <div>Delivered By</div>
+              <div class="status-current status-current--details">
+                <div class="wrapping">
+                  <input
+                    type="radio"
+                    id="you"
+                    name="card-1"
+                    class="status-current__circle"
+                  />
+                  <label for="you">You</label>
+                </div>
+                <div class="wrapping">
+                  <input
+                    type="radio"
+                    id="us"
+                    name="card-1"
+                    class="status-current__circle"
+                  />
+                  <label for="us">Us</label>
+                </div>
+              </div>
+            </div>
+            <div class="deliverType-container__content__right">
+              <div class="deliverType-container__content__right__total">
+                Total Price
+              </div>
+              <div class="deliverType-container__content__right__price">
+                160
+              </div>
+              <div class="deliverType-container__content__right__currency">
+                EGP
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="recommindationContainer">
+          <div class="recommindationContainer__content">
+            <div>Recommindations</div>
+            <textarea
+              name="recommindations"
+              id=""
+              cols="60"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <div class="buttonsContainer">
+          <div class="buttonsContainer__content">
+            <button class="button--rounded button--rounded--s">Confirm</button>
+            <button
+              class="button--rounded button--rounded--s button--rounded--danger"
+              id="close"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer">
-        <div class="footer-container">
-            <div class="container">
-                <div class="container__col">
-                    <img class="container__col__logo" src="assets/images/GoBetween.png" />
-                    <p class="container__col__text">
-                        Here you can use rows and columns to organize your footer content
-                        here you can use rows and columns to organize your footer content.
-                    </p>
-                </div>
-                <div class="container__col">
-                    <h4 class="container__col__title">USEFUL LINKS</h4>
-
-                    <ul class="container__col__menu">
-                        <li class="container__col__menu__item">
-                            <i class="fas fa-map-marker-alt pad"></i>
-                            <span class="pad">Locations</span>
-                        </li>
-                        <li class="container__col__menu__item">
-                            <i class="fas fa-phone-alt pad"></i><span class="pad">Call us 0999 5000</span>
-                        </li>
-                        <li class="container__col__menu__item">
-                            <i class="far fa-envelope pad"></i><span class="pad">GoBetween@gmail.com</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="container__col">
-                    <h4 class="container__col__title">NEWS</h4>
-                    <ul class="container__col__menu grid">
-                        <li class="container__col__menu__item">
-                            <img src="assets/images/1.jpeg" alt="" class="imgs" />
-                            <span>Breads <br />
-                                July 18,2020</span>
-                        </li>
-                        <li class="container__col__menu__item">
-                            <img src="assets/images/2.jpeg" alt="" class="imgs" />
-                            <span>Bluerry pie <br />
-                                July 18,2020</span>
-                        </li>
-                        <li class="container__col__menu__item">
-                            <img src="assets/images/3.jpeg" alt="" class="imgs" />
-                            <span>Apple pie <br />
-                                July 18,2020</span>
-                        </li>
-                        <li class="container__col__menu__item">
-                            <img src="assets/images/4.jpeg" alt="" class="imgs" />
-                            <span>Pancake <br />
-                                July 18,2020</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Copyright -->
-            <div class="footer__bottom">
-                <div class="footer__bottom__icons">
-                    <i class="fab fa-facebook-f footer__bottom__icons"></i>
-                    <i class="fab fa-twitter-square footer__bottom__icons"></i>
-                    <i class="fab fa-linkedin footer__bottom__icons"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-                <div class="footer__bottom__text">
-                    All copyrights resreved Copyright&COPY; 2020
-                </div>
-            </div>
+      <div class="footerContainer">
+        <div class="footerContainer__col">
+          <img
+            class="footerContainer__col__logo"
+            src="assets/images/GoBetween.png"
+          />
+          <p class="footerContainer__col__text">
+            Here you can use rows and columns to organize your footer content
+            here you can use rows and columns to organize your footer content.
+          </p>
         </div>
+        <div class="footerContainer__col">
+          <h4 class="footerContainer__col__title">USEFUL LINKS</h4>
+
+          <ul class="footerContainer__col__menu">
+            <li class="footerContainer__col__menu__item">
+              <i class="fas fa-map-marker-alt pad"></i>
+              <span class="pad">Locations</span>
+            </li>
+            <li class="footerContainer__col__menu__item">
+              <i class="fas fa-phone-alt pad"></i
+              ><span class="pad">Call us 0999 5000</span>
+            </li>
+            <li class="footerContainer__col__menu__item">
+              <i class="far fa-envelope pad"></i
+              ><span class="pad">GoBetween@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footerContainer__col">
+          <h4 class="container__col__title">NEWS</h4>
+          <ul class="container__col__menu grid">
+            <li class="container__col__menu item">
+              <img src="assets/images/1.jpeg" alt="" class="imgs" />
+              <span>
+                Breads <br />
+                July 18,2020
+              </span>
+            </li>
+            <li class="container__col__menu item">
+              <img src="assets/images/2.jpeg" alt="" class="imgs" />
+              <span>
+                Bluerry pie <br />
+                July 18,2020
+              </span>
+            </li>
+            <li class="container__col__menu item">
+              <img src="assets/images/3.jpeg" alt="" class="imgs" />
+              <span
+                >Apple pie <br />
+                July 18,2020</span
+              >
+            </li>
+            <li class="container__col__menu item">
+              <img src="assets/images/4.jpeg" alt="" class="imgs" />
+              <span
+                >Pancake <br />
+                July 18,2020</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer__bottom">
+        <div class="footer__bottom__icons">
+          <i class="fab fa-facebook-f footer__bottom__icons"></i>
+          <i class="fab fa-twitter-square footer__bottom__icons"></i>
+          <i class="fab fa-linkedin footer__bottom__icons"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+        <div class="footer__bottom__text">
+          All copyrights resreved Copyright&COPY; 2020
+        </div>
+      </div>
+      <!-- Copyright -->
     </footer>
-
-</body>
-
+  </body>
 </html>
