@@ -91,55 +91,61 @@
 
     </div>
 
-    <div class="detailsContainer">
-
+    <div class="detailsContainerr">
         <div class="paymentType-container">
-            <label> Payment Types</label>
-            <div class="status-current status-current--details">
-                <div class="wrapping">
-                    <input type="radio" id="cash" name="card-0" class="status-current__circle">
-                    <label for="cash">Cash</label>
-                </div>
-                <div class="wrapping">
-                    <input type="radio" id="us" name="card-0" class="status-current__circle">
-                    <label for="creditCard">Credit Card</label>
-                </div>
-                <div class="wrapping">
-                    <input type="radio" id="mobile" name="card-0" class="status-current__circle">
-                    <label for="mobile">Mobile Payment</label>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="deliverType-container">
-            <div class="deliverType-container__left">
-                <div>Delivered By</div>
+            <div class="paymentType-container__content">
+                <label> Payment Types</label>
                 <div class="status-current status-current--details">
                     <div class="wrapping">
-                        <input type="radio" id="you" name="card-0" class="status-current__circle">
-                        <label for="you">You</label>
+                        <input type="radio" id="cash" name="card-0" class="status-current__circle">
+                        <label for="cash">Cash</label>
                     </div>
                     <div class="wrapping">
                         <input type="radio" id="us" name="card-0" class="status-current__circle">
-                        <label for="us">Us</label>
+                        <label for="creditCard">Credit Card</label>
+                    </div>
+                    <div class="wrapping">
+                        <input type="radio" id="mobile" name="card-0" class="status-current__circle">
+                        <label for="mobile">Mobile Payment</label>
                     </div>
                 </div>
+
             </div>
-            <div class="deliverType-container__right">
-                <div class="deliverType-container__right__total">Total Price</div>
-                <div class="deliverType-container__right__price">160</div>
-                <div class="deliverType-container__right__currency">EGP</div>
+        </div>
+
+        <div class="deliverType-container">
+            <div class="deliverType-container__content">
+
+                <div class="deliverType-container__content__left">
+                    <div>Delivered By</div>
+                    <div class="status-current status-current--details">
+                        <div class="wrapping">
+                            <input type="radio" id="you" name="card-1" class="status-current__circle">
+                            <label for="you">You</label>
+                        </div>
+                        <div class="wrapping">
+                            <input type="radio" id="us" name="card-1" class="status-current__circle">
+                            <label for="us">Us</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="deliverType-container__content__right">
+                    <div class="deliverType-container__content__right__total">Total Price</div>
+                    <div class="deliverType-container__content__right__price">160</div>
+                    <div class="deliverType-container__content__right__currency">EGP</div>
+                </div>
             </div>
         </div>
 
         <div class="recommindationContainer">
-            <div>Recommindations</div>
-            <textarea name="recommindations" id="" cols="60" rows="10"></textarea>
+            <div class="recommindationContainer__content">
+                <div>Recommindations</div>
+                <textarea name="recommindations" id="" cols="60" rows="10"></textarea>
+            </div>
 
         </div>
         <div class="buttonsContainer">
-            <div>
+            <div class="buttonsContainer__content">
                 <button class="button--rounded button--rounded--s">Confirm</button>
                 <button class="button--rounded button--rounded--s button--rounded--danger" id="close">Cancel</button>
             </div>
