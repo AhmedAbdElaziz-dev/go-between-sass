@@ -11,11 +11,11 @@
 
 <body>
 
-    <div class="modal-bg" onclick="clicked()">
+    <div class="myModal myModal--product editInfoModalActive" onclick="clicked()">
 
-        <div class="modal-content">
-            <i class="modal-content__closeIcon fas fa-times"></i>
-            <i class="fas fa-times product-card__closeIcon "></i>
+        <div class="myModal__modalContent myModal__modalContent--product">
+            <i class="myModal__modalContent__closeIcon fas fa-times"></i>
+            <i class="fas fa-times product-card__closeIcon product-card__closeIcon--cart"></i>
             <!-- <div class="test"> -->
             <div class="product-card">
                 <!-- <div class="product-card__img"> -->
@@ -36,7 +36,7 @@
                             <div class="amount">1000 EGP</div>
                         </div>
                     </div>
-
+  
                 </div>
             </div>
             <!-- </div> -->
@@ -58,7 +58,7 @@
                                 <div class="amount">1000 EGP</div>
                             </div>
                         </div>
-
+  
                     </div>
                 </div> -->
             <i class="fas fa-times product-card__closeIcon product-card__closeIcon--cart"></i>
@@ -81,21 +81,27 @@
                             <div class="amount">1000 EGP</div>
                         </div>
                     </div>
-
+  
                 </div>
             </div>
             <!-- </div> -->
-
+  
         </div>
-        <script>
-            document.querySelector('.modal-content').addEventListener('click', (e) => {
-                e.stopPropagation();
-            })
-            function clicked() {
-                // console.log()
-                document.querySelector('.modal-bg').style.display = "none";
-            }
-        </script>
+  
+  
+  
+    </div>
+
+
+    <script>
+        document.querySelector('.myModal__modalContent').addEventListener('click', (e) => {
+            e.stopPropagation();
+        })
+        function clicked() {
+            // console.log()
+            document.querySelector('.myModal').style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

@@ -1,7 +1,11 @@
 .userHistoryFilter {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
+  width: 100%;
+  >div{
+    width: 30%;
+  }
 }
 .company-logo {
   @include flex(row, space-between, center);

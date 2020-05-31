@@ -35,7 +35,7 @@
   &__closeIcon {
     position: relative;
     top: -9.5rem;
-    left: 44.2rem;
+    left: 44rem;
     padding: 0.4rem 0.7rem;
     border-radius: 50px;
     background-color: $lighter-alpine;
@@ -46,12 +46,11 @@
     }
 
     &--cart {
-      // position: absolute;
-      // top: -8.5rem;
-      // left: 38.2rem;
-      position: absolute;
-      top: 41.5rem;
-      left: 86.2rem;
+      top: 3.5rem;
+      left: 20.5rem;
+      :hover {
+        cursor: pointer;
+      }
     }
   }
   &__text {
