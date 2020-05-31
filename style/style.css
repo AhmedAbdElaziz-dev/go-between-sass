@@ -900,7 +900,7 @@ a {
     opacity: 0;
     transition: all 0.5s; }
   .itemm:hover .itemm__btn {
-    top: -25rem;
+    top: -26.8rem;
     opacity: 1;
     z-index: 3; }
   .itemm:hover .itemm__image::after {
