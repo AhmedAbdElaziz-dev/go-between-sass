@@ -1,7 +1,7 @@
 .header {
     height: 5.5rem;
+    width: 100%;
     color: $primary-alpine;
-    margin: auto;
     display: flex;
     // background-color: $light-black;
     background-color: $main-white;
@@ -9,7 +9,9 @@
     font-weight: 700;
     justify-content: space-around;
     align-items: center;
-    
+    position: fixed;
+    top: 0;
+
     &__logo {
         width: 10rem;
 

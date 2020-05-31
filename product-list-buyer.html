@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style/style.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__logo">
-      <img class="header__logo__icon" src="assets/images/GoBetween.png" />
-    </div>
-    <nav class="nav">
-      <ul class="nav__menu">
-        <li class="nav__menu__item">
-          <a href="#" class="nav__menu__link">Home</a>
-        </li>
-        <li class="nav__menu__item">
-          <a href="#" class="nav__menu__link">Features</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">About us</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">Review</a>
-        </li>
-        <li class="nav__menu__item">
-          <a class="nav__menu__link" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div><i class="fas fa-user"></i> Sign in</div>
-  </header>
-
-  
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__icon" src="assets/images/GoBetween.png" />
+      </div>
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Home</a>
+          </li>
+          <li class="nav__menu__item">
+            <a href="#" class="nav__menu__link">Features</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">About us</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Review</a>
+          </li>
+          <li class="nav__menu__item">
+            <a class="nav__menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div><i class="fas fa-user"></i> Sign in</div>
+    </header>
 
     <div class="text-container">
       <h3 class="text-container-h3">Our Products</h3>
@@ -47,13 +48,12 @@
       breakfast ideas on searching for catering options for large meetings or
       celebrations; our food has something for everyone.
     </div>
-
     <div class="tabs-containera">
       <div class="dropdown-containera dropdown-containera--category">
         <div class="input input--m" type="text">
           <span class="dropdown-head__text">category</span>
-          <!-- <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--1"></i> -->
-          <div class="dropdown dropdown-open--s">
+          <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--1"></i>
+          <div class="dropdown">
             <ul class="dropdown__list">
               <li class="dropdown__list__item">
                 <a class="dropdown__list__item__link">Pastry</a>
@@ -71,8 +71,10 @@
       <div class="dropdown-containera dropdown-containera--sort">
         <div class="input input--m" type="text">
           <span class="dropdown-head__text">sort by</span>
-          <i class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--2"></i>
-          <div class="dropdown dropdown-open--s">
+          <i
+            class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--2"
+          ></i>
+          <div class="dropdown">
             <ul class="dropdown__list">
               <li class="dropdown__list__item">
                 <a class="dropdown__list__item__link">Name</a>
@@ -84,9 +86,11 @@
           </div>
         </div>
       </div>
-      <div class="dropdown-containera dropdown-containera dropdown-containera--search">
+      <div
+        class="dropdown-containera dropdown-containera dropdown-containera--search"
+      >
         <div class="input input--m" type="text">
-          <span class="dropdown-head__text">search</span>
+          <input type="text" placeholder="search" class="dropdown-head__text__input"></span>
           <i class="fas fa-search dropdownArrow dropdownArrow--3"></i>
         </div>
       </div>
@@ -94,7 +98,10 @@
 
     <div class="list-container">
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -109,7 +116,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -124,7 +134,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -139,7 +152,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -154,7 +170,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -169,7 +188,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -184,7 +206,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -199,7 +224,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -214,7 +242,10 @@
         </div>
       </div>
       <div class="itemm">
-        <div class="itemm__image" style="background-image: url('assets/images/Product-1.jpg');">
+        <div
+          class="itemm__image"
+          style="background-image: url('assets/images/Product-1.jpg');"
+        >
           <div class="itemm__data">
             <button class="itemm__btn">
               Order Now
@@ -241,11 +272,7 @@
       </div>
     </div>
 
-  
-
-  <footer class="footer">
-
-    <div class="footer-container">
+    <footer class="footer">
       <div class="container">
         <div class="container__col">
           <img class="container__col__logo" src="assets/images/GoBetween.png" />
@@ -263,10 +290,12 @@
               <span class="pad">Locations</span>
             </li>
             <li class="container__col__menu__item">
-              <i class="fas fa-phone-alt pad"></i><span class="pad">Call us 0999 5000</span>
+              <i class="fas fa-phone-alt pad"></i
+              ><span class="pad">Call us 0999 5000</span>
             </li>
             <li class="container__col__menu__item">
-              <i class="far fa-envelope pad"></i><span class="pad">GoBetween@gmail.com</span>
+              <i class="far fa-envelope pad"></i
+              ><span class="pad">GoBetween@gmail.com</span>
             </li>
           </ul>
         </div>
@@ -275,23 +304,31 @@
           <ul class="container__col__menu grid">
             <li class="container__col__menu__item">
               <img src="assets/images/1.jpeg" alt="" class="imgs" />
-              <span>Breads <br />
-                July 18,2020</span>
+              <span
+                >Breads <br />
+                July 18,2020</span
+              >
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/2.jpeg" alt="" class="imgs" />
-              <span>Bluerry pie <br />
-                July 18,2020</span>
+              <span
+                >Bluerry pie <br />
+                July 18,2020</span
+              >
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/3.jpeg" alt="" class="imgs" />
-              <span>Apple pie <br />
-                July 18,2020</span>
+              <span
+                >Apple pie <br />
+                July 18,2020</span
+              >
             </li>
             <li class="container__col__menu__item">
               <img src="assets/images/4.jpeg" alt="" class="imgs" />
-              <span>Pancake <br />
-                July 18,2020</span>
+              <span
+                >Pancake <br />
+                July 18,2020</span
+              >
             </li>
           </ul>
         </div>
@@ -308,8 +345,7 @@
           All copyrights resreved Copyright&COPY; 2020
         </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+      <!-- Copyright -->
+    </footer>
+  </body>
 </html>
