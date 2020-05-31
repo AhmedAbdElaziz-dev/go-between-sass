@@ -41,6 +41,10 @@
   }
 }
 
+.dropdown-head__text__input:focus {
+  outline: none;
+}
+
 .dropdown {
   display: none;
   border: 0.1rem solid $primary-alpine;
@@ -145,7 +149,7 @@
 //   width: 150px
 // }
 .dropdown-containera {
-  width: 50%;
+  width: 65%;
   margin-top: 3rem;
 
   &--category {
@@ -161,21 +165,19 @@
 .dropdownArrow {
   color: $primary-alpine;
   font-size: 2rem;
-  position: sticky;
+  position: relative;
   top: 0.2rem;
 
   &--1 {
-    left: 28.5%;
-    top: 60%;
+    left: 40%;
   }
 
   &--2 {
-    left: 50%;
-    top: 60%;
+    left: 45%;
   }
 
   &--3 {
-    left: 45%;
+    left: 15%;
   }
 }
 
