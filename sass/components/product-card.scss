@@ -7,8 +7,6 @@
   margin: 3% auto;
 
   @include flex(row, space-evenly, center, wrap);
-  // flex-wrap: un;
-
   &--large {
     height: 22rem;
   }
@@ -40,11 +38,9 @@
     border-radius: 50px;
     background-color: $lighter-alpine;
     color: $main-white;
-
     &:hover {
       cursor: pointer;
     }
-
     &--cart {
       top: 3.5rem;
       left: 46.5rem;

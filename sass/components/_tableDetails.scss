@@ -38,26 +38,21 @@
 }
 .detailsContainer {
   width: 100%;
-  // margin: 3rem 22rem;
 }
 .paymentType-container {
-  width: 50%;
-  @include flex(row, center, center);
+  // width: 45%;
+  @include flex(row, left, center);
   &__content {
-
     font-size: 2rem;
   }
 }
 .deliverType-container {
-  width: 100%;
   font-size: 2rem;
-  // @include flex(row, center center);
   &__content {
-    // @include flex(row, space-around, center);
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: center;
+    justify-content: left;
     &__left {
       width: 79rem;
       @include flex(row, flex-start, center);
@@ -86,11 +81,10 @@
   }
 }
 .recommindationContainer {
-  width: 50%;
-  @include flex(row, center, center);
+  // width: 50%;
+  @include flex(row, left, center);
   margin-top: 2rem;
   font-size: 18px;
-
   &__content {
     justify-self: start;
     textarea {
@@ -106,6 +100,7 @@
 }
 .buttonsContainer {
     display: grid;
+    margin: 2rem 0;   
     &__content {
       width: 40%;
       @include flex(row, center, center);
@@ -113,5 +108,4 @@
     >div {
         justify-self: end;
     }
-    margin: 2rem 2rem;   
 }

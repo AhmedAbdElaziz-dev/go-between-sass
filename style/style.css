@@ -127,8 +127,6 @@ body {
   padding: .7rem 2.5rem;
   border-radius: 1rem 1rem 0rem 0rem;
   font-size: 2rem; }
-  .productLabel--details {
-    margin-top: 3rem; }
   .productLabel__product {
     display: inline;
     text-align: center;
@@ -280,7 +278,7 @@ body {
 
 .myModal {
   position: fixed;
-  z-index: 1;
+  z-index: 11;
   padding: 2rem 0;
   left: 0;
   top: 0;
@@ -1103,23 +1101,21 @@ a {
   width: 100%; }
 
 .paymentType-container {
-  width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: nowrap; }
   .paymentType-container__content {
     font-size: 2rem; }
 
 .deliverType-container {
-  width: 100%;
   font-size: 2rem; }
   .deliverType-container__content {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: center; }
+    justify-content: left; }
     .deliverType-container__content__left {
       width: 79rem;
       display: flex;
@@ -1149,10 +1145,9 @@ a {
         padding: 0.5rem 1.7rem; }
 
 .recommindationContainer {
-  width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: nowrap;
   margin-top: 2rem;
@@ -1170,7 +1165,7 @@ a {
 
 .buttonsContainer {
   display: grid;
-  margin: 2rem 2rem; }
+  margin: 2rem 0; }
   .buttonsContainer__content {
     width: 40%;
     display: flex;
