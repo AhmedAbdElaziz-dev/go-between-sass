@@ -177,7 +177,6 @@ body {
   width: 40%;
   margin-right: 1rem; }
   .paymentItem__input {
-    -webkit-appearance: none;
     border-radius: 0.3rem;
     border: 0.1rem solid #bb9230;
     padding: 0.5rem;
@@ -187,7 +186,6 @@ body {
   width: 40%;
   margin-right: 1rem; }
   .categoryItem__input {
-    -webkit-appearance: none;
     border-radius: 2rem;
     border: solid #bb9230 0.1rem;
     padding: 0.5rem;
@@ -968,18 +966,12 @@ a {
       .modal-card__text__content__prices .amount {
         padding: 0.3rem 0; }
 
-.test {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
 .product-card {
   width: 77%;
   height: 18rem;
   border: 0.2rem solid #bb9230;
   border-radius: 1.2rem;
-  margin: 3% 0;
+  margin: 3% auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -1015,8 +1007,9 @@ a {
     .product-card__closeIcon :hover {
       cursor: pointer; }
     .product-card__closeIcon--cart {
-      top: -8.5rem;
-      left: 38.2rem; }
+      position: absolute;
+      top: 41.5rem;
+      left: 86.2rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }
@@ -1451,8 +1444,9 @@ a {
   margin-top: 10rem; }
 
 .tab-label {
-  width: 12rem;
+  width: 14rem;
   color: #000000;
+  font-size: 2.2rem;
   display: inline-block;
   background-color: #FFFFF4;
   padding: 0.5rem 2rem;
@@ -1461,13 +1455,13 @@ a {
   border: 0.1rem solid #bb9230;
   border-bottom: none; }
   .tab-label--s {
-    width: 6rem; }
+    width: 8rem; }
 
 .history-tabs {
   margin-left: 15rem; }
 
 .pick-date {
-  margin-left: 45rem;
+  margin-left: 30%;
   margin-right: 2rem; }
   .pick-date > i {
     margin-left: 1rem;
@@ -1507,7 +1501,7 @@ a {
     margin: 0 auto; }
 
 .status-container {
-  width: 90%;
+  width: 95%;
   border: 0.1rem solid #bb9230;
   border-radius: 20rem;
   height: 3rem;
@@ -1629,18 +1623,12 @@ a {
       .modal-card__text__content__prices .amount {
         padding: 0.3rem 0; }
 
-.test {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
 .product-card {
   width: 77%;
   height: 18rem;
   border: 0.2rem solid #bb9230;
   border-radius: 1.2rem;
-  margin: 3% 0;
+  margin: 3% auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -1676,8 +1664,9 @@ a {
     .product-card__closeIcon :hover {
       cursor: pointer; }
     .product-card__closeIcon--cart {
-      top: -8.5rem;
-      left: 38.2rem; }
+      position: absolute;
+      top: 41.5rem;
+      left: 86.2rem; }
   .product-card__text {
     width: 40%;
     height: 10rem; }

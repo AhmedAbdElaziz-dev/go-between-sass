@@ -84,8 +84,9 @@
   }
 }
 .test {
-  @include row-center();
-  width: 100%;
+  // @include row-center();
+  // margin: auto;
+  // width: 80%;
 }
 .card-closeicon {
 }

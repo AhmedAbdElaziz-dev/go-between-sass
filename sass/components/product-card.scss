@@ -4,7 +4,8 @@
   height: 18rem;
   border: 0.2rem solid $primary-alpine;
   border-radius: 1.2rem;
-  margin: 3% 0;
+  margin: 3% auto;
+
   @include flex(row, space-evenly, center, wrap);
   // flex-wrap: un;
 
@@ -39,12 +40,18 @@
     border-radius: 50px;
     background-color: $lighter-alpine;
     color: $main-white;
+
     :hover {
       cursor: pointer;
     }
+
     &--cart {
-      top: -8.5rem;
-      left: 38.2rem;
+      // position: absolute;
+      // top: -8.5rem;
+      // left: 38.2rem;
+      position: absolute;
+      top: 41.5rem;
+      left: 86.2rem;
     }
   }
   &__text {
