@@ -93,11 +93,13 @@
             // align-items: center;
 
             &__btn {
-                width: 60%;
+                width: 20%;
                 background-color: $main-black;
                 color: $main-white;
                 margin-bottom: 3%;
-                margin-left: 20%;
+                margin-left: 40%;
+                font-size: 1.7rem;
+
 
             }
         }
