@@ -14,6 +14,12 @@
     display: inline-block;
     margin-top: 0.8rem;
     text-transform: capitalize;
+    &__input {
+      text-align: left;
+      border: none;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
   }
 
   &--small {
@@ -159,11 +165,13 @@
   top: 0.2rem;
 
   &--1 {
-    left: 40%;
+    left: 28.5%;
+    top: 60%;
   }
 
   &--2 {
-    left: 48%;
+    left: 50%;
+    top: 60%;
   }
 
   &--3 {

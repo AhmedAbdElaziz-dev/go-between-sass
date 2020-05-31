@@ -594,6 +594,11 @@ select:focus {
     display: inline-block;
     margin-top: 0.8rem;
     text-transform: capitalize; }
+    .dropdown-head__text__input {
+      text-align: left;
+      border: none;
+      font-size: 1.5rem;
+      margin-top: 1rem; }
   .dropdown-head--small {
     width: 13.5rem; }
     .dropdown-head--small__arrow {
@@ -676,9 +681,11 @@ select:focus {
   position: sticky;
   top: 0.2rem; }
   .dropdownArrow--1 {
-    left: 40%; }
+    left: 28.5%;
+    top: 60%; }
   .dropdownArrow--2 {
-    left: 48%; }
+    left: 50%;
+    top: 60%; }
   .dropdownArrow--3 {
     left: 45%; }
 
