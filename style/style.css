@@ -112,6 +112,8 @@ body {
 
 .project-container {
   margin: 5rem 7.5rem; }
+  .project-container--h {
+    margin-top: 10rem; }
 
 .footer-container {
   margin: 0rem 7.5rem; }
@@ -627,6 +629,9 @@ select:focus {
       display: inline-block;
       margin-top: 1rem; }
 
+.dropdown-head__text__input:focus {
+  outline: none; }
+
 .dropdown {
   display: none;
   border: 0.1rem solid #bb9230;
@@ -683,7 +688,7 @@ select:focus {
     left: -1rem; }
 
 .dropdown-containera {
-  width: 50%;
+  width: 65%;
   margin-top: 3rem; }
   .dropdown-containera--category {
     justify-self: end; }
@@ -693,16 +698,14 @@ select:focus {
 .dropdownArrow {
   color: #bb9230;
   font-size: 2rem;
-  position: sticky;
+  position: relative;
   top: 0.2rem; }
   .dropdownArrow--1 {
-    left: 28.5%;
-    top: 60%; }
+    left: 40%; }
   .dropdownArrow--2 {
-    left: 50%;
-    top: 60%; }
-  .dropdownArrow--3 {
     left: 45%; }
+  .dropdownArrow--3 {
+    left: 15%; }
 
 .dropdown-main-containera {
   display: grid;
@@ -889,12 +892,12 @@ a {
     background-color: #bb9230;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 2rem;
-    font-size: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     opacity: 0;
     transition: all 0.5s; }
   .itemm:hover .itemm__btn {
-    top: -32rem;
+    top: -26rem;
     opacity: 1;
     z-index: 3; }
   .itemm:hover .itemm__image::after {
@@ -2023,6 +2026,10 @@ a {
       background-color: #bb9230;
       width: 0.2rem;
       height: 40rem; }
+      .about-us__about-us-container__middle-line__bottom {
+        background-color: #bb9230;
+        width: 0.2rem;
+        height: 60rem; }
       .about-us__about-us-container__middle-line__circle {
         width: 1.5rem;
         height: 1.5rem;
@@ -2049,21 +2056,24 @@ a {
         text-transform: uppercase;
         margin-bottom: 3rem; }
       .about-us__about-us-container__right-contant-container__right-body {
-        width: 40rem;
+        width: 35rem;
         word-wrap: break-word;
-        text-align: left; }
+        text-align: left;
+        line-height: 2.5rem; }
     .about-us__about-us-container__right-img-container {
       width: 40rem;
       height: 30rem;
       justify-self: left;
-      align-self: center; }
+      align-self: start;
+      margin-top: 5rem; }
       .about-us__about-us-container__right-img-container__right-img {
         width: 100%;
         height: 100%; }
     .about-us__about-us-container__left-contant-container {
       justify-self: right;
-      align-self: center;
-      margin-right: 3rem; }
+      align-self: start;
+      margin-right: 3rem;
+      margin-top: 8rem; }
       .about-us__about-us-container__left-contant-container__left-header {
         font-weight: bolder;
         font-size: 2rem;
@@ -2072,6 +2082,7 @@ a {
         text-transform: uppercase;
         margin-bottom: 3rem; }
       .about-us__about-us-container__left-contant-container__left-body {
-        width: 40rem;
+        width: 35rem;
         word-wrap: break-word;
-        text-align: right; }
+        text-align: right;
+        line-height: 2.5rem; }

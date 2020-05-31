@@ -199,8 +199,9 @@ a {
     background-color: $primary-alpine;
     color: $main-white;
     text-transform: uppercase;
-    padding: 2rem;
-    font-size: 3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    // height: 2rem;
     opacity: 0;
     transition: all 0.5s;
   }
@@ -209,7 +210,7 @@ a {
     //   top: -7rem;
     // }
     .itemm__btn {
-      top: -32rem;
+      top: -26rem;
       opacity: 1;
       z-index: 3;
     }
