@@ -107,7 +107,6 @@ a {
 }
 
 .text-container {
-  widows: 100%;
   text-align: center;
   margin: 2rem 30rem;
   margin-top: 5rem;
@@ -136,11 +135,11 @@ a {
   margin: 2rem 10rem;
   display: grid;
   position: relative;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 40rem 40rem 40rem;
   column-gap: 5rem;
   color: $main-black;
   z-index: 5;
-  position: relative;
+  justify-content: center;
 }
 
 ///////////////////////item/////////////////////////

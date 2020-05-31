@@ -169,21 +169,21 @@
   top: 0.2rem;
 
   &--1 {
-    left: 40%;
+    left: 55%;
   }
 
   &--2 {
-    left: 45%;
+    left: 60%;
   }
 
   &--3 {
-    left: 15%;
+    left: 5%;
   }
 }
 
 .dropdown-main-containera {
   display: grid;
-  grid-template-columns: 40rem 40rem;
+  grid-template-columns: 40rem 40rem 40rem;
   justify-self: center;
   justify-content: center;
   // position: absolute;
