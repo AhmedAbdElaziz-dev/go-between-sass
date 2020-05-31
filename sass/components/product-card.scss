@@ -41,16 +41,13 @@
     background-color: $lighter-alpine;
     color: $main-white;
 
-    :hover {
+    &:hover {
       cursor: pointer;
     }
 
     &--cart {
       top: 3.5rem;
-      left: 20.5rem;
-      :hover {
-        cursor: pointer;
-      }
+      left: 46.5rem;
     }
   }
   &__text {
