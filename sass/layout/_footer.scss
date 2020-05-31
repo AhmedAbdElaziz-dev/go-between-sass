@@ -24,12 +24,12 @@
     }
 }
 
-.container {
+.footerContainer {
     margin: auto;
     height: 85%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 
     &__col {

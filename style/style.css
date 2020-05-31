@@ -13,13 +13,15 @@ body {
 
 .header {
   height: 5.5rem;
+  width: 100%;
   color: #bb9230;
-  margin: auto;
   display: flex;
   background-color: #FFFFFF;
   font-weight: 700;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  position: fixed;
+  top: 0; }
   .header__logo {
     width: 10rem; }
     .header__logo__icon {
@@ -43,30 +45,30 @@ body {
     .footer__bottom__icons {
       margin: 0.5rem; }
 
-.container {
+.footerContainer {
   margin: auto;
   height: 85%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center; }
-  .container__col {
+  .footerContainer__col {
     width: 31%;
     height: 80%; }
-    .container__col__menu {
+    .footerContainer__col__menu {
       padding: .5rem;
       list-style: none; }
-      .container__col__menu__item {
+      .footerContainer__col__menu__item {
         padding: .5rem;
         display: flex; }
-        .container__col__menu__item__text {
+        .footerContainer__col__menu__item__text {
           padding: .8rem; }
-    .container__col__logo {
+    .footerContainer__col__logo {
       width: 40%;
       padding: .5rem; }
-    .container__col__text {
+    .footerContainer__col__text {
       width: 80%; }
-    .container__col__title {
+    .footerContainer__col__title {
       align-items: center; }
 
 .grid {
