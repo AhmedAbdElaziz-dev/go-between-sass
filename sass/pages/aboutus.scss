@@ -1,7 +1,7 @@
 .about-us {
     width: 100%;
     text-align: center;
-    margin: 5rem 0rem;
+    margin: 15rem 0rem 0rem 0rem;
 
     &__header {
         width: 100%;
@@ -15,7 +15,7 @@
         grid-template-columns: auto 0.2rem auto;
         justify-content: center;
         align-items: center;
-        margin: 8rem auto;
+        margin: 8rem auto 0rem auto;
 
         &__middle-line {
             background-color: $primary-alpine;
