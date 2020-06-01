@@ -12,7 +12,7 @@ a {
   position: relative;
   grid-template-columns: auto auto auto;
   // grid-template-rows: 40rem 40rem 40rem;
-  column-gap: 5rem;
+  // column-gap: 5rem;
   // row-gap: 5rem;
   // align-content: center;
   // grid-column-start: 1;
@@ -152,7 +152,7 @@ a {
 
   &__image {
     overflow: hidden;
-    padding-top: 100%;
+    height: 30rem;
     width: 100%;
     position: relative;
     background-size: cover;
@@ -209,7 +209,7 @@ a {
     //   top: -7rem;
     // }
     .itemm__btn {
-      top: -26.8rem;
+      top: 1rem;
       opacity: 1;
       z-index: 3;
     }
