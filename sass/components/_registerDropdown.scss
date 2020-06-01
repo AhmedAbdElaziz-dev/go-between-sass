@@ -64,9 +64,9 @@
   &__list {
     list-style: none;
 
-    padding: 1rem;
+    // padding: 1rem 0rem;
     &__item {
-      padding-top: 1.5rem;
+      padding-top: 2.5rem;
       padding-bottom: 1.5rem;
       border-bottom: 0.1rem dashed $primary-alpine;
       cursor: pointer;
@@ -193,11 +193,12 @@
   justify-self: center;
 }
 .regdropdown-container {
-  width: 100%;
+  // box-sizing: border-box;
+  width: 80%;
   position: absolute;
   background-color: white;
   border-radius: 3rem 3rem 5rem 5rem;
-  // height: 30rem;
+  // height: fit-content;
   top: 31%;
   &--s {
     // border-radius: 0 0 2rem 2rem;
