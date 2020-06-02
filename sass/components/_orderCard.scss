@@ -3,6 +3,7 @@
     border-radius: 2rem;
     padding: 1rem;
     margin:  2rem ;
+    height: max-content;
     &__header {
         width: 30%;
         @include flex(row,space-around,center);
