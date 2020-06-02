@@ -11,58 +11,65 @@
 <body>
     <header class="header">
         <div class="header__logo">
-          <img class="header__logo__icon" src="assets/images/GoBetween.png" />
+            <img class="header__logo__icon" src="assets/images/GoBetween.png" />
         </div>
         <nav class="nav">
-          <ul class="nav__menu">
-            <li class="nav__menu__item">
-              <a href="#" class="nav__menu__link">Home</a>
-            </li>
-            <li class="nav__menu__item">
-              <a href="#" class="nav__menu__link">Features</a>
-            </li>
-            <li class="nav__menu__item">
-              <a class="nav__menu__link" href="#">About us</a>
-            </li>
-            <li class="nav__menu__item">
-              <a class="nav__menu__link" href="#">Review</a>
-            </li>
-            <li class="nav__menu__item">
-              <a class="nav__menu__link" href="#">Contact</a>
-            </li>
-          </ul>
+            <ul class="nav__menu">
+                <li class="nav__menu__item">
+                    <a href="#" class="nav__menu__link">Home</a>
+                </li>
+                <li class="nav__menu__item">
+                    <a href="#" class="nav__menu__link">Features</a>
+                </li>
+                <li class="nav__menu__item">
+                    <a class="nav__menu__link" href="#">About us</a>
+                </li>
+                <li class="nav__menu__item">
+                    <a class="nav__menu__link" href="#">Review</a>
+                </li>
+                <li class="nav__menu__item">
+                    <a class="nav__menu__link" href="#">Contact</a>
+                </li>
+            </ul>
         </nav>
         <div><i class="fas fa-user"></i> Sign in</div>
-      </header>
-      <div class="project-container project-container--h">
-        <div class="userHistoryFilter">
-          <div
-          class="dropdown-containera dropdown-containera dropdown-containera--search"
-        >
-          <div class="input input--m" type="text">
-            <input type="text" placeholder="search" class="dropdown-head__text__input"></span>
-            <i class="fas fa-search dropdownArrow dropdownArrow--3"></i>
-          </div>
+    </header>
+    <div class="project-container project-container--h">
+        <div class="dropdown-containera  dropdown-containera--search">
+            <div class="input input--m" type="text">
+                <input type="text" placeholder="search" class="dropdown-head__text__input"></span>
+                <!-- <i class="fas fa-search dropdownArrow dropdownArrow--3"></i> -->
+            </div>
         </div>
-        </div>
-      </div>
-      <div class="history-tabs">
+
+    </div>
+
+    <div class="history-tabs">
         <span class="tab-label tab-label--s active-tab">All</span>
         <span class="tab-label">waiting</span>
         <span class="tab-label">Arrived</span>
         <span class="tab-label">cancelled</span>
 
-        <span class="pick-date"
-          ><i class="far fa-2x fa-calendar-alt"></i>
+        <span class="pick-date"><i class="far fa-2x fa-calendar-alt"></i>
         </span>
-      </div>
-      <div class="tabs-line"></div>
+    </div>
+    <div class="tabs-line"></div>
     <div class="project-container">
         <div class="order-container">
+            <!-- /////////order card//// -->
             <div class="order-card">
                 <div class="order-card__header">
-                    <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
-                    <div>20/5/2020</div>
+                    <div class="order-card__header__logo">
+                        <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
+                        <div class="order-card__header__logo__date">20/5/2020</div>
+                    </div>
+                    <!-- <div class="order-card__header__status"> -->
+                    <div class="status-current">
+                        <div class="color-circle"></div>
+                        <label for="waiting">waiting</label>
+                    </div>
+                    <!-- </div> -->
+
                 </div>
                 <div class="order-card__content">
                     <div class="details-table details-table--order">
@@ -82,28 +89,24 @@
                                     <th class="details-table__tableDetails__body__row__cell ">
                                         Total Price
                                     </th>
-                                    <th class="details-table__tableDetails__body__row__cell ">Status</th>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">wating</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -113,12 +116,24 @@
                         <Button class="button--rounded button--rounded--s button--rounded--danger">Cancel</Button>
                         <a href="">Show more</a>
                     </div>
+
                 </div>
+
             </div>
+            <!-- /////////order card//// -->
             <div class="order-card">
                 <div class="order-card__header">
-                    <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
-                    <div>20/5/2020</div>
+                    <div class="order-card__header__logo">
+                        <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
+                        <div class="order-card__header__logo__date">20/5/2020</div>
+                    </div>
+                    <!-- <div class="order-card__header__status"> -->
+                    <div class="status-current">
+                        <div class="color-circle"></div>
+                        <label for="waiting">waiting</label>
+                    </div>
+                    <!-- </div> -->
+
                 </div>
                 <div class="order-card__content">
                     <div class="details-table details-table--order">
@@ -138,28 +153,24 @@
                                     <th class="details-table__tableDetails__body__row__cell ">
                                         Total Price
                                     </th>
-                                    <th class="details-table__tableDetails__body__row__cell ">Status</th>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">wating</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -169,12 +180,24 @@
                         <Button class="button--rounded button--rounded--s button--rounded--danger">Cancel</Button>
                         <a href="">Show more</a>
                     </div>
+
                 </div>
+
             </div>
+            <!-- /////////order card//// -->
             <div class="order-card">
                 <div class="order-card__header">
-                    <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
-                    <div>20/5/2020</div>
+                    <div class="order-card__header__logo">
+                        <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
+                        <div class="order-card__header__logo__date">20/5/2020</div>
+                    </div>
+                    <!-- <div class="order-card__header__status"> -->
+                    <div class="status-current">
+                        <div class="color-circle"></div>
+                        <label for="waiting">waiting</label>
+                    </div>
+                    <!-- </div> -->
+
                 </div>
                 <div class="order-card__content">
                     <div class="details-table details-table--order">
@@ -194,28 +217,24 @@
                                     <th class="details-table__tableDetails__body__row__cell ">
                                         Total Price
                                     </th>
-                                    <th class="details-table__tableDetails__body__row__cell ">Status</th>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">wating</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -225,12 +244,24 @@
                         <Button class="button--rounded button--rounded--s button--rounded--danger">Cancel</Button>
                         <a href="">Show more</a>
                     </div>
+
                 </div>
+
             </div>
+            <!-- /////////order card//// -->
             <div class="order-card">
                 <div class="order-card__header">
-                    <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
-                    <div>20/5/2020</div>
+                    <div class="order-card__header__logo">
+                        <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
+                        <div class="order-card__header__logo__date">20/5/2020</div>
+                    </div>
+                    <!-- <div class="order-card__header__status"> -->
+                    <div class="status-current">
+                        <div class="color-circle"></div>
+                        <label for="waiting">waiting</label>
+                    </div>
+                    <!-- </div> -->
+
                 </div>
                 <div class="order-card__content">
                     <div class="details-table details-table--order">
@@ -250,28 +281,24 @@
                                     <th class="details-table__tableDetails__body__row__cell ">
                                         Total Price
                                     </th>
-                                    <th class="details-table__tableDetails__body__row__cell ">Status</th>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">Wating</td>
                                 </tr>
                                 <tr class="details-table__tableDetails__body__row">
                                     <td class="details-table__tableDetails__body__row__cell ">Cake</td>
                                     <td class="details-table__tableDetails__body__row__cell ">100</td>
                                     <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
                                     <td class="details-table__tableDetails__body__row__cell ">1000</td>
-                                    <td class="details-table__tableDetails__body__row__cell ">wating</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -281,19 +308,86 @@
                         <Button class="button--rounded button--rounded--s button--rounded--danger">Cancel</Button>
                         <a href="">Show more</a>
                     </div>
+
                 </div>
+
             </div>
+            <!-- /////////order card//// -->
+            <div class="order-card">
+                <div class="order-card__header">
+                    <div class="order-card__header__logo">
+                        <img src="assets/images/patchi-logo-15853341601.jpg" alt="">
+                        <div class="order-card__header__logo__date">20/5/2020</div>
+                    </div>
+                    <!-- <div class="order-card__header__status"> -->
+                    <div class="status-current">
+                        <div class="color-circle"></div>
+                        <label for="waiting">waiting</label>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+                <div class="order-card__content">
+                    <div class="details-table details-table--order">
+
+                        <table class="details-table__tableDetails">
+                            <tbody class="details-table__tableDetails__body">
+                                <tr class="details-table__tableDetails__body__row">
+                                    <th class="details-table__tableDetails__body__row__cell ">
+                                        Product
+                                    </th>
+                                    <th class="details-table__tableDetails__body__row__cell ">
+                                        Quantity
+                                    </th>
+                                    <th class="details-table__tableDetails__body__row__cell ">
+                                        Price Per Piece
+                                    </th>
+                                    <th class="details-table__tableDetails__body__row__cell ">
+                                        Total Price
+                                    </th>
+                                </tr>
+                                <tr class="details-table__tableDetails__body__row">
+                                    <td class="details-table__tableDetails__body__row__cell ">Cake</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">100</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">1000</td>
+                                </tr>
+                                <tr class="details-table__tableDetails__body__row">
+                                    <td class="details-table__tableDetails__body__row__cell ">Cake</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">100</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">1000</td>
+                                </tr>
+                                <tr class="details-table__tableDetails__body__row">
+                                    <td class="details-table__tableDetails__body__row__cell ">Cake</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">100</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">50 L.E</td>
+                                    <td class="details-table__tableDetails__body__row__cell ">1000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="order-card__content__buttons">
+                        <Button class="button--rounded button--rounded--s">Reorder</Button>
+                        <Button class="button--rounded button--rounded--s button--rounded--danger">Cancel</Button>
+                        <a href="">Show more</a>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
         <div class="paging mr">
             <div class="paging__arrow">
-              <i class="fas fa-angle-left"></i>
+                <i class="fas fa-angle-left"></i>
             </div>
             <div class="paging__number active">1</div>
             <div class="paging__number">2</div>
             <div class="paging__arrow">
-              <i class="fas fa-angle-right"></i>
+                <i class="fas fa-angle-right"></i>
             </div>
-          </div>
+        </div>
     </div>
 </body>
 

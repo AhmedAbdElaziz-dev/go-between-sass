@@ -703,6 +703,8 @@ select:focus {
     justify-self: end; }
   .dropdown-containera--sort {
     justify-self: center; }
+  .dropdown-containera--search {
+    width: 22%; }
 
 .dropdownArrow {
   color: #bb9230;
@@ -715,6 +717,21 @@ select:focus {
     left: 60%; }
   .dropdownArrow--3 {
     left: 5%; }
+    @media (max-width: 1315px) {
+      .dropdownArrow--3 {
+        left: 2%; } }
+    @media (max-width: 1323px) {
+      .dropdownArrow--3 {
+        left: 1%; } }
+    @media (max-width: 1270px) {
+      .dropdownArrow--3 {
+        left: -1%; } }
+    @media (max-width: 1285px) {
+      .dropdownArrow--3 {
+        left: -2%; } }
+    @media (min-width: 1243px) {
+      .dropdownArrow--3 {
+        left: -6%; } }
 
 .dropdown-main-containera {
   display: grid;
@@ -1680,20 +1697,37 @@ a {
 .order-card {
   border: solid #bb9230 0.1rem;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 2rem;
   height: max-content; }
   .order-card__header {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap; }
-    .order-card__header img {
-      border-radius: 5rem;
-      width: 5rem;
-      height: 5rem; }
+    .order-card__header__logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: 20%; }
+      .order-card__header__logo img {
+        border-radius: 5rem;
+        width: 5rem;
+        height: 5rem; }
+        @media (max-width: 940px) {
+          .order-card__header__logo img {
+            width: 4rem;
+            height: 4rem; } }
+        @media (max-width: 400px) {
+          .order-card__header__logo img {
+            width: 3rem;
+            height: 3rem; } }
+      .order-card__header__logo__date {
+        padding: 1rem; }
   .order-card__content__buttons {
     display: flex;
     flex-direction: row;
@@ -1708,6 +1742,15 @@ a {
   @media (max-width: 1233px) {
     .order-container {
       grid-template-columns: auto; } }
+
+.color-circle {
+  border-radius: 5rem;
+  border: 0.1rem solid #bb9230;
+  background-color: blue;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.5rem;
+  box-sizing: content-box; }
 
 .ProductContainer {
   display: flex;
