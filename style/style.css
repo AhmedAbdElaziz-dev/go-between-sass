@@ -1500,7 +1500,10 @@ a {
     font-size: 2rem; }
 
 .show-more {
+  display: grid;
   font-weight: bold; }
+  .show-more > div {
+    justify-self: end; }
   .show-more__link {
     color: #bb9230; }
   .show-more:hover {

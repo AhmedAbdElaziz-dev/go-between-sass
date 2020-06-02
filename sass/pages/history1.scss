@@ -116,7 +116,11 @@
   }
 }
 .show-more {
-  // @include flex(row,right,center);
+  display: grid;
+  // grid-columns: auto ;
+  >div {
+    justify-self: end;
+  }
   &__link {
     color: $primary-alpine;
   }
