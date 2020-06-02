@@ -587,7 +587,8 @@ select:focus {
     border: 0.2rem solid #bb9230;
     background-color: #FFFCF8;
     font-weight: 500;
-    cursor: pointer; }
+    cursor: pointer;
+    font-size: 1.6rem; }
   .button--rounded--xs {
     width: 8rem;
     height: 3.4rem;
@@ -994,9 +995,6 @@ a {
       left: 46.5rem; }
   .product-card__text {
     width: 40%; }
-    .product-card__text--user {
-      width: 50%;
-      height: auto; }
     @media (max-width: 1220px) {
       .product-card__text {
         width: 30%; } }
@@ -1600,9 +1598,6 @@ a {
       left: 46.5rem; }
   .product-card__text {
     width: 40%; }
-    .product-card__text--user {
-      width: 50%;
-      height: auto; }
     @media (max-width: 1220px) {
       .product-card__text {
         width: 30%; } }
