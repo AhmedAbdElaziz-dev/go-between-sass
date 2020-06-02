@@ -584,6 +584,13 @@ select:focus {
     background-color: #FFFCF8;
     font-weight: 500;
     cursor: pointer; }
+  .button--rounded--xs {
+    width: 8rem;
+    height: 3.4rem;
+    background-color: #c92027;
+    color: white;
+    border: none;
+    font-size: 1.6rem; }
   .button--rounded--danger {
     background-color: #c92027;
     color: white;
@@ -987,6 +994,9 @@ a {
       height: 0.1px;
       width: 80%;
       margin: 0.2rem auto; }
+    .product-card__text__cancelBtn {
+      margin-left: 8rem;
+      margin-top: 1rem; }
     .product-card__text__content {
       display: flex;
       flex-direction: row;
@@ -1564,6 +1574,9 @@ a {
       height: 0.1px;
       width: 80%;
       margin: 0.2rem auto; }
+    .product-card__text__cancelBtn {
+      margin-left: 8rem;
+      margin-top: 1rem; }
     .product-card__text__content {
       display: flex;
       flex-direction: row;
