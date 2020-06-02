@@ -4,7 +4,7 @@
   height: 18rem;
   border: 0.2rem solid $primary-alpine;
   border-radius: 1.2rem;
-  margin: 3% auto;
+  margin: 3rem auto;
 
   @include flex(row, space-evenly, center, wrap);
   &--large {
@@ -14,7 +14,9 @@
     @include flex(row, space-between, center, wrap);
     height: 22rem;
     padding: 0rem 3rem 2rem 0rem;
-    width: 77%;
+    width: auto;
+    height: auto;
+    
   }
   &__img {
     border-radius: 50%;
