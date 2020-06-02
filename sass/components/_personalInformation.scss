@@ -112,7 +112,7 @@
   display: none;
 
   &--product {
-    height: 80rem;
+    // height: 80rem;
     &--m {
       height: 95vh;
     }
@@ -124,6 +124,7 @@
     border: 0.1rem solid #888;
     width: 80%;
     border-radius: 20px;
+    // overflow-y: scroll;
     &__closeIcon {
       position: sticky;
       top: 0.1rem;
@@ -141,7 +142,7 @@
     &--product {
       @include flex(column, space-around, center);
       margin: auto;
-      height: 55rem;
+      // height: 5;
       overflow: auto;
       padding-bottom: 2rem;
       width: 40%;
