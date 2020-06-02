@@ -1057,7 +1057,7 @@ a {
     width: 92rem; }
 
 .inputReview {
-  border: 1px solid #918F89;
+  border: 0.1rem solid #bb9230;
   color: #000000;
   border-radius: 1rem;
   margin: 0.5rem;
