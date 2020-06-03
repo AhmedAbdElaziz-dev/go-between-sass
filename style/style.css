@@ -704,6 +704,8 @@ select:focus {
   .dropdown-containera--sort {
     justify-self: center; }
   .dropdown-containera--search {
+    width: 50%; }
+  .dropdown-containera--onlySearch {
     width: 22%; }
 
 .dropdownArrow {
@@ -717,21 +719,6 @@ select:focus {
     left: 60%; }
   .dropdownArrow--3 {
     left: 5%; }
-    @media (max-width: 1315px) {
-      .dropdownArrow--3 {
-        left: 2%; } }
-    @media (max-width: 1323px) {
-      .dropdownArrow--3 {
-        left: 1%; } }
-    @media (max-width: 1270px) {
-      .dropdownArrow--3 {
-        left: -1%; } }
-    @media (max-width: 1285px) {
-      .dropdownArrow--3 {
-        left: -2%; } }
-    @media (min-width: 1243px) {
-      .dropdownArrow--3 {
-        left: -6%; } }
 
 .dropdown-main-containera {
   display: grid;
