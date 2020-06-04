@@ -31,7 +31,7 @@
 @import "components/states";
 @import "components/input";
 @import "components/button";
-@import "components/registerDropdown";
+@import "components/Dropdown";
 @import "components/mapLocation";
 
 @import "components/productListing";
@@ -53,6 +53,7 @@
 @import "components/product-card";
 @import "components/reviewSlider";
 @import "components/orderCard";
+@import "components/dropdown-test.scss";
 //pages
 @import "pages/add-product";
 @import "pages/login";

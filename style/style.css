@@ -610,35 +610,18 @@ select:focus {
 
 .dropdown-head {
   width: 100%;
-  z-index: 10; }
+  position: relative; }
   .dropdown-head__arrow {
     color: #bb9230;
     font-size: 2rem;
-    position: relative;
-    top: 0.2rem;
-    left: 93%; }
+    position: absolute;
+    top: 0.7rem;
+    left: 90%; }
   .dropdown-head__text {
     text-align: center;
     display: inline-block;
     margin-top: 0.8rem;
     text-transform: capitalize; }
-    .dropdown-head__text__input {
-      text-align: left;
-      border: none;
-      font-size: 1.5rem;
-      margin-top: 1rem; }
-  .dropdown-head--small {
-    width: 13.5rem; }
-    .dropdown-head--small__arrow {
-      color: #bb9230;
-      font-size: 1.2rem;
-      position: relative;
-      top: 0rem;
-      left: 22%; }
-    .dropdown-head--small__text {
-      text-align: center;
-      display: inline-block;
-      margin-top: 1rem; }
 
 .dropdown-head__text__input:focus {
   outline: none; }
@@ -648,10 +631,9 @@ select:focus {
   border: 0.1rem solid #bb9230;
   border-top: none;
   border-radius: 0 0 2rem 2rem;
-  position: relative;
-  top: -2rem;
+  position: absolute;
+  top: 2rem;
   padding: 1rem;
-  padding-bottom: unset;
   width: 100%; }
   .dropdown__list {
     list-style: none; }
@@ -666,80 +648,22 @@ select:focus {
         text-transform: capitalize;
         color: #1a1a1a;
         font-size: 1.6rem; }
-  .dropdown--small {
-    position: relative;
-    top: -2rem;
-    padding: 0.5rem;
-    width: 12.3rem; }
-    .dropdown--small__list {
-      padding: 0.5rem; }
-      .dropdown--small__list__item {
-        padding-top: 1rem;
-        padding-bottom: 1rem; }
-  .dropdown--m {
-    position: relative;
-    top: -2rem;
-    padding: 0.5rem;
-    width: 30rem; }
-    .dropdown--m__list {
-      padding: 0.5rem; }
-      .dropdown--m__list__item {
-        padding-top: 1rem;
-        padding-bottom: 1rem; }
   .dropdown--listing {
     width: 10rem; }
 
 .dropdown-open {
-  display: block; }
-  .dropdown-open--s {
-    display: block;
-    z-index: -1;
-    background-color: #FFFFFF;
-    left: -1rem; }
+  display: block;
+  z-index: -1;
+  background-color: #FFFFFF; }
 
 .dropdown-containera {
   width: 65%;
   margin-top: 3rem; }
-  .dropdown-containera--category {
-    justify-self: end; }
-  .dropdown-containera--sort {
-    justify-self: center; }
-  .dropdown-containera--search {
-    width: 50%; }
-  .dropdown-containera--onlySearch {
-    width: 22%; }
 
-.dropdownArrow {
-  color: #bb9230;
-  font-size: 2rem;
-  position: relative;
-  top: 0.2rem; }
-  .dropdownArrow--1 {
-    left: 55%; }
-  .dropdownArrow--2 {
-    left: 60%; }
-  .dropdownArrow--3 {
-    left: 5%; }
-
-.dropdown-main-containera {
-  display: grid;
-  grid-template-columns: 40rem 40rem 40rem;
-  justify-self: center;
-  justify-content: center; }
-
-.dropdown-main-componant {
-  justify-self: center; }
-
-.regdropdown-container {
-  width: 80%;
+.drop-container {
   position: absolute;
-  background-color: white;
-  border-radius: 3rem 3rem 5rem 5rem;
-  top: 31%; }
-  .regdropdown-container--s {
-    width: 75%;
-    top: 41%;
-    left: 10.5%; }
+  width: 100%;
+  z-index: 11; }
 
 .mapLocation {
   width: 50%;
@@ -851,14 +775,18 @@ a {
     transition: all 0.2s; }
 
 .tabs-containera {
-  margin: 2rem 10rem;
+  margin-top: 2rem;
+  padding: 3rem;
   display: grid;
   position: relative;
-  grid-template-columns: 40rem 40rem 40rem;
+  top: 7rem;
+  grid-template-columns: 25% 25% 25%;
   column-gap: 5rem;
   color: #000000;
   z-index: 5;
   justify-content: center; }
+  .tabs-containera--brands {
+    top: 0; }
 
 .itemm {
   padding: 1.5rem;
@@ -1358,11 +1286,6 @@ a {
 .flex-buttons-container > button {
   font-weight: bold; }
 
-.dropdown-container {
-  width: 100%;
-  margin-top: 2rem;
-  height: 30rem; }
-
 .terms-container {
   width: 100%;
   display: flex;
@@ -1388,7 +1311,7 @@ a {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   border-radius: 1.2rem;
@@ -1437,6 +1360,15 @@ a {
 .cancel-branch {
   position: sticky;
   margin-left: 11rem; }
+
+.reg-dropdown-container {
+  position: relative;
+  width: 100%; }
+  .reg-dropdown-container--reg2 {
+    height: 30rem;
+    margin-top: 2rem; }
+  .reg-dropdown-container--reg4 {
+    width: 80%; }
 
 .detailsOfProduct {
   width: 80%;
@@ -1746,6 +1678,63 @@ a {
   margin: 0 0.5rem;
   box-sizing: content-box; }
 
+.dropdown-head {
+  width: 100%;
+  position: relative; }
+  .dropdown-head__arrow {
+    color: #bb9230;
+    font-size: 2rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 90%; }
+  .dropdown-head__text {
+    text-align: center;
+    display: inline-block;
+    margin-top: 0.8rem;
+    text-transform: capitalize; }
+
+.dropdown-head__text__input:focus {
+  outline: none; }
+
+.dropdown {
+  display: none;
+  border: 0.1rem solid #bb9230;
+  border-top: none;
+  border-radius: 0 0 2rem 2rem;
+  position: absolute;
+  top: 2rem;
+  padding: 1rem;
+  width: 100%; }
+  .dropdown__list {
+    list-style: none; }
+    .dropdown__list__item {
+      padding-top: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 0.1rem dashed #bb9230;
+      cursor: pointer; }
+      .dropdown__list__item:last-child {
+        border-bottom: none; }
+      .dropdown__list__item__link {
+        text-transform: capitalize;
+        color: #1a1a1a;
+        font-size: 1.6rem; }
+  .dropdown--listing {
+    width: 10rem; }
+
+.dropdown-open {
+  display: block;
+  z-index: -1;
+  background-color: #FFFFFF; }
+
+.dropdown-containera {
+  width: 65%;
+  margin-top: 3rem; }
+
+.drop-container {
+  position: absolute;
+  width: 100%;
+  z-index: 11; }
+
 .ProductContainer {
   display: flex;
   border-top: solid #bb9230 0.1rem; }
@@ -1886,11 +1875,6 @@ a {
 .flex-buttons-container > button {
   font-weight: bold; }
 
-.dropdown-container {
-  width: 100%;
-  margin-top: 2rem;
-  height: 30rem; }
-
 .terms-container {
   width: 100%;
   display: flex;
@@ -1916,7 +1900,7 @@ a {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   border-radius: 1.2rem;
@@ -1965,6 +1949,15 @@ a {
 .cancel-branch {
   position: sticky;
   margin-left: 11rem; }
+
+.reg-dropdown-container {
+  position: relative;
+  width: 100%; }
+  .reg-dropdown-container--reg2 {
+    height: 30rem;
+    margin-top: 2rem; }
+  .reg-dropdown-container--reg4 {
+    width: 80%; }
 
 .history {
   width: 100%;
