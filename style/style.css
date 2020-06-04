@@ -774,6 +774,10 @@ a {
     color: white;
     transition: all 0.2s; }
 
+.gridAdded {
+  display: grid;
+  grid-template-columns: 95% 5%; }
+
 .tabs-containera {
   margin-top: 2rem;
   padding: 3rem;
@@ -787,6 +791,17 @@ a {
   justify-content: center; }
   .tabs-containera--brands {
     top: 0; }
+
+.plus {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+  padding: 0.8rem 0 0 0.8rem;
+  border: 0.2rem solid #bb9230;
+  color: #bb9230;
+  font-size: 20px;
+  margin-left: -11rem; }
 
 .itemm {
   padding: 1.5rem;
