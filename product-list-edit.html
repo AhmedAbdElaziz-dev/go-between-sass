@@ -44,52 +44,61 @@
     <div class="project-container project-container--h">
       <div class="gridAdded">
         <div class="tabs-containera">
-          <div class="dropdown-containera dropdown-containera--category">
-            <div class="input input--m" type="text">
-              <span class="dropdown-head__text">category</span>
-              <i
-                class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--1"
-              ></i>
-              <div class="dropdown">
+          <div style="position: relative;">
+            <div class="drop-container">
+              <div class="input input--m dropdown-head" type="text">
+                <span class="dropdown-head__text">category</span>
+                <i class="fas fa-chevron-circle-down dropdown-head__arrow"></i>
+              </div>
+
+              <div class="dropdown dropdown-open">
                 <ul class="dropdown__list">
                   <li class="dropdown__list__item">
-                    <a class="dropdown__list__item__link">Pastry</a>
-                  </li>
-                  <li class="dropdown__list__item">
-                    <a class="dropdown__list__item__link">Bakery</a>
+                    <a class="dropdown__list__item__link">pastry</a>
                   </li>
                   <li class=" dropdown__list__item">
-                    <a class="dropdown__list__item__link">coffee</a>
+                    <a class="dropdown__list__item__link">coffe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="dropdown-containera dropdown-containera--sort">
-            <div class="input input--m" type="text">
-              <span class="dropdown-head__text">sort by</span>
-              <i
-                class="fas fa-chevron-circle-down dropdownArrow dropdownArrow--2"
-              ></i>
-              <div class="dropdown">
+
+          <div style="position: relative;">
+            <div class="drop-container">
+              <div class="input input--m dropdown-head" type="text">
+                <span class="dropdown-head__text">Sort By </span>
+                <i class="fas fa-chevron-circle-down dropdown-head__arrow"></i>
+              </div>
+
+              <div class="dropdown dropdown-open">
                 <ul class="dropdown__list">
                   <li class="dropdown__list__item">
                     <a class="dropdown__list__item__link">Name</a>
                   </li>
                   <li class=" dropdown__list__item">
-                    <a class="dropdown__list__item__link">amount</a>
+                    <a class="dropdown__list__item__link">Price</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="dropdown-containera dropdown-containera--search">
-            <!-- <div class="input input--m" type="text">
-            <input type="text" placeholder="search" class="dropdown-head__text__input"></span>
-            <i class="fas fa-search dropdownArrow dropdownArrow--3"></i>
-          </div> -->
+          <div class="search">
             <input type="text" placeholder="search" class="input input--m" />
+            <div class="search-icon-Container">
+              <i
+                class="fa fa-search search-icon-Container__icon "
+                aria-hidden="true"
+              ></i>
+            </div>
           </div>
+          <!-- </div> -->
+
+          <!-- <div class="input input--m" type="text">
+    
+              <input type="text" placeholder="search" class="dropdown-head__text__input"></span>
+              <i class="fas fa-search dropdownArrow dropdownArrow--3"></i>
+            </div> -->
         </div>
 
         <div class="plus">
