@@ -2,7 +2,21 @@
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  * ::-webkit-scrollbar {
+    width: 1rem; }
+  * ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.5rem #918F89;
+    border-radius: 1rem; }
+  * ::-webkit-scrollbar-thumb {
+    background: #918F89;
+    border-radius: 1rem; }
+  * ::-webkit-scrollbar-thumb:hover {
+    background: #3f3e3e; }
 
 html {
   font-size: 62.5%;
@@ -428,16 +442,16 @@ body {
 
 .shoppingCar {
   width: 6rem;
-  height: 3rem;
+  height: 5rem;
   color: #bb9230;
   border: 1px solid #bb9230;
   padding: 0.5% 0% 0% 1.2%;
-  border-radius: 3rem 0 0 3rem;
+  border-radius: 4rem 0 0 4rem;
   position: fixed;
   top: 30%;
   bottom: 0%;
   right: 0%;
-  left: 97.1%; }
+  left: 96.1%; }
 
 .shoppingCart {
   width: 40rem;
@@ -489,6 +503,15 @@ body {
   border-width: 0;
   color: #bb9230;
   background-color: #bb9230; }
+
+.CartCount {
+  font-size: 1.6rem;
+  background: #bb9230;
+  color: #FFFFFF;
+  padding: 0.45rem;
+  vertical-align: top;
+  margin-left: -3rem;
+  border-radius: 1rem; }
 
 .states-container {
   width: 100%;
@@ -1178,6 +1201,29 @@ a {
     flex-wrap: nowrap; }
   .buttonsContainer > div {
     justify-self: end; }
+
+.history-tab {
+  width: 13rem;
+  border: solid 0.1rem #bb9230;
+  border-radius: 0rem 3rem 3rem 0rem;
+  position: sticky;
+  top: 30rem;
+  margin-left: -8rem;
+  padding: 1rem;
+  text-align: right;
+  display: table;
+  background-color: #FFFCF8;
+  transition-property: margin-left;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+.history-tab > span {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold; }
+
+.history-tab:hover {
+  margin-left: -1rem; }
 
 .ProductContainer {
   display: flex;
