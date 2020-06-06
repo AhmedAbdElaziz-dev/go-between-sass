@@ -2,7 +2,21 @@
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  * ::-webkit-scrollbar {
+    width: 1rem; }
+  * ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.5rem #918F89;
+    border-radius: 1rem; }
+  * ::-webkit-scrollbar-thumb {
+    background: #918F89;
+    border-radius: 1rem; }
+  * ::-webkit-scrollbar-thumb:hover {
+    background: #3f3e3e; }
 
 html {
   font-size: 62.5%;
