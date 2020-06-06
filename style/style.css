@@ -181,6 +181,22 @@ body {
     border: solid #bb9230 0.2rem;
     border-radius: 1rem; }
 
+.textarea {
+  width: 80%;
+  height: 20rem;
+  resize: none;
+  outline: none;
+  border: solid #bb9230 0.1rem;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.2); }
+  .textarea--orderdetails {
+    width: 40%;
+    height: 22rem; }
+  .textarea--reviewCard {
+    width: 50%; }
+
 .countItem {
   margin: 2rem; }
   .countItem__info {
@@ -1030,24 +1046,28 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
+  .reviewCard__inputContainer {
+    width: 50%;
+    display: flex; }
   .reviewCard__title {
     margin: 1rem;
     padding: 1rem; }
   .reviewCard__text {
-    width: 90rem;
+    width: 50%;
     margin: 1rem;
     text-align: center;
     margin-bottom: 4rem; }
   .reviewCard__inputs {
-    width: 45rem;
+    width: 100%;
     height: 5rem;
     margin: 1rem;
     padding: 1rem; }
   .reviewCard__reviews {
     padding: 1.5rem;
     margin: 1.5rem;
-    width: 92rem; }
+    width: 50%; }
 
 .inputReview {
   border: 0.1rem solid #bb9230;
@@ -1145,16 +1165,6 @@ a {
   font-size: 18px; }
   .recommindationContainer__content {
     width: 100%; }
-    .recommindationContainer__content textarea {
-      width: 40%;
-      height: 22rem;
-      resize: none;
-      outline: none;
-      border: solid #bb9230 0.1rem;
-      border-radius: 15px;
-      padding: 1rem;
-      margin-top: 1rem;
-      box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.2); }
 
 .buttonsContainer {
   display: grid;
