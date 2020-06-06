@@ -1169,6 +1169,29 @@ a {
   .buttonsContainer > div {
     justify-self: end; }
 
+.history-tab {
+  width: 13rem;
+  border: solid 0.1rem #bb9230;
+  border-radius: 0rem 3rem 3rem 0rem;
+  position: sticky;
+  top: 30rem;
+  margin-left: -8rem;
+  padding: 1rem;
+  text-align: right;
+  display: table;
+  background-color: #FFFCF8;
+  transition-property: margin-left;
+  transition-duration: 1s;
+  cursor: pointer; }
+
+.history-tab > span {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold; }
+
+.history-tab:hover {
+  margin-left: -1rem; }
+
 .ProductContainer {
   display: flex;
   border-top: solid #bb9230 0.1rem; }
