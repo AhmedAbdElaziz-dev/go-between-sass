@@ -34,17 +34,6 @@
     </nav>
     <div><i class="fas fa-user"></i> Sign in</div>
   </header>
-
-
-  <div class="history-tab">
-    <span>History</span>
-    <i class="fa-2x fas fa-history"></i>
-  </div>
-
-
-
-
-
   <!-- ////////profile Information///////// -->
   <div class="project-container project-container--h">
     <div class="profileLabel">Personal Information</div>
@@ -142,6 +131,35 @@
           <span class="branchContainer__branches__location__address">-New Cairo, tseen street</span>
           <span class="branchContainer__branches__location__phone">+012 999 999 999</span>
         </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- /////PaymentTypes///// -->
+
+    <div class="profileLabel">PaymentTypes</div>
+    <div class="branchContainer">
+      <!-- <div class="branchContainer__content"> -->
+      <div class="branchContainer__edit">
+        <div class="branchContainer__edit__icon" id="editBranch">
+          <i class="fas fa-pencil-alt"></i>
+        </div>
+      </div>
+      <div class="branchContainer__branches">
+        <div class="branchContainer__branches__location">
+          <span class="branchContainer__branches__location__header">Cash</span>
+
+        </div>
+        <div class="branchContainer__branches__location">
+          <span class="branchContainer__branches__location__header">Visa</span>
+
+        </div>
+        <div class="branchContainer__branches__location">
+          <span class="branchContainer__branches__location__header">Fawry</span>
+        </div>
+
       </div>
     </div>
 
@@ -264,8 +282,9 @@
               <div class="infoContainer__content__right__header__name">
                 <input type="text" class="input input--s" value="Campany" />
               </div>
-              <div class="infoContainer__content__right__discribtion">
-                <textarea name="" id="" class="textarea" >
+            </div>
+            <div class="infoContainer__content__right__discribtion">
+              <textarea name="" id="" class="textarea">
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, exercitationem?
                 Illum ipsam maiores nesciunt maxime quos tenetur,
                 nulla a dolore doloribus quam vitae, hic sequi quasi porro, similique suscipit assumenda!
@@ -301,6 +320,48 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, exercitatione
         </div>
         <div>
           <input class="input input--s" type="password" placeholder="Confirm password" />
+        </div>
+        <div class="lastContent__buttons">
+          <button class="button--rounded button--rounded--s" id="savePassword">
+            Save
+          </button>
+          <button class="button--rounded button--rounded--s button--rounded--danger" id="closepassword">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- //////////////PaymentType////////////// -->
+  <div class="myModal active-modal" >
+    <div class="myModal__modalContent myModal__modalContent--password">
+      <div class="myModal__modalContent__body">
+        <div class="paymentsContianer">
+          <br />
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">cash</lable>
+          </div>
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">credit card</lable>
+          </div>
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">VISA</lable>
+          </div>
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">MOBILE PAYMENT</lable>
+          </div>
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">BANK TRANSFER</lable>
+          </div>
+          <div class="paymentItem">
+            <input type="checkbox" class="paymentItem__input" />
+            <lable class="paymentItem__name">E-WALLET</lable>
+          </div>
         </div>
         <div class="lastContent__buttons">
           <button class="button--rounded button--rounded--s" id="savePassword">

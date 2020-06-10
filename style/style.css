@@ -225,6 +225,7 @@ body {
 
 .paymentItem {
   width: 40%;
+  padding: 1rem;
   margin-right: 1rem; }
   .paymentItem__input {
     border-radius: 0.3rem;
@@ -293,12 +294,6 @@ body {
         margin-top: 2rem;
         font-size: 20px;
         padding: 0 2rem; }
-        .infoContainer__content__right__discribtion textarea {
-          resize: none;
-          outline: none;
-          border: solid #bb9230 0.1rem;
-          border-radius: 15px;
-          padding: 1rem; }
 
 .lastContent {
   display: flex;
